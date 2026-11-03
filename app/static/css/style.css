@@ -1,0 +1,25 @@
+:root {
+  --ink: #192638;
+  --muted: #687789;
+  --surface: #ffffff;
+  --canvas: #f4f7fb;
+  --line: #e7ecf2;
+}
+body { background: var(--canvas); color: var(--ink); }
+.app-navbar { background: #152b46; }
+.navbar .nav-link { color: rgba(255,255,255,.78); }
+.navbar .nav-link:hover { color: #fff; }
+.eyebrow { color: #56799c; font-size: .72rem; letter-spacing: .13em; font-weight: 700; }
+.stat-card, .content-card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 1rem; padding: 1.25rem;
+  box-shadow: 0 8px 24px rgba(28, 48, 74, .04);
+}
+.stat-value { font-size: clamp(1.25rem, 2vw, 1.85rem); font-weight: 700; margin-top: .35rem; }
+.table { --bs-table-bg: transparent; }
+.table thead th { color: var(--muted); font-size: .78rem; font-weight: 600; border-bottom-color: var(--line); white-space: nowrap; }
+.table td { font-size: .9rem; }
+.status-icon {
+  width: 2rem; height: 2rem; display: grid; place-items: center;
+  flex: 0 0 2rem; border-radius: 50%; background: #e9f2ff; color: #245b9b; font-weight: 700;
+}
