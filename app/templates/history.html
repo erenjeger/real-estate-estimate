@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Riwayat · Real Estate Estimate{% endblock %}
+{% block content %}
+<div class="mb-4">
+  <p class="eyebrow mb-1">PREDICTION LOG</p>
+  <h1 class="h2">Riwayat prediksi</h1>
+  <p class="text-secondary mb-0">Daftar hasil estimasi yang tersimpan di PostgreSQL.</p>
+</div>
+<section class="content-card">
+  <div class="table-responsive">
+    <table class="table align-middle">
+      <thead><tr><th>ID</th><th>Tanggal</th><th>Lokasi</th><th>Luas tanah</th><th>Luas bangunan</th><th>Harga prediksi</th><th>Model</th></tr></thead>
+      <tbody>
+      {% for item in pagination.items %}
+        <tr>
+          <td>{{ item.id }}</td>
+          <td>{{ item.created_at.strftime("%d-%m-%Y %H:%M") }}</td>
+          <td>{{ item.city_regency }}, {{ item.province }}</td>
+          <td>{{ item.land_area_m2 }} m²</td>
+          <td>{{ item.building_area_m2 }} m²</td>
+          <td class="fw-semibold">Rp {{ "{:,.0f}".format(item.predicted_price_idr) }}</td>
+          <td>{{ item.model_version or "—" }}</td>
+        </tr>
+      {% else %}
+        <tr><td colspan="7" class="text-center text-secondary py-4">Belum ada prediksi tersimpan.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% if pagination.pages > 1 %}
+  <nav aria-label="Navigasi riwayat">
+    <ul class="pagination mb-0">
+      {% if pagination.has_prev %}<li class="page-item"><a class="page-link" href="{{ url_for('main.history', page=pagination.prev_num) }}">Sebelumnya</a></li>{% endif %}
+      <li class="page-item disabled"><span class="page-link">{{ pagination.page }} / {{ pagination.pages }}</span></li>
+      {% if pagination.has_next %}<li class="page-item"><a class="page-link" href="{{ url_for('main.history', page=pagination.next_num) }}">Berikutnya</a></li>{% endif %}
+    </ul>
+  </nav>
+  {% endif %}
+</section>
+{% endblock %}
