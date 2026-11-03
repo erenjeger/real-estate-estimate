@@ -1,0 +1,1501 @@
+record_id,province,city_regency,district_area,property_type,land_area_m2,building_area_m2,bedrooms,bathrooms,floors,building_age_years,certificate_type,property_condition,price_idr,data_origin
+1,Jawa Timur,Surabaya,Area Berkembang,Rumah 2 Lantai,80,95,3,2,2,7,SHGB,Perlu Renovasi,4231162214,SYNTHETIC_DEMO_ONLY
+2,Sulawesi Barat,Mamuju,Area Berkembang,Rumah Minimalis,320,265,6,3,1,19,SHM,Baru,6850996412,SYNTHETIC_DEMO_ONLY
+3,Lampung,Bandar Lampung,Kawasan Bisnis,Townhouse,100,55,2,1,1,4,SHM,Sangat Baik,2481272813,SYNTHETIC_DEMO_ONLY
+4,Papua Pegunungan,Wamena,Kawasan Bisnis,Rumah Minimalis,320,230,6,4,1,20,SHGB,Baru,8228544642,SYNTHETIC_DEMO_ONLY
+5,Jawa Timur,Surabaya,Pinggiran Kota,Townhouse,315,285,6,4,2,30,SHGB,Baik,11823806912,SYNTHETIC_DEMO_ONLY
+6,Kalimantan Barat,Pontianak,Kawasan Bisnis,Rumah 2 Lantai,290,235,6,4,2,12,SHM,Baik,9945112990,SYNTHETIC_DEMO_ONLY
+7,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Tapak,215,220,6,3,3,21,Lainnya,Sangat Baik,8255303819,SYNTHETIC_DEMO_ONLY
+8,Lampung,Bandar Lampung,Pinggiran Kota,Townhouse,165,115,4,3,1,23,SHGB,Baru,2852700861,SYNTHETIC_DEMO_ONLY
+9,Sulawesi Tengah,Palu,Pinggiran Kota,Rumah Minimalis,200,220,6,5,2,16,SHGB,Sangat Baik,6154645142,SYNTHETIC_DEMO_ONLY
+10,Kalimantan Timur,Balikpapan,Area Berkembang,Townhouse,195,95,3,2,1,32,SHM,Baru,5620680449,SYNTHETIC_DEMO_ONLY
+11,Sulawesi Tengah,Palu,Area Berkembang,Townhouse,250,180,6,4,2,1,SHM,Sangat Baik,7527319528,SYNTHETIC_DEMO_ONLY
+12,Sulawesi Tenggara,Kendari,Pinggiran Kota,Townhouse,300,240,6,4,3,16,SHM,Sangat Baik,7018690591,SYNTHETIC_DEMO_ONLY
+13,Sulawesi Selatan,Makassar,Pusat Kota,Townhouse,330,380,6,4,2,8,SHM,Baru,18685794444,SYNTHETIC_DEMO_ONLY
+14,Papua,Jayapura,Area Berkembang,Rumah Tapak,315,225,6,3,2,8,SHGB,Perlu Renovasi,8296402122,SYNTHETIC_DEMO_ONLY
+15,Jawa Tengah,Surakarta,Pinggiran Kota,Townhouse,245,125,4,3,1,19,SHM,Sangat Baik,5126626939,SYNTHETIC_DEMO_ONLY
+16,Jawa Tengah,Semarang,Kawasan Bisnis,Rumah 2 Lantai,105,125,4,3,2,30,SHM,Perlu Renovasi,3982345477,SYNTHETIC_DEMO_ONLY
+17,Sulawesi Tengah,Palu,Kawasan Bisnis,Townhouse,290,195,6,3,1,29,SHM,Baru,7290407892,SYNTHETIC_DEMO_ONLY
+18,Jawa Barat,Bogor,Pinggiran Kota,Rumah Tapak,335,255,6,4,1,31,SHGB,Baru,11663271443,SYNTHETIC_DEMO_ONLY
+19,Jawa Timur,Malang,Kawasan Perumahan,Rumah Tapak,205,150,5,2,1,27,SHGB,Sangat Baik,6661455646,SYNTHETIC_DEMO_ONLY
+20,Sulawesi Selatan,Makassar,Pusat Kota,Rumah 2 Lantai,215,265,6,4,2,17,SHM,Baik,13990393237,SYNTHETIC_DEMO_ONLY
+21,Sulawesi Utara,Manado,Area Berkembang,Townhouse,320,275,6,3,1,19,Lainnya,Baru,11059107077,SYNTHETIC_DEMO_ONLY
+22,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah 2 Lantai,160,105,4,3,2,19,SHM,Baik,3312671640,SYNTHETIC_DEMO_ONLY
+23,Papua Barat Daya,Sorong,Kawasan Bisnis,Rumah Minimalis,140,105,3,2,3,11,SHM,Baik,5231475011,SYNTHETIC_DEMO_ONLY
+24,Sulawesi Tengah,Palu,Pusat Kota,Rumah Minimalis,160,145,5,2,3,15,Lainnya,Baik,4685019670,SYNTHETIC_DEMO_ONLY
+25,Lampung,Bandar Lampung,Kawasan Bisnis,Townhouse,190,165,5,3,1,23,SHM,Sangat Baik,5055198019,SYNTHETIC_DEMO_ONLY
+26,Sulawesi Tenggara,Kendari,Pinggiran Kota,Rumah Minimalis,100,80,3,2,1,6,SHM,Perlu Renovasi,2427939633,SYNTHETIC_DEMO_ONLY
+27,DKI Jakarta,Jakarta Timur,Kawasan Bisnis,Rumah Minimalis,140,100,4,3,1,14,SHM,Baik,7865536740,SYNTHETIC_DEMO_ONLY
+28,Papua Tengah,Nabire,Kawasan Bisnis,Rumah 2 Lantai,130,85,3,3,2,16,SHGB,Baru,3907682051,SYNTHETIC_DEMO_ONLY
+29,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Townhouse,305,240,6,3,2,20,SHGB,Sangat Baik,16327880726,SYNTHETIC_DEMO_ONLY
+30,Riau,Pekanbaru,Kawasan Bisnis,Rumah Minimalis,180,150,5,4,2,24,SHGB,Baru,5360748111,SYNTHETIC_DEMO_ONLY
+31,Papua Selatan,Merauke,Area Berkembang,Rumah Tapak,320,235,6,5,1,13,Lainnya,Baik,6663676875,SYNTHETIC_DEMO_ONLY
+32,Banten,Serang,Kawasan Perumahan,Rumah Tapak,210,130,4,3,1,12,Lainnya,Baru,6596089982,SYNTHETIC_DEMO_ONLY
+33,Maluku Utara,Ternate,Pusat Kota,Townhouse,285,270,6,3,3,10,SHGB,Perlu Renovasi,10294123630,SYNTHETIC_DEMO_ONLY
+34,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Bisnis,Rumah Minimalis,185,125,4,3,2,28,SHM,Perlu Renovasi,3841504744,SYNTHETIC_DEMO_ONLY
+35,Papua Barat Daya,Sorong,Kawasan Perumahan,Rumah Tapak,275,195,6,5,1,3,SHM,Baru,10080872540,SYNTHETIC_DEMO_ONLY
+36,Jawa Timur,Malang,Pusat Kota,Rumah Tapak,355,345,6,4,3,24,SHGB,Baru,16032798120,SYNTHETIC_DEMO_ONLY
+37,Kalimantan Barat,Pontianak,Pinggiran Kota,Rumah 2 Lantai,260,205,6,4,2,0,SHM,Baru,7169595618,SYNTHETIC_DEMO_ONLY
+38,Sulawesi Utara,Manado,Kawasan Perumahan,Rumah 2 Lantai,225,210,6,5,2,14,Lainnya,Sangat Baik,7061643645,SYNTHETIC_DEMO_ONLY
+39,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Minimalis,220,245,6,3,2,1,SHGB,Sangat Baik,11768579842,SYNTHETIC_DEMO_ONLY
+40,Lampung,Bandar Lampung,Kawasan Perumahan,Townhouse,130,65,2,1,1,12,SHM,Sangat Baik,2477411780,SYNTHETIC_DEMO_ONLY
+41,Kalimantan Barat,Pontianak,Kawasan Perumahan,Rumah Tapak,155,105,3,2,1,23,Lainnya,Perlu Renovasi,2985904950,SYNTHETIC_DEMO_ONLY
+42,Kalimantan Barat,Pontianak,Pinggiran Kota,Townhouse,345,280,6,4,2,25,Lainnya,Sangat Baik,6848896294,SYNTHETIC_DEMO_ONLY
+43,DKI Jakarta,Jakarta Selatan,Pusat Kota,Rumah Tapak,360,210,6,5,1,18,SHGB,Sangat Baik,21796262261,SYNTHETIC_DEMO_ONLY
+44,Jawa Barat,Bandung,Pusat Kota,Rumah Minimalis,350,215,6,5,1,0,SHM,Sangat Baik,20607354167,SYNTHETIC_DEMO_ONLY
+45,Maluku,Ambon,Pusat Kota,Rumah 2 Lantai,185,150,4,3,2,28,SHGB,Baru,5871634207,SYNTHETIC_DEMO_ONLY
+46,DKI Jakarta,Jakarta Selatan,Area Berkembang,Rumah 2 Lantai,155,205,6,4,2,24,Lainnya,Perlu Renovasi,9163222433,SYNTHETIC_DEMO_ONLY
+47,Jambi,Jambi,Kawasan Perumahan,Rumah Tapak,185,145,5,3,3,4,SHM,Baik,4679546373,SYNTHETIC_DEMO_ONLY
+48,Kalimantan Tengah,Palangka Raya,Area Berkembang,Rumah 2 Lantai,300,245,6,5,2,27,Lainnya,Sangat Baik,5512920652,SYNTHETIC_DEMO_ONLY
+49,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Bisnis,Townhouse,285,230,6,5,1,24,SHGB,Baik,6844434392,SYNTHETIC_DEMO_ONLY
+50,Jawa Barat,Depok,Kawasan Perumahan,Townhouse,235,120,4,2,1,29,Lainnya,Sangat Baik,7361503651,SYNTHETIC_DEMO_ONLY
+51,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Rumah 2 Lantai,105,120,4,3,2,22,SHM,Baru,7923109416,SYNTHETIC_DEMO_ONLY
+52,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah Minimalis,170,135,5,2,1,6,Lainnya,Perlu Renovasi,3031763201,SYNTHETIC_DEMO_ONLY
+53,Papua Tengah,Nabire,Kawasan Perumahan,Rumah Minimalis,255,255,6,4,2,31,Lainnya,Sangat Baik,5463936135,SYNTHETIC_DEMO_ONLY
+54,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Rumah 2 Lantai,105,100,3,2,2,25,SHGB,Baik,2457360583,SYNTHETIC_DEMO_ONLY
+55,Papua Barat Daya,Sorong,Kawasan Perumahan,Rumah 2 Lantai,260,210,6,3,2,30,Lainnya,Baik,6600525524,SYNTHETIC_DEMO_ONLY
+56,Jawa Barat,Bandung,Pusat Kota,Rumah Minimalis,80,50,3,2,1,2,Lainnya,Baru,4163553283,SYNTHETIC_DEMO_ONLY
+57,Kalimantan Utara,Tarakan,Area Berkembang,Rumah Tapak,115,80,3,2,1,9,Lainnya,Baru,3279127962,SYNTHETIC_DEMO_ONLY
+58,Sulawesi Utara,Manado,Kawasan Perumahan,Rumah Minimalis,225,135,5,4,1,25,SHM,Perlu Renovasi,5373816866,SYNTHETIC_DEMO_ONLY
+59,Sulawesi Tengah,Palu,Area Berkembang,Townhouse,340,180,6,3,1,10,SHGB,Sangat Baik,5954262078,SYNTHETIC_DEMO_ONLY
+60,DI Yogyakarta,Yogyakarta,Kawasan Bisnis,Rumah 2 Lantai,140,155,5,4,2,23,SHM,Baru,7735366026,SYNTHETIC_DEMO_ONLY
+61,Lampung,Bandar Lampung,Kawasan Bisnis,Rumah Tapak,195,190,6,3,2,28,Lainnya,Perlu Renovasi,4517742594,SYNTHETIC_DEMO_ONLY
+62,Papua Pegunungan,Wamena,Kawasan Perumahan,Rumah Minimalis,105,135,4,3,2,22,Lainnya,Baru,3516333450,SYNTHETIC_DEMO_ONLY
+63,Sulawesi Barat,Mamuju,Pusat Kota,Rumah 2 Lantai,355,255,6,4,2,12,SHGB,Perlu Renovasi,6760705771,SYNTHETIC_DEMO_ONLY
+64,Kepulauan Bangka Belitung,Pangkalpinang,Area Berkembang,Rumah Minimalis,155,100,4,3,1,7,SHM,Sangat Baik,3327884292,SYNTHETIC_DEMO_ONLY
+65,Aceh,Banda Aceh,Kawasan Perumahan,Rumah 2 Lantai,335,275,6,5,2,0,SHM,Baik,8114647588,SYNTHETIC_DEMO_ONLY
+66,Bali,Denpasar,Kawasan Bisnis,Rumah Minimalis,105,80,4,2,1,4,Lainnya,Sangat Baik,6393136110,SYNTHETIC_DEMO_ONLY
+67,Maluku,Ambon,Kawasan Bisnis,Rumah 2 Lantai,325,335,6,3,2,2,SHM,Baru,15137906207,SYNTHETIC_DEMO_ONLY
+68,Kalimantan Barat,Pontianak,Pinggiran Kota,Rumah Minimalis,235,145,5,4,1,1,SHM,Baru,5667579554,SYNTHETIC_DEMO_ONLY
+69,Sulawesi Selatan,Makassar,Pusat Kota,Rumah Minimalis,300,240,6,4,1,18,SHM,Perlu Renovasi,11234908249,SYNTHETIC_DEMO_ONLY
+70,Maluku Utara,Ternate,Pusat Kota,Rumah Tapak,145,120,4,3,1,17,SHGB,Baru,5515450801,SYNTHETIC_DEMO_ONLY
+71,Papua Tengah,Nabire,Pusat Kota,Rumah Tapak,160,85,3,2,1,7,Lainnya,Baik,3332323109,SYNTHETIC_DEMO_ONLY
+72,Nusa Tenggara Timur,Kupang,Kawasan Perumahan,Rumah Minimalis,305,280,6,4,2,30,SHGB,Perlu Renovasi,5472669677,SYNTHETIC_DEMO_ONLY
+73,Lampung,Bandar Lampung,Pusat Kota,Rumah 2 Lantai,355,330,6,5,2,30,SHM,Baik,9556360634,SYNTHETIC_DEMO_ONLY
+74,Kalimantan Utara,Tarakan,Kawasan Bisnis,Rumah Tapak,190,110,4,3,1,26,Lainnya,Baru,4668684517,SYNTHETIC_DEMO_ONLY
+75,Papua Tengah,Nabire,Pusat Kota,Townhouse,315,255,6,3,1,4,Lainnya,Baik,8366819311,SYNTHETIC_DEMO_ONLY
+76,Jawa Barat,Bekasi,Kawasan Perumahan,Rumah Tapak,150,170,6,3,2,27,Lainnya,Baik,7564298262,SYNTHETIC_DEMO_ONLY
+77,Jawa Barat,Bandung,Area Berkembang,Rumah Tapak,285,180,5,3,1,23,SHM,Sangat Baik,11823241534,SYNTHETIC_DEMO_ONLY
+78,Banten,Serang,Pusat Kota,Rumah 2 Lantai,165,160,6,5,2,21,Lainnya,Perlu Renovasi,5647753738,SYNTHETIC_DEMO_ONLY
+79,Riau,Pekanbaru,Pusat Kota,Townhouse,300,365,6,5,2,8,SHM,Sangat Baik,14642919947,SYNTHETIC_DEMO_ONLY
+80,Kalimantan Timur,Balikpapan,Kawasan Perumahan,Townhouse,60,60,3,2,2,1,SHM,Baik,3739445360,SYNTHETIC_DEMO_ONLY
+81,Sulawesi Selatan,Makassar,Pusat Kota,Townhouse,355,280,6,5,1,16,SHGB,Perlu Renovasi,12252683331,SYNTHETIC_DEMO_ONLY
+82,DKI Jakarta,Jakarta Selatan,Area Berkembang,Rumah Minimalis,80,65,3,2,1,31,SHGB,Perlu Renovasi,4127788400,SYNTHETIC_DEMO_ONLY
+83,Jawa Barat,Bogor,Kawasan Bisnis,Rumah 2 Lantai,260,205,6,3,2,22,SHM,Perlu Renovasi,10079528934,SYNTHETIC_DEMO_ONLY
+84,Sumatera Selatan,Palembang,Area Berkembang,Rumah Minimalis,85,100,3,2,3,8,SHGB,Baik,2831762123,SYNTHETIC_DEMO_ONLY
+85,Jambi,Jambi,Area Berkembang,Rumah Minimalis,215,145,5,4,1,28,Lainnya,Perlu Renovasi,3078253979,SYNTHETIC_DEMO_ONLY
+86,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Rumah 2 Lantai,110,110,4,3,2,25,SHM,Baru,4129512680,SYNTHETIC_DEMO_ONLY
+87,Sulawesi Selatan,Makassar,Kawasan Bisnis,Rumah 2 Lantai,95,90,2,1,2,29,Lainnya,Perlu Renovasi,2711850354,SYNTHETIC_DEMO_ONLY
+88,Papua Selatan,Merauke,Kawasan Perumahan,Rumah 2 Lantai,265,200,6,3,2,11,Lainnya,Sangat Baik,6324415559,SYNTHETIC_DEMO_ONLY
+89,Aceh,Banda Aceh,Kawasan Perumahan,Rumah Minimalis,285,315,6,5,3,11,SHGB,Baik,7546961018,SYNTHETIC_DEMO_ONLY
+90,Jawa Barat,Bekasi,Kawasan Perumahan,Rumah Tapak,290,170,5,3,1,27,Lainnya,Perlu Renovasi,7197927083,SYNTHETIC_DEMO_ONLY
+91,Papua Barat Daya,Sorong,Area Berkembang,Townhouse,135,65,3,1,1,9,SHM,Baru,3911374027,SYNTHETIC_DEMO_ONLY
+92,Bengkulu,Bengkulu,Area Berkembang,Townhouse,195,105,3,2,1,3,SHGB,Sangat Baik,2878035431,SYNTHETIC_DEMO_ONLY
+93,Papua Barat,Manokwari,Kawasan Bisnis,Rumah Minimalis,320,230,6,3,1,13,SHGB,Baik,8300543867,SYNTHETIC_DEMO_ONLY
+94,Kalimantan Tengah,Palangka Raya,Pusat Kota,Townhouse,170,130,4,3,1,25,SHM,Sangat Baik,5182605843,SYNTHETIC_DEMO_ONLY
+95,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Rumah Tapak,80,65,2,1,1,21,Lainnya,Baru,2741694569,SYNTHETIC_DEMO_ONLY
+96,Bali,Denpasar,Pinggiran Kota,Rumah Minimalis,200,140,5,4,1,30,SHM,Sangat Baik,8759066014,SYNTHETIC_DEMO_ONLY
+97,Riau,Pekanbaru,Area Berkembang,Rumah 2 Lantai,105,115,4,2,2,11,SHGB,Baru,3448181993,SYNTHETIC_DEMO_ONLY
+98,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah Tapak,270,170,5,4,1,27,Lainnya,Sangat Baik,4576283245,SYNTHETIC_DEMO_ONLY
+99,Sumatera Selatan,Palembang,Kawasan Perumahan,Rumah Minimalis,225,160,4,3,2,29,SHM,Sangat Baik,5229122642,SYNTHETIC_DEMO_ONLY
+100,Bali,Denpasar,Kawasan Bisnis,Rumah 2 Lantai,285,200,5,4,2,30,SHGB,Perlu Renovasi,10293562763,SYNTHETIC_DEMO_ONLY
+101,Jawa Timur,Surabaya,Pusat Kota,Rumah 2 Lantai,225,300,6,3,2,26,SHGB,Sangat Baik,18983830289,SYNTHETIC_DEMO_ONLY
+102,Jawa Barat,Bogor,Pusat Kota,Rumah Tapak,210,155,4,2,1,29,SHGB,Sangat Baik,9748207593,SYNTHETIC_DEMO_ONLY
+103,Kalimantan Timur,Balikpapan,Pinggiran Kota,Rumah Tapak,275,235,6,3,3,9,Lainnya,Baru,12018387885,SYNTHETIC_DEMO_ONLY
+104,Jawa Timur,Surabaya,Kawasan Bisnis,Rumah 2 Lantai,345,485,6,3,2,29,SHM,Sangat Baik,26568836453,SYNTHETIC_DEMO_ONLY
+105,Kepulauan Bangka Belitung,Pangkalpinang,Pusat Kota,Rumah Tapak,170,205,6,3,2,29,Lainnya,Sangat Baik,5338863776,SYNTHETIC_DEMO_ONLY
+106,Sulawesi Tenggara,Kendari,Pinggiran Kota,Rumah Tapak,180,150,4,2,1,13,Lainnya,Baik,3675619196,SYNTHETIC_DEMO_ONLY
+107,Sulawesi Utara,Manado,Kawasan Bisnis,Townhouse,345,385,6,4,3,21,SHGB,Perlu Renovasi,11658182637,SYNTHETIC_DEMO_ONLY
+108,Kalimantan Timur,Balikpapan,Kawasan Bisnis,Rumah 2 Lantai,335,270,6,4,2,2,Lainnya,Baik,15841449111,SYNTHETIC_DEMO_ONLY
+109,Jawa Tengah,Semarang,Kawasan Perumahan,Rumah 2 Lantai,125,95,4,2,2,0,Lainnya,Sangat Baik,4049042989,SYNTHETIC_DEMO_ONLY
+110,Papua,Jayapura,Kawasan Bisnis,Rumah Minimalis,185,120,4,3,1,6,Lainnya,Sangat Baik,6945567785,SYNTHETIC_DEMO_ONLY
+111,Kalimantan Barat,Pontianak,Kawasan Bisnis,Rumah Minimalis,185,135,4,2,1,4,SHM,Baru,7355482959,SYNTHETIC_DEMO_ONLY
+112,Banten,Serang,Area Berkembang,Rumah Tapak,265,180,6,4,1,15,Lainnya,Perlu Renovasi,5841379015,SYNTHETIC_DEMO_ONLY
+113,Kalimantan Tengah,Palangka Raya,Kawasan Perumahan,Rumah Tapak,300,385,6,5,2,23,SHGB,Perlu Renovasi,7018543097,SYNTHETIC_DEMO_ONLY
+114,Riau,Pekanbaru,Kawasan Perumahan,Rumah Tapak,245,140,4,3,1,27,SHGB,Sangat Baik,5689987369,SYNTHETIC_DEMO_ONLY
+115,Papua Barat,Manokwari,Kawasan Bisnis,Rumah Tapak,155,110,3,2,1,10,SHM,Perlu Renovasi,4165842461,SYNTHETIC_DEMO_ONLY
+116,Jawa Barat,Depok,Pusat Kota,Townhouse,120,65,3,2,1,3,SHM,Baru,7009501808,SYNTHETIC_DEMO_ONLY
+117,Papua Pegunungan,Wamena,Pusat Kota,Townhouse,290,225,6,3,1,32,SHGB,Perlu Renovasi,5468430416,SYNTHETIC_DEMO_ONLY
+118,Kalimantan Selatan,Banjarmasin,Pusat Kota,Rumah Minimalis,220,275,6,3,3,15,Lainnya,Baik,8322849150,SYNTHETIC_DEMO_ONLY
+119,Riau,Pekanbaru,Kawasan Bisnis,Rumah Minimalis,210,110,4,3,1,24,SHGB,Baik,5390092325,SYNTHETIC_DEMO_ONLY
+120,Maluku Utara,Ternate,Kawasan Bisnis,Rumah 2 Lantai,295,315,6,4,2,9,Lainnya,Baik,10181336349,SYNTHETIC_DEMO_ONLY
+121,Kalimantan Tengah,Palangka Raya,Pinggiran Kota,Rumah Minimalis,130,175,5,3,3,8,Lainnya,Baik,4169182702,SYNTHETIC_DEMO_ONLY
+122,Jawa Barat,Depok,Kawasan Bisnis,Rumah Tapak,255,200,6,3,2,11,SHM,Sangat Baik,14738493649,SYNTHETIC_DEMO_ONLY
+123,Jawa Tengah,Surakarta,Area Berkembang,Rumah 2 Lantai,220,250,6,3,2,14,Lainnya,Perlu Renovasi,5520539322,SYNTHETIC_DEMO_ONLY
+124,Jawa Barat,Bandung,Kawasan Bisnis,Rumah Minimalis,240,145,5,4,1,28,SHGB,Perlu Renovasi,7424803741,SYNTHETIC_DEMO_ONLY
+125,Maluku Utara,Ternate,Area Berkembang,Rumah 2 Lantai,105,105,3,2,2,30,Lainnya,Baik,2756812169,SYNTHETIC_DEMO_ONLY
+126,Maluku Utara,Ternate,Pinggiran Kota,Rumah Minimalis,350,190,6,3,1,18,Lainnya,Baik,5766579682,SYNTHETIC_DEMO_ONLY
+127,Sumatera Barat,Padang,Pinggiran Kota,Rumah 2 Lantai,320,425,6,4,2,8,Lainnya,Baik,8389077040,SYNTHETIC_DEMO_ONLY
+128,Riau,Pekanbaru,Kawasan Perumahan,Rumah Minimalis,70,75,2,2,2,20,SHGB,Baik,2293133620,SYNTHETIC_DEMO_ONLY
+129,Sulawesi Selatan,Makassar,Kawasan Bisnis,Rumah 2 Lantai,230,255,6,3,2,9,SHM,Baru,15026525591,SYNTHETIC_DEMO_ONLY
+130,Jawa Barat,Bekasi,Pinggiran Kota,Rumah 2 Lantai,230,265,6,4,2,15,SHM,Perlu Renovasi,10122339770,SYNTHETIC_DEMO_ONLY
+131,Riau,Pekanbaru,Pusat Kota,Rumah Tapak,195,140,5,4,1,11,SHM,Baik,6740549695,SYNTHETIC_DEMO_ONLY
+132,Jawa Barat,Depok,Pusat Kota,Townhouse,75,50,2,1,1,12,SHM,Baru,4718954555,SYNTHETIC_DEMO_ONLY
+133,Kalimantan Barat,Pontianak,Pinggiran Kota,Townhouse,140,115,3,2,1,5,SHGB,Perlu Renovasi,3026482261,SYNTHETIC_DEMO_ONLY
+134,Kalimantan Barat,Pontianak,Pinggiran Kota,Rumah Minimalis,275,285,6,3,3,15,Lainnya,Perlu Renovasi,5437997079,SYNTHETIC_DEMO_ONLY
+135,Maluku Utara,Ternate,Area Berkembang,Townhouse,105,55,2,1,1,7,SHGB,Sangat Baik,2648727797,SYNTHETIC_DEMO_ONLY
+136,Kalimantan Selatan,Banjarmasin,Pinggiran Kota,Rumah Minimalis,85,70,3,1,1,14,Lainnya,Baik,1850216630,SYNTHETIC_DEMO_ONLY
+137,Aceh,Banda Aceh,Pinggiran Kota,Rumah 2 Lantai,245,225,6,3,2,5,Lainnya,Perlu Renovasi,3424603786,SYNTHETIC_DEMO_ONLY
+138,Sulawesi Utara,Manado,Kawasan Perumahan,Rumah 2 Lantai,280,295,6,4,2,12,SHGB,Baik,11058806654,SYNTHETIC_DEMO_ONLY
+139,Maluku,Ambon,Area Berkembang,Townhouse,255,255,6,4,2,15,Lainnya,Perlu Renovasi,5876646247,SYNTHETIC_DEMO_ONLY
+140,Nusa Tenggara Timur,Kupang,Area Berkembang,Rumah Minimalis,140,115,4,3,2,26,SHGB,Baik,3077391248,SYNTHETIC_DEMO_ONLY
+141,Riau,Pekanbaru,Kawasan Perumahan,Townhouse,135,110,4,2,1,18,SHGB,Baik,3596381836,SYNTHETIC_DEMO_ONLY
+142,Sulawesi Selatan,Makassar,Kawasan Perumahan,Townhouse,280,225,6,3,1,9,Lainnya,Sangat Baik,9792142408,SYNTHETIC_DEMO_ONLY
+143,Sulawesi Selatan,Makassar,Pusat Kota,Rumah Tapak,180,190,6,3,3,10,SHM,Baru,11182963134,SYNTHETIC_DEMO_ONLY
+144,Sumatera Selatan,Palembang,Area Berkembang,Rumah Tapak,165,125,4,2,1,10,SHGB,Baru,4473756800,SYNTHETIC_DEMO_ONLY
+145,Aceh,Banda Aceh,Pusat Kota,Rumah Tapak,135,115,3,1,2,25,SHGB,Perlu Renovasi,2630637150,SYNTHETIC_DEMO_ONLY
+146,Lampung,Bandar Lampung,Pinggiran Kota,Rumah Tapak,100,50,2,1,1,25,Lainnya,Sangat Baik,1307126449,SYNTHETIC_DEMO_ONLY
+147,Lampung,Bandar Lampung,Kawasan Perumahan,Rumah 2 Lantai,255,310,6,3,2,17,Lainnya,Baik,6740589292,SYNTHETIC_DEMO_ONLY
+148,Papua Pegunungan,Wamena,Pinggiran Kota,Rumah Minimalis,140,105,3,2,1,2,Lainnya,Perlu Renovasi,2166072676,SYNTHETIC_DEMO_ONLY
+149,Kalimantan Barat,Pontianak,Kawasan Perumahan,Rumah Tapak,300,240,6,3,1,16,Lainnya,Baik,7697643967,SYNTHETIC_DEMO_ONLY
+150,Papua,Jayapura,Kawasan Bisnis,Townhouse,75,90,4,3,2,9,SHGB,Baik,4925564643,SYNTHETIC_DEMO_ONLY
+151,Kalimantan Selatan,Banjarmasin,Area Berkembang,Rumah Tapak,190,145,5,3,1,20,SHM,Baik,5666936294,SYNTHETIC_DEMO_ONLY
+152,Jawa Timur,Malang,Pusat Kota,Rumah 2 Lantai,225,185,5,2,2,26,SHGB,Baru,9428572118,SYNTHETIC_DEMO_ONLY
+153,Sumatera Selatan,Palembang,Pinggiran Kota,Rumah Minimalis,295,170,5,3,1,20,SHM,Sangat Baik,6063543585,SYNTHETIC_DEMO_ONLY
+154,Jawa Barat,Bandung,Pusat Kota,Rumah 2 Lantai,320,405,6,4,2,22,SHGB,Baru,25991790048,SYNTHETIC_DEMO_ONLY
+155,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Minimalis,355,270,6,4,3,12,Lainnya,Baik,10354827448,SYNTHETIC_DEMO_ONLY
+156,Papua Barat,Manokwari,Kawasan Bisnis,Rumah Tapak,175,125,4,3,1,1,SHM,Perlu Renovasi,4213801240,SYNTHETIC_DEMO_ONLY
+157,Maluku,Ambon,Kawasan Bisnis,Townhouse,165,135,4,2,1,21,Lainnya,Perlu Renovasi,3637756178,SYNTHETIC_DEMO_ONLY
+158,Sulawesi Tenggara,Kendari,Pinggiran Kota,Rumah Minimalis,125,145,5,3,2,27,SHM,Baik,3694810351,SYNTHETIC_DEMO_ONLY
+159,Jambi,Jambi,Pinggiran Kota,Rumah Tapak,100,135,4,3,2,15,SHGB,Perlu Renovasi,2387824714,SYNTHETIC_DEMO_ONLY
+160,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Rumah Minimalis,315,220,6,4,1,17,SHGB,Perlu Renovasi,12972764130,SYNTHETIC_DEMO_ONLY
+161,Sumatera Barat,Padang,Kawasan Bisnis,Rumah Tapak,165,135,4,2,1,8,Lainnya,Sangat Baik,4491870471,SYNTHETIC_DEMO_ONLY
+162,Kalimantan Utara,Tarakan,Area Berkembang,Rumah Tapak,280,190,5,3,1,17,SHGB,Sangat Baik,6720482900,SYNTHETIC_DEMO_ONLY
+163,Banten,Serang,Pusat Kota,Rumah 2 Lantai,120,100,4,2,2,31,SHM,Sangat Baik,4929470040,SYNTHETIC_DEMO_ONLY
+164,Sumatera Selatan,Palembang,Area Berkembang,Rumah Minimalis,140,90,2,1,1,2,SHGB,Baik,3101583106,SYNTHETIC_DEMO_ONLY
+165,Jawa Timur,Malang,Area Berkembang,Townhouse,310,215,6,3,1,29,Lainnya,Perlu Renovasi,6332889218,SYNTHETIC_DEMO_ONLY
+166,Jawa Barat,Bandung,Area Berkembang,Rumah 2 Lantai,205,265,6,3,2,22,SHGB,Baik,11848057135,SYNTHETIC_DEMO_ONLY
+167,Kalimantan Utara,Tarakan,Pusat Kota,Rumah 2 Lantai,100,145,4,3,2,8,SHGB,Baru,5455917353,SYNTHETIC_DEMO_ONLY
+168,Maluku,Ambon,Pusat Kota,Rumah 2 Lantai,330,385,6,3,2,19,Lainnya,Baik,11693895321,SYNTHETIC_DEMO_ONLY
+169,DKI Jakarta,Jakarta Timur,Kawasan Perumahan,Rumah Tapak,285,155,5,4,1,18,SHM,Perlu Renovasi,9820801602,SYNTHETIC_DEMO_ONLY
+170,Sulawesi Barat,Mamuju,Kawasan Perumahan,Rumah 2 Lantai,130,140,4,3,2,28,SHGB,Baru,3742516921,SYNTHETIC_DEMO_ONLY
+171,Papua Selatan,Merauke,Pusat Kota,Rumah 2 Lantai,230,225,6,4,2,27,SHM,Baik,8555396811,SYNTHETIC_DEMO_ONLY
+172,Sulawesi Tengah,Palu,Pinggiran Kota,Rumah 2 Lantai,65,50,1,1,2,12,Lainnya,Sangat Baik,1214578696,SYNTHETIC_DEMO_ONLY
+173,Jawa Barat,Bandung,Pinggiran Kota,Rumah Minimalis,290,230,6,4,1,27,SHGB,Baru,10258195964,SYNTHETIC_DEMO_ONLY
+174,Papua Barat,Manokwari,Kawasan Perumahan,Rumah Minimalis,305,245,6,3,2,19,Lainnya,Perlu Renovasi,5832258673,SYNTHETIC_DEMO_ONLY
+175,DKI Jakarta,Jakarta Timur,Kawasan Bisnis,Rumah Tapak,190,155,5,4,3,10,SHGB,Baru,11458627820,SYNTHETIC_DEMO_ONLY
+176,Jawa Barat,Bogor,Kawasan Bisnis,Rumah Minimalis,225,190,6,3,1,28,Lainnya,Perlu Renovasi,7724404587,SYNTHETIC_DEMO_ONLY
+177,Papua Pegunungan,Wamena,Area Berkembang,Rumah Minimalis,350,175,5,4,1,17,Lainnya,Baik,5127012340,SYNTHETIC_DEMO_ONLY
+178,Maluku Utara,Ternate,Pinggiran Kota,Rumah Tapak,230,200,6,4,1,17,SHGB,Perlu Renovasi,5096856103,SYNTHETIC_DEMO_ONLY
+179,Papua Barat,Manokwari,Pinggiran Kota,Rumah Tapak,340,170,5,4,1,10,SHGB,Baru,7072320343,SYNTHETIC_DEMO_ONLY
+180,Sumatera Barat,Padang,Area Berkembang,Rumah 2 Lantai,80,95,3,1,2,25,SHGB,Sangat Baik,2071296185,SYNTHETIC_DEMO_ONLY
+181,Jawa Barat,Bandung,Kawasan Bisnis,Rumah 2 Lantai,120,115,3,2,2,14,SHM,Sangat Baik,7491784730,SYNTHETIC_DEMO_ONLY
+182,Nusa Tenggara Timur,Kupang,Kawasan Perumahan,Rumah Minimalis,320,345,6,4,2,3,SHM,Baik,10697712005,SYNTHETIC_DEMO_ONLY
+183,Jawa Timur,Malang,Area Berkembang,Rumah 2 Lantai,320,340,6,3,2,13,SHGB,Perlu Renovasi,8727688882,SYNTHETIC_DEMO_ONLY
+184,Jawa Barat,Bandung,Kawasan Bisnis,Rumah 2 Lantai,100,75,2,1,2,3,SHM,Perlu Renovasi,4625115164,SYNTHETIC_DEMO_ONLY
+185,Bengkulu,Bengkulu,Kawasan Bisnis,Townhouse,145,110,4,3,1,2,SHGB,Perlu Renovasi,3132788448,SYNTHETIC_DEMO_ONLY
+186,Kalimantan Selatan,Banjarmasin,Kawasan Perumahan,Rumah Tapak,105,75,2,2,1,15,SHGB,Perlu Renovasi,2275613106,SYNTHETIC_DEMO_ONLY
+187,Papua,Jayapura,Kawasan Bisnis,Townhouse,325,355,6,3,3,18,SHM,Baru,19093002896,SYNTHETIC_DEMO_ONLY
+188,Jawa Tengah,Semarang,Pinggiran Kota,Rumah Tapak,255,170,5,3,1,10,Lainnya,Baik,6997575536,SYNTHETIC_DEMO_ONLY
+189,Aceh,Banda Aceh,Kawasan Bisnis,Rumah 2 Lantai,195,220,6,5,2,15,Lainnya,Sangat Baik,6219195965,SYNTHETIC_DEMO_ONLY
+190,Jawa Timur,Malang,Pinggiran Kota,Rumah 2 Lantai,300,240,6,3,2,26,Lainnya,Baru,7624618323,SYNTHETIC_DEMO_ONLY
+191,Jawa Barat,Bandung,Pinggiran Kota,Rumah Minimalis,350,305,6,5,1,6,SHGB,Sangat Baik,15886889531,SYNTHETIC_DEMO_ONLY
+192,Bali,Denpasar,Pusat Kota,Rumah Tapak,240,210,6,3,3,22,Lainnya,Baik,14172039660,SYNTHETIC_DEMO_ONLY
+193,Riau,Pekanbaru,Kawasan Perumahan,Rumah Tapak,310,190,6,4,1,6,SHM,Sangat Baik,8396006058,SYNTHETIC_DEMO_ONLY
+194,Jawa Tengah,Semarang,Pinggiran Kota,Rumah 2 Lantai,220,275,6,4,2,14,Lainnya,Baru,8618580015,SYNTHETIC_DEMO_ONLY
+195,DKI Jakarta,Jakarta Timur,Pinggiran Kota,Rumah 2 Lantai,140,175,5,4,2,4,SHM,Baru,10074789995,SYNTHETIC_DEMO_ONLY
+196,Papua Pegunungan,Wamena,Pusat Kota,Rumah 2 Lantai,175,195,6,3,2,10,Lainnya,Baik,5349352173,SYNTHETIC_DEMO_ONLY
+197,DKI Jakarta,Jakarta Selatan,Kawasan Perumahan,Rumah Tapak,355,290,6,3,2,14,SHM,Sangat Baik,27429281088,SYNTHETIC_DEMO_ONLY
+198,Aceh,Banda Aceh,Area Berkembang,Townhouse,135,125,4,2,3,20,SHM,Baik,3236983965,SYNTHETIC_DEMO_ONLY
+199,Nusa Tenggara Timur,Kupang,Area Berkembang,Townhouse,335,405,6,3,2,28,Lainnya,Baru,8882831530,SYNTHETIC_DEMO_ONLY
+200,Papua Pegunungan,Wamena,Area Berkembang,Townhouse,300,175,5,3,1,1,SHM,Sangat Baik,7126405798,SYNTHETIC_DEMO_ONLY
+201,Papua,Jayapura,Area Berkembang,Rumah Minimalis,260,155,5,3,1,0,SHGB,Baru,9342954984,SYNTHETIC_DEMO_ONLY
+202,Kepulauan Riau,Batam,Area Berkembang,Rumah Tapak,215,185,6,4,1,18,SHGB,Sangat Baik,8092717324,SYNTHETIC_DEMO_ONLY
+203,Jawa Tengah,Semarang,Area Berkembang,Rumah Minimalis,155,110,3,2,3,23,SHGB,Baik,4799050885,SYNTHETIC_DEMO_ONLY
+204,Sumatera Selatan,Palembang,Kawasan Perumahan,Rumah 2 Lantai,165,220,6,3,2,16,Lainnya,Sangat Baik,6338663498,SYNTHETIC_DEMO_ONLY
+205,Sulawesi Utara,Manado,Pinggiran Kota,Rumah Tapak,325,275,6,5,2,23,SHM,Baru,10940826726,SYNTHETIC_DEMO_ONLY
+206,Papua Pegunungan,Wamena,Area Berkembang,Rumah 2 Lantai,205,190,6,5,2,4,Lainnya,Perlu Renovasi,4260906983,SYNTHETIC_DEMO_ONLY
+207,Kalimantan Barat,Pontianak,Kawasan Perumahan,Rumah 2 Lantai,165,135,4,2,2,27,SHGB,Sangat Baik,3921976982,SYNTHETIC_DEMO_ONLY
+208,Jawa Barat,Depok,Pusat Kota,Rumah 2 Lantai,235,245,6,4,2,27,SHGB,Baik,13190624661,SYNTHETIC_DEMO_ONLY
+209,Kalimantan Timur,Balikpapan,Kawasan Bisnis,Rumah Tapak,330,340,6,4,2,9,SHGB,Sangat Baik,19059003510,SYNTHETIC_DEMO_ONLY
+210,Sulawesi Tenggara,Kendari,Area Berkembang,Rumah Tapak,115,125,4,3,2,19,SHM,Baru,4400787023,SYNTHETIC_DEMO_ONLY
+211,Papua Selatan,Merauke,Kawasan Bisnis,Townhouse,130,100,3,2,1,16,SHM,Sangat Baik,4369533026,SYNTHETIC_DEMO_ONLY
+212,DKI Jakarta,Jakarta Timur,Kawasan Perumahan,Rumah Minimalis,140,120,4,3,2,27,SHGB,Perlu Renovasi,5900647211,SYNTHETIC_DEMO_ONLY
+213,Sulawesi Tengah,Palu,Kawasan Bisnis,Rumah 2 Lantai,115,125,4,3,2,16,SHM,Baik,4435012648,SYNTHETIC_DEMO_ONLY
+214,Sulawesi Utara,Manado,Pusat Kota,Townhouse,110,80,2,1,1,4,SHM,Baik,4873186040,SYNTHETIC_DEMO_ONLY
+215,Maluku Utara,Ternate,Pusat Kota,Rumah Minimalis,215,170,5,3,1,4,Lainnya,Sangat Baik,8054072914,SYNTHETIC_DEMO_ONLY
+216,Jawa Tengah,Surakarta,Kawasan Bisnis,Rumah Minimalis,350,265,6,4,3,24,SHM,Baru,11096970506,SYNTHETIC_DEMO_ONLY
+217,Jawa Timur,Surabaya,Kawasan Perumahan,Townhouse,270,200,6,3,3,16,SHM,Perlu Renovasi,10395406814,SYNTHETIC_DEMO_ONLY
+218,Sumatera Selatan,Palembang,Kawasan Perumahan,Rumah Minimalis,120,105,4,3,1,2,Lainnya,Sangat Baik,3528246156,SYNTHETIC_DEMO_ONLY
+219,Papua Pegunungan,Wamena,Pinggiran Kota,Rumah Tapak,200,115,4,2,1,2,SHM,Baik,3857640270,SYNTHETIC_DEMO_ONLY
+220,Jawa Tengah,Semarang,Pusat Kota,Rumah Minimalis,300,195,6,3,1,7,SHM,Baik,11116372696,SYNTHETIC_DEMO_ONLY
+221,Sulawesi Barat,Mamuju,Area Berkembang,Rumah Tapak,340,340,6,3,2,22,SHM,Perlu Renovasi,6119048252,SYNTHETIC_DEMO_ONLY
+222,DKI Jakarta,Jakarta Selatan,Kawasan Perumahan,Rumah Minimalis,325,265,6,5,3,29,SHGB,Sangat Baik,20753945055,SYNTHETIC_DEMO_ONLY
+223,Jawa Timur,Malang,Kawasan Perumahan,Townhouse,210,200,6,3,3,3,Lainnya,Baru,8503039257,SYNTHETIC_DEMO_ONLY
+224,Sulawesi Tengah,Palu,Pusat Kota,Rumah 2 Lantai,210,170,5,4,2,29,SHGB,Sangat Baik,6650522155,SYNTHETIC_DEMO_ONLY
+225,Jawa Timur,Surabaya,Pusat Kota,Townhouse,190,150,5,3,1,7,SHM,Perlu Renovasi,10337596134,SYNTHETIC_DEMO_ONLY
+226,Kalimantan Selatan,Banjarmasin,Pinggiran Kota,Townhouse,315,240,6,4,1,9,SHGB,Perlu Renovasi,5725778896,SYNTHETIC_DEMO_ONLY
+227,Papua Tengah,Nabire,Area Berkembang,Rumah Minimalis,285,205,6,4,2,12,SHM,Sangat Baik,6916466622,SYNTHETIC_DEMO_ONLY
+228,Papua Tengah,Nabire,Area Berkembang,Townhouse,355,170,5,2,1,19,SHM,Baik,5766591958,SYNTHETIC_DEMO_ONLY
+229,Jambi,Jambi,Pinggiran Kota,Townhouse,130,90,3,1,2,29,SHM,Baru,2205829364,SYNTHETIC_DEMO_ONLY
+230,Nusa Tenggara Barat,Mataram,Area Berkembang,Rumah Minimalis,300,200,6,3,3,0,SHGB,Sangat Baik,8551273835,SYNTHETIC_DEMO_ONLY
+231,Kepulauan Riau,Batam,Kawasan Bisnis,Rumah Tapak,105,65,3,2,1,30,SHGB,Baik,3560745939,SYNTHETIC_DEMO_ONLY
+232,DKI Jakarta,Jakarta Selatan,Kawasan Bisnis,Townhouse,70,45,2,1,1,26,SHGB,Baik,4507965213,SYNTHETIC_DEMO_ONLY
+233,Kalimantan Tengah,Palangka Raya,Kawasan Perumahan,Rumah 2 Lantai,135,100,4,3,2,4,SHM,Sangat Baik,4492919151,SYNTHETIC_DEMO_ONLY
+234,Bengkulu,Bengkulu,Area Berkembang,Townhouse,305,185,6,4,1,24,SHGB,Baru,4841655461,SYNTHETIC_DEMO_ONLY
+235,Papua Barat,Manokwari,Pinggiran Kota,Townhouse,180,135,4,2,1,18,SHM,Baru,4420415457,SYNTHETIC_DEMO_ONLY
+236,Sulawesi Selatan,Makassar,Pusat Kota,Rumah Tapak,320,195,6,3,1,25,Lainnya,Sangat Baik,9060438668,SYNTHETIC_DEMO_ONLY
+237,Jambi,Jambi,Area Berkembang,Rumah Tapak,250,145,4,3,1,15,SHM,Sangat Baik,5017676816,SYNTHETIC_DEMO_ONLY
+238,Kepulauan Riau,Batam,Pinggiran Kota,Rumah 2 Lantai,125,120,3,2,2,25,SHGB,Sangat Baik,4294303700,SYNTHETIC_DEMO_ONLY
+239,Sulawesi Selatan,Makassar,Kawasan Bisnis,Townhouse,310,150,5,3,1,5,Lainnya,Sangat Baik,8653182805,SYNTHETIC_DEMO_ONLY
+240,Papua Barat,Manokwari,Kawasan Perumahan,Rumah Minimalis,225,190,6,4,1,9,SHM,Baru,7045761571,SYNTHETIC_DEMO_ONLY
+241,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Rumah 2 Lantai,315,355,6,5,2,4,Lainnya,Perlu Renovasi,5453532639,SYNTHETIC_DEMO_ONLY
+242,Sumatera Barat,Padang,Pinggiran Kota,Rumah Tapak,250,305,6,5,2,29,SHGB,Baru,6543978433,SYNTHETIC_DEMO_ONLY
+243,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah Minimalis,175,120,4,3,1,25,SHM,Sangat Baik,6875557439,SYNTHETIC_DEMO_ONLY
+244,Kalimantan Utara,Tarakan,Kawasan Bisnis,Rumah Tapak,85,80,2,2,2,27,Lainnya,Sangat Baik,2887894269,SYNTHETIC_DEMO_ONLY
+245,Kepulauan Riau,Batam,Pinggiran Kota,Rumah Tapak,140,160,5,2,2,11,SHM,Sangat Baik,6580853721,SYNTHETIC_DEMO_ONLY
+246,Jawa Barat,Bogor,Pinggiran Kota,Townhouse,305,180,5,3,1,12,SHGB,Perlu Renovasi,6997345327,SYNTHETIC_DEMO_ONLY
+247,Sulawesi Barat,Mamuju,Kawasan Perumahan,Townhouse,65,55,3,2,1,19,Lainnya,Baru,1547420363,SYNTHETIC_DEMO_ONLY
+248,Riau,Pekanbaru,Pinggiran Kota,Rumah Minimalis,320,245,6,4,1,30,SHM,Baik,6639312453,SYNTHETIC_DEMO_ONLY
+249,Banten,Serang,Pinggiran Kota,Townhouse,300,260,6,3,1,31,Lainnya,Baru,8004172435,SYNTHETIC_DEMO_ONLY
+250,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah Tapak,280,285,6,3,2,32,SHGB,Perlu Renovasi,4834386967,SYNTHETIC_DEMO_ONLY
+251,Bali,Denpasar,Area Berkembang,Rumah Tapak,315,240,6,4,1,14,Lainnya,Perlu Renovasi,12277837596,SYNTHETIC_DEMO_ONLY
+252,Kalimantan Tengah,Palangka Raya,Kawasan Bisnis,Rumah 2 Lantai,165,170,5,3,2,18,SHM,Baru,6958247969,SYNTHETIC_DEMO_ONLY
+253,DKI Jakarta,Jakarta Timur,Area Berkembang,Townhouse,185,95,3,1,1,12,SHM,Perlu Renovasi,5699636042,SYNTHETIC_DEMO_ONLY
+254,Sulawesi Tenggara,Kendari,Pinggiran Kota,Rumah Tapak,275,185,5,3,1,16,SHGB,Perlu Renovasi,4700355060,SYNTHETIC_DEMO_ONLY
+255,DI Yogyakarta,Yogyakarta,Pinggiran Kota,Rumah 2 Lantai,275,310,6,5,2,24,SHGB,Baru,10687600390,SYNTHETIC_DEMO_ONLY
+256,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Bisnis,Rumah Tapak,65,30,2,1,1,19,SHM,Sangat Baik,1361349766,SYNTHETIC_DEMO_ONLY
+257,Kalimantan Timur,Balikpapan,Pinggiran Kota,Rumah 2 Lantai,265,260,6,4,2,16,SHGB,Perlu Renovasi,8834385446,SYNTHETIC_DEMO_ONLY
+258,Kalimantan Barat,Pontianak,Kawasan Perumahan,Townhouse,295,245,6,4,1,16,Lainnya,Baru,7538404366,SYNTHETIC_DEMO_ONLY
+259,Papua Pegunungan,Wamena,Area Berkembang,Townhouse,205,115,4,2,1,12,Lainnya,Perlu Renovasi,2587556769,SYNTHETIC_DEMO_ONLY
+260,Nusa Tenggara Timur,Kupang,Kawasan Bisnis,Rumah Tapak,185,160,5,3,1,16,Lainnya,Baru,4812895426,SYNTHETIC_DEMO_ONLY
+261,Papua Pegunungan,Wamena,Pinggiran Kota,Rumah Minimalis,125,115,4,3,3,20,SHGB,Perlu Renovasi,2207186818,SYNTHETIC_DEMO_ONLY
+262,Sulawesi Barat,Mamuju,Kawasan Bisnis,Townhouse,270,130,4,2,1,20,SHGB,Sangat Baik,4458326766,SYNTHETIC_DEMO_ONLY
+263,Jawa Barat,Bandung,Pusat Kota,Rumah 2 Lantai,95,105,4,3,2,18,SHM,Baik,6205777926,SYNTHETIC_DEMO_ONLY
+264,Sulawesi Selatan,Makassar,Area Berkembang,Rumah 2 Lantai,315,320,6,3,2,14,SHM,Perlu Renovasi,11246571461,SYNTHETIC_DEMO_ONLY
+265,Gorontalo,Gorontalo,Pusat Kota,Rumah 2 Lantai,305,305,6,3,2,28,Lainnya,Sangat Baik,7914773711,SYNTHETIC_DEMO_ONLY
+266,Kalimantan Tengah,Palangka Raya,Pinggiran Kota,Rumah 2 Lantai,90,130,4,3,2,23,SHGB,Sangat Baik,3272192064,SYNTHETIC_DEMO_ONLY
+267,Papua Selatan,Merauke,Kawasan Perumahan,Townhouse,245,200,6,4,1,1,SHM,Baru,7507492816,SYNTHETIC_DEMO_ONLY
+268,Kalimantan Selatan,Banjarmasin,Pinggiran Kota,Rumah Minimalis,300,230,6,4,2,20,Lainnya,Baru,7683016643,SYNTHETIC_DEMO_ONLY
+269,Kalimantan Tengah,Palangka Raya,Kawasan Bisnis,Rumah Minimalis,130,100,3,2,1,3,SHGB,Perlu Renovasi,2895416260,SYNTHETIC_DEMO_ONLY
+270,Sumatera Utara,Medan,Pusat Kota,Rumah Minimalis,280,220,6,5,1,32,SHGB,Baru,9459145699,SYNTHETIC_DEMO_ONLY
+271,DKI Jakarta,Jakarta Timur,Pinggiran Kota,Rumah 2 Lantai,230,225,6,3,2,28,SHM,Perlu Renovasi,8570774704,SYNTHETIC_DEMO_ONLY
+272,Lampung,Bandar Lampung,Kawasan Bisnis,Townhouse,125,65,3,2,1,21,SHGB,Baru,3127249291,SYNTHETIC_DEMO_ONLY
+273,Papua Barat Daya,Sorong,Kawasan Perumahan,Townhouse,65,65,2,2,2,20,SHM,Baru,2390269450,SYNTHETIC_DEMO_ONLY
+274,Jawa Timur,Surabaya,Kawasan Bisnis,Townhouse,245,205,6,5,1,28,SHM,Baru,15919747062,SYNTHETIC_DEMO_ONLY
+275,Sulawesi Barat,Mamuju,Area Berkembang,Townhouse,345,230,6,3,1,13,SHGB,Sangat Baik,6004262651,SYNTHETIC_DEMO_ONLY
+276,Maluku,Ambon,Pinggiran Kota,Rumah 2 Lantai,125,155,5,3,2,14,SHGB,Baru,5099409775,SYNTHETIC_DEMO_ONLY
+277,DKI Jakarta,Jakarta Timur,Pinggiran Kota,Rumah Minimalis,155,125,4,2,1,23,Lainnya,Baru,5818932122,SYNTHETIC_DEMO_ONLY
+278,Jambi,Jambi,Kawasan Bisnis,Townhouse,60,45,2,1,1,24,SHGB,Sangat Baik,1449124034,SYNTHETIC_DEMO_ONLY
+279,Kepulauan Riau,Batam,Kawasan Perumahan,Rumah Tapak,220,120,4,3,1,11,SHM,Baru,6900202146,SYNTHETIC_DEMO_ONLY
+280,Nusa Tenggara Barat,Mataram,Kawasan Bisnis,Rumah Tapak,315,275,6,3,1,22,SHGB,Perlu Renovasi,8656247098,SYNTHETIC_DEMO_ONLY
+281,Kepulauan Bangka Belitung,Pangkalpinang,Pusat Kota,Townhouse,240,200,5,4,1,19,SHGB,Sangat Baik,6195843150,SYNTHETIC_DEMO_ONLY
+282,Bali,Denpasar,Area Berkembang,Rumah Minimalis,300,175,5,4,1,29,Lainnya,Baik,10502171990,SYNTHETIC_DEMO_ONLY
+283,DKI Jakarta,Jakarta Selatan,Area Berkembang,Townhouse,120,85,4,3,1,11,SHM,Sangat Baik,8101266072,SYNTHETIC_DEMO_ONLY
+284,Sulawesi Selatan,Makassar,Kawasan Bisnis,Rumah 2 Lantai,320,345,6,3,2,25,SHM,Perlu Renovasi,11751621570,SYNTHETIC_DEMO_ONLY
+285,Jambi,Jambi,Kawasan Bisnis,Rumah Tapak,320,285,6,4,3,7,SHGB,Sangat Baik,9492739711,SYNTHETIC_DEMO_ONLY
+286,Nusa Tenggara Timur,Kupang,Pusat Kota,Rumah 2 Lantai,85,115,4,3,2,24,SHGB,Baik,3164111135,SYNTHETIC_DEMO_ONLY
+287,DI Yogyakarta,Yogyakarta,Pinggiran Kota,Rumah Tapak,255,135,4,3,1,3,SHGB,Baru,6891413978,SYNTHETIC_DEMO_ONLY
+288,Jawa Tengah,Semarang,Kawasan Bisnis,Rumah Tapak,330,245,6,3,1,12,SHGB,Sangat Baik,14076543491,SYNTHETIC_DEMO_ONLY
+289,Gorontalo,Gorontalo,Kawasan Perumahan,Rumah 2 Lantai,115,110,4,3,2,31,SHM,Baru,3028274086,SYNTHETIC_DEMO_ONLY
+290,Kalimantan Utara,Tarakan,Pinggiran Kota,Rumah Minimalis,350,275,6,4,2,7,SHM,Perlu Renovasi,8346909173,SYNTHETIC_DEMO_ONLY
+291,Papua Pegunungan,Wamena,Kawasan Perumahan,Townhouse,120,75,3,2,1,22,SHGB,Baik,2634481204,SYNTHETIC_DEMO_ONLY
+292,Papua Tengah,Nabire,Pinggiran Kota,Rumah Tapak,260,200,6,4,3,10,SHGB,Perlu Renovasi,4877260663,SYNTHETIC_DEMO_ONLY
+293,Kalimantan Timur,Balikpapan,Pusat Kota,Townhouse,100,65,3,2,1,8,SHGB,Baru,5824464363,SYNTHETIC_DEMO_ONLY
+294,Kalimantan Tengah,Palangka Raya,Kawasan Perumahan,Townhouse,340,220,6,4,1,31,SHGB,Baru,8080742059,SYNTHETIC_DEMO_ONLY
+295,Aceh,Banda Aceh,Kawasan Bisnis,Townhouse,120,105,4,2,3,24,SHM,Perlu Renovasi,2716374528,SYNTHETIC_DEMO_ONLY
+296,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah 2 Lantai,125,135,4,2,2,31,SHM,Sangat Baik,5296846721,SYNTHETIC_DEMO_ONLY
+297,Maluku,Ambon,Pinggiran Kota,Rumah Tapak,195,150,4,3,1,27,SHGB,Perlu Renovasi,3814129125,SYNTHETIC_DEMO_ONLY
+298,Papua Pegunungan,Wamena,Area Berkembang,Rumah Tapak,355,310,6,3,1,23,SHM,Perlu Renovasi,7164380039,SYNTHETIC_DEMO_ONLY
+299,Papua Selatan,Merauke,Kawasan Bisnis,Townhouse,335,205,6,4,1,4,SHM,Sangat Baik,10372580728,SYNTHETIC_DEMO_ONLY
+300,Sumatera Barat,Padang,Area Berkembang,Rumah Tapak,75,40,1,1,1,27,Lainnya,Baik,1159170831,SYNTHETIC_DEMO_ONLY
+301,Kalimantan Timur,Balikpapan,Kawasan Bisnis,Rumah 2 Lantai,100,100,3,2,2,12,SHM,Sangat Baik,5610807389,SYNTHETIC_DEMO_ONLY
+302,Jawa Barat,Bekasi,Pinggiran Kota,Rumah Tapak,250,215,6,5,1,2,Lainnya,Sangat Baik,9909151787,SYNTHETIC_DEMO_ONLY
+303,DKI Jakarta,Jakarta Timur,Pusat Kota,Rumah Minimalis,250,210,6,3,1,31,SHGB,Sangat Baik,12540439535,SYNTHETIC_DEMO_ONLY
+304,Gorontalo,Gorontalo,Pusat Kota,Townhouse,230,175,6,4,3,4,SHGB,Baru,7328062328,SYNTHETIC_DEMO_ONLY
+305,Jawa Barat,Bandung,Kawasan Bisnis,Rumah Minimalis,255,200,6,5,2,28,SHGB,Sangat Baik,12447192152,SYNTHETIC_DEMO_ONLY
+306,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah 2 Lantai,250,305,6,3,2,30,SHM,Baru,14465285641,SYNTHETIC_DEMO_ONLY
+307,Sumatera Barat,Padang,Pusat Kota,Rumah Minimalis,350,255,6,3,1,28,SHGB,Baru,9184073876,SYNTHETIC_DEMO_ONLY
+308,Kepulauan Riau,Batam,Area Berkembang,Rumah 2 Lantai,300,325,6,3,2,13,SHM,Sangat Baik,13282088851,SYNTHETIC_DEMO_ONLY
+309,Nusa Tenggara Timur,Kupang,Kawasan Perumahan,Rumah Minimalis,200,205,6,4,2,27,SHGB,Perlu Renovasi,4414631916,SYNTHETIC_DEMO_ONLY
+310,Papua Tengah,Nabire,Kawasan Perumahan,Rumah Tapak,145,180,6,4,2,7,SHM,Baik,5476876115,SYNTHETIC_DEMO_ONLY
+311,Lampung,Bandar Lampung,Area Berkembang,Townhouse,110,85,3,2,1,14,SHM,Sangat Baik,2436088903,SYNTHETIC_DEMO_ONLY
+312,Jambi,Jambi,Pusat Kota,Rumah 2 Lantai,225,300,6,5,2,22,SHGB,Sangat Baik,8260489585,SYNTHETIC_DEMO_ONLY
+313,Kalimantan Barat,Pontianak,Pinggiran Kota,Townhouse,270,190,6,4,1,11,Lainnya,Sangat Baik,5657022127,SYNTHETIC_DEMO_ONLY
+314,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Townhouse,85,60,2,1,1,9,SHGB,Perlu Renovasi,3921714837,SYNTHETIC_DEMO_ONLY
+315,Aceh,Banda Aceh,Kawasan Perumahan,Rumah Tapak,150,75,3,2,1,7,SHGB,Baik,2470268400,SYNTHETIC_DEMO_ONLY
+316,Riau,Pekanbaru,Kawasan Perumahan,Rumah Minimalis,170,85,3,2,1,1,Lainnya,Baru,3892710708,SYNTHETIC_DEMO_ONLY
+317,Nusa Tenggara Barat,Mataram,Kawasan Bisnis,Townhouse,175,105,3,2,1,30,SHGB,Baik,3854532912,SYNTHETIC_DEMO_ONLY
+318,Jawa Barat,Depok,Kawasan Perumahan,Townhouse,225,225,6,3,2,14,Lainnya,Baru,12578898873,SYNTHETIC_DEMO_ONLY
+319,Sulawesi Barat,Mamuju,Area Berkembang,Rumah Minimalis,270,225,6,4,1,22,SHM,Perlu Renovasi,4542208816,SYNTHETIC_DEMO_ONLY
+320,Nusa Tenggara Timur,Kupang,Pusat Kota,Rumah 2 Lantai,285,225,6,4,2,17,SHGB,Perlu Renovasi,6803112665,SYNTHETIC_DEMO_ONLY
+321,Papua Pegunungan,Wamena,Kawasan Bisnis,Rumah 2 Lantai,105,105,4,2,2,24,SHM,Baru,3701727059,SYNTHETIC_DEMO_ONLY
+322,Nusa Tenggara Barat,Mataram,Pusat Kota,Rumah Tapak,235,200,6,5,1,31,SHM,Baik,8406786247,SYNTHETIC_DEMO_ONLY
+323,Jawa Timur,Surabaya,Kawasan Bisnis,Rumah Minimalis,90,65,2,2,1,6,SHM,Baik,5176626543,SYNTHETIC_DEMO_ONLY
+324,Jawa Barat,Depok,Kawasan Bisnis,Rumah Minimalis,205,165,5,3,2,12,SHGB,Baik,11757883148,SYNTHETIC_DEMO_ONLY
+325,Kalimantan Selatan,Banjarmasin,Pusat Kota,Rumah Minimalis,105,135,4,2,2,12,SHM,Perlu Renovasi,4902353223,SYNTHETIC_DEMO_ONLY
+326,Jawa Timur,Surabaya,Area Berkembang,Rumah 2 Lantai,325,290,6,5,2,24,SHGB,Sangat Baik,13818345114,SYNTHETIC_DEMO_ONLY
+327,Sulawesi Barat,Mamuju,Pusat Kota,Townhouse,165,80,3,2,1,3,Lainnya,Baru,3633185692,SYNTHETIC_DEMO_ONLY
+328,Jawa Barat,Depok,Kawasan Bisnis,Rumah 2 Lantai,285,340,6,3,2,29,SHGB,Sangat Baik,16367723907,SYNTHETIC_DEMO_ONLY
+329,Kalimantan Tengah,Palangka Raya,Pusat Kota,Rumah Tapak,240,230,6,5,2,20,Lainnya,Baik,7767504071,SYNTHETIC_DEMO_ONLY
+330,Gorontalo,Gorontalo,Kawasan Bisnis,Townhouse,110,115,4,3,3,30,SHM,Sangat Baik,3073725335,SYNTHETIC_DEMO_ONLY
+331,Jawa Tengah,Semarang,Pusat Kota,Townhouse,130,105,3,2,1,2,SHM,Sangat Baik,5944776249,SYNTHETIC_DEMO_ONLY
+332,Sulawesi Barat,Mamuju,Pusat Kota,Rumah Minimalis,140,125,5,2,3,2,SHM,Baru,5204548020,SYNTHETIC_DEMO_ONLY
+333,Sulawesi Utara,Manado,Kawasan Perumahan,Rumah 2 Lantai,310,235,6,5,2,19,SHGB,Baru,10022661872,SYNTHETIC_DEMO_ONLY
+334,Sulawesi Utara,Manado,Kawasan Bisnis,Townhouse,295,185,6,3,1,4,SHGB,Sangat Baik,11374627794,SYNTHETIC_DEMO_ONLY
+335,Bali,Denpasar,Kawasan Perumahan,Rumah 2 Lantai,270,245,6,5,2,14,SHM,Perlu Renovasi,12439889934,SYNTHETIC_DEMO_ONLY
+336,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah 2 Lantai,225,275,6,4,2,16,SHGB,Perlu Renovasi,8458776024,SYNTHETIC_DEMO_ONLY
+337,Papua Barat Daya,Sorong,Area Berkembang,Rumah Tapak,205,225,6,3,2,16,Lainnya,Baik,7165004349,SYNTHETIC_DEMO_ONLY
+338,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Townhouse,270,135,4,2,1,22,SHM,Perlu Renovasi,3500215658,SYNTHETIC_DEMO_ONLY
+339,Sulawesi Tenggara,Kendari,Kawasan Bisnis,Rumah 2 Lantai,70,90,3,3,2,4,SHM,Baru,4083119244,SYNTHETIC_DEMO_ONLY
+340,Sulawesi Barat,Mamuju,Pinggiran Kota,Rumah Tapak,290,235,6,3,3,9,Lainnya,Baru,5726064930,SYNTHETIC_DEMO_ONLY
+341,Papua,Jayapura,Pinggiran Kota,Rumah Tapak,65,40,2,1,1,22,SHM,Perlu Renovasi,1565443376,SYNTHETIC_DEMO_ONLY
+342,Sulawesi Tenggara,Kendari,Area Berkembang,Rumah Tapak,250,160,4,3,1,27,Lainnya,Baik,4755331292,SYNTHETIC_DEMO_ONLY
+343,Papua Barat Daya,Sorong,Pinggiran Kota,Townhouse,170,95,4,2,1,20,Lainnya,Baru,3585821668,SYNTHETIC_DEMO_ONLY
+344,Papua,Jayapura,Kawasan Perumahan,Rumah Tapak,80,45,1,1,1,31,SHGB,Sangat Baik,2360768492,SYNTHETIC_DEMO_ONLY
+345,Papua Tengah,Nabire,Kawasan Bisnis,Townhouse,85,55,2,2,1,6,SHM,Sangat Baik,2712652654,SYNTHETIC_DEMO_ONLY
+346,Sumatera Barat,Padang,Area Berkembang,Rumah 2 Lantai,320,300,6,5,2,29,SHM,Sangat Baik,8609094092,SYNTHETIC_DEMO_ONLY
+347,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Rumah Minimalis,260,180,5,3,3,24,SHGB,Perlu Renovasi,3593531473,SYNTHETIC_DEMO_ONLY
+348,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Townhouse,155,115,4,3,1,19,SHM,Sangat Baik,5892419723,SYNTHETIC_DEMO_ONLY
+349,Maluku Utara,Ternate,Pusat Kota,Rumah Tapak,320,205,6,4,1,4,Lainnya,Baru,9281139161,SYNTHETIC_DEMO_ONLY
+350,Bengkulu,Bengkulu,Area Berkembang,Rumah 2 Lantai,70,75,3,2,2,8,SHM,Perlu Renovasi,1500392537,SYNTHETIC_DEMO_ONLY
+351,Sumatera Barat,Padang,Kawasan Bisnis,Rumah 2 Lantai,210,180,5,3,2,30,SHM,Baik,5708288457,SYNTHETIC_DEMO_ONLY
+352,Papua,Jayapura,Kawasan Bisnis,Rumah Minimalis,295,190,5,4,1,2,SHM,Baik,12893006002,SYNTHETIC_DEMO_ONLY
+353,Papua Tengah,Nabire,Pusat Kota,Rumah Minimalis,150,125,4,2,1,23,Lainnya,Baru,4183595705,SYNTHETIC_DEMO_ONLY
+354,Lampung,Bandar Lampung,Area Berkembang,Rumah Minimalis,275,195,5,4,1,22,SHGB,Perlu Renovasi,4845940063,SYNTHETIC_DEMO_ONLY
+355,Nusa Tenggara Timur,Kupang,Pusat Kota,Rumah Tapak,130,65,3,2,1,20,Lainnya,Baik,2270695840,SYNTHETIC_DEMO_ONLY
+356,DKI Jakarta,Jakarta Timur,Area Berkembang,Rumah Minimalis,155,145,5,2,2,30,SHGB,Baru,7894609195,SYNTHETIC_DEMO_ONLY
+357,Kalimantan Timur,Balikpapan,Kawasan Perumahan,Townhouse,85,45,1,1,1,32,SHM,Baik,2435387195,SYNTHETIC_DEMO_ONLY
+358,Kepulauan Riau,Batam,Pinggiran Kota,Rumah Tapak,210,180,5,3,1,5,SHGB,Baru,8363464641,SYNTHETIC_DEMO_ONLY
+359,Maluku,Ambon,Kawasan Perumahan,Rumah 2 Lantai,135,95,3,2,2,3,SHGB,Perlu Renovasi,3000864893,SYNTHETIC_DEMO_ONLY
+360,Jawa Barat,Depok,Pinggiran Kota,Rumah 2 Lantai,195,175,6,3,2,14,SHGB,Baik,8833358672,SYNTHETIC_DEMO_ONLY
+361,Kalimantan Utara,Tarakan,Kawasan Bisnis,Townhouse,195,120,4,3,1,25,Lainnya,Baik,4999933188,SYNTHETIC_DEMO_ONLY
+362,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah Tapak,130,145,5,4,3,14,SHGB,Baik,7603923647,SYNTHETIC_DEMO_ONLY
+363,Jawa Tengah,Semarang,Pinggiran Kota,Townhouse,235,195,6,3,1,18,SHGB,Baik,7176120086,SYNTHETIC_DEMO_ONLY
+364,Aceh,Banda Aceh,Kawasan Perumahan,Rumah 2 Lantai,330,225,6,5,2,13,SHM,Baik,7341202077,SYNTHETIC_DEMO_ONLY
+365,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Rumah 2 Lantai,190,190,6,4,2,1,SHGB,Baik,12516470455,SYNTHETIC_DEMO_ONLY
+366,Jambi,Jambi,Area Berkembang,Rumah 2 Lantai,335,285,6,5,2,17,SHGB,Sangat Baik,7685177802,SYNTHETIC_DEMO_ONLY
+367,Sumatera Barat,Padang,Pusat Kota,Rumah Minimalis,175,145,5,4,1,23,SHGB,Baik,5487459781,SYNTHETIC_DEMO_ONLY
+368,Jawa Tengah,Surakarta,Kawasan Bisnis,Rumah Minimalis,345,250,6,4,1,14,SHM,Perlu Renovasi,9945399852,SYNTHETIC_DEMO_ONLY
+369,Sulawesi Utara,Manado,Kawasan Perumahan,Townhouse,220,250,6,4,2,30,SHGB,Perlu Renovasi,7472814231,SYNTHETIC_DEMO_ONLY
+370,Kepulauan Riau,Batam,Area Berkembang,Rumah Tapak,175,100,3,3,1,22,SHGB,Baik,4523204424,SYNTHETIC_DEMO_ONLY
+371,Sulawesi Tengah,Palu,Pinggiran Kota,Rumah Tapak,75,40,2,2,1,22,SHM,Perlu Renovasi,1217652501,SYNTHETIC_DEMO_ONLY
+372,Sulawesi Tenggara,Kendari,Area Berkembang,Rumah Minimalis,215,150,5,3,1,2,Lainnya,Sangat Baik,4710623328,SYNTHETIC_DEMO_ONLY
+373,Sulawesi Utara,Manado,Kawasan Perumahan,Rumah Minimalis,70,50,2,2,2,21,SHGB,Sangat Baik,2254170762,SYNTHETIC_DEMO_ONLY
+374,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Rumah 2 Lantai,110,115,4,3,2,24,SHM,Baik,2743657056,SYNTHETIC_DEMO_ONLY
+375,Papua Barat,Manokwari,Kawasan Perumahan,Rumah Minimalis,85,55,2,1,1,6,Lainnya,Baik,2187718917,SYNTHETIC_DEMO_ONLY
+376,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Minimalis,210,185,5,3,2,7,SHM,Sangat Baik,9005554013,SYNTHETIC_DEMO_ONLY
+377,Jambi,Jambi,Pusat Kota,Townhouse,245,190,5,3,1,17,SHGB,Baru,7018085606,SYNTHETIC_DEMO_ONLY
+378,Papua,Jayapura,Pusat Kota,Rumah 2 Lantai,150,100,3,2,2,22,Lainnya,Sangat Baik,5327199291,SYNTHETIC_DEMO_ONLY
+379,Jawa Tengah,Semarang,Kawasan Perumahan,Rumah 2 Lantai,265,275,6,4,2,31,SHM,Perlu Renovasi,8111128202,SYNTHETIC_DEMO_ONLY
+380,Maluku Utara,Ternate,Pinggiran Kota,Townhouse,265,170,5,4,1,30,SHM,Sangat Baik,5510348987,SYNTHETIC_DEMO_ONLY
+381,Gorontalo,Gorontalo,Kawasan Bisnis,Rumah Minimalis,285,375,6,4,2,21,SHM,Sangat Baik,8860116443,SYNTHETIC_DEMO_ONLY
+382,Lampung,Bandar Lampung,Area Berkembang,Townhouse,290,180,6,4,1,30,SHGB,Baru,5051969051,SYNTHETIC_DEMO_ONLY
+383,Kalimantan Utara,Tarakan,Kawasan Perumahan,Rumah 2 Lantai,170,210,6,4,2,7,SHGB,Baik,6242524655,SYNTHETIC_DEMO_ONLY
+384,Jawa Barat,Depok,Pinggiran Kota,Rumah Tapak,315,215,6,4,1,7,SHGB,Perlu Renovasi,10445666654,SYNTHETIC_DEMO_ONLY
+385,Jawa Timur,Malang,Kawasan Perumahan,Rumah Minimalis,345,300,6,4,1,10,SHGB,Baru,14218818876,SYNTHETIC_DEMO_ONLY
+386,Sumatera Selatan,Palembang,Pusat Kota,Rumah 2 Lantai,235,295,6,5,2,2,SHGB,Perlu Renovasi,7625224491,SYNTHETIC_DEMO_ONLY
+387,Jawa Barat,Depok,Kawasan Bisnis,Rumah Tapak,360,200,6,3,1,19,SHM,Baik,16291496221,SYNTHETIC_DEMO_ONLY
+388,Jawa Barat,Bandung,Pinggiran Kota,Rumah Minimalis,160,180,6,4,2,1,SHM,Sangat Baik,9675577511,SYNTHETIC_DEMO_ONLY
+389,Riau,Pekanbaru,Kawasan Bisnis,Rumah Minimalis,285,220,6,3,1,25,SHGB,Sangat Baik,9162313350,SYNTHETIC_DEMO_ONLY
+390,Kepulauan Bangka Belitung,Pangkalpinang,Pusat Kota,Rumah Tapak,340,290,6,3,1,19,SHM,Perlu Renovasi,7808421578,SYNTHETIC_DEMO_ONLY
+391,Sulawesi Tenggara,Kendari,Area Berkembang,Townhouse,335,260,6,3,3,2,SHGB,Baik,9949491448,SYNTHETIC_DEMO_ONLY
+392,Nusa Tenggara Barat,Mataram,Area Berkembang,Rumah Tapak,140,110,4,3,1,6,Lainnya,Perlu Renovasi,3139169049,SYNTHETIC_DEMO_ONLY
+393,Papua Pegunungan,Wamena,Kawasan Perumahan,Rumah Tapak,140,95,3,2,1,5,SHGB,Baru,3902574950,SYNTHETIC_DEMO_ONLY
+394,Jawa Barat,Bandung,Pinggiran Kota,Townhouse,345,305,6,3,1,31,SHM,Sangat Baik,14380008481,SYNTHETIC_DEMO_ONLY
+395,Jawa Timur,Surabaya,Kawasan Perumahan,Rumah Minimalis,90,75,3,1,1,12,SHM,Sangat Baik,5525192058,SYNTHETIC_DEMO_ONLY
+396,Kalimantan Selatan,Banjarmasin,Area Berkembang,Rumah Minimalis,315,220,6,4,1,28,Lainnya,Baru,6601201735,SYNTHETIC_DEMO_ONLY
+397,Kalimantan Barat,Pontianak,Kawasan Perumahan,Rumah 2 Lantai,170,135,4,2,2,29,SHM,Baik,4298235688,SYNTHETIC_DEMO_ONLY
+398,Nusa Tenggara Barat,Mataram,Kawasan Perumahan,Townhouse,235,150,5,3,1,18,SHGB,Baik,6431551977,SYNTHETIC_DEMO_ONLY
+399,Kalimantan Barat,Pontianak,Pinggiran Kota,Rumah Tapak,295,240,6,3,1,8,SHM,Perlu Renovasi,5753362264,SYNTHETIC_DEMO_ONLY
+400,Riau,Pekanbaru,Area Berkembang,Rumah Minimalis,110,125,3,2,3,22,Lainnya,Perlu Renovasi,2444347206,SYNTHETIC_DEMO_ONLY
+401,Jawa Timur,Malang,Pusat Kota,Rumah 2 Lantai,180,190,6,5,2,6,Lainnya,Baru,9428032699,SYNTHETIC_DEMO_ONLY
+402,DKI Jakarta,Jakarta Timur,Area Berkembang,Rumah Minimalis,110,85,4,3,1,7,Lainnya,Baru,5119461944,SYNTHETIC_DEMO_ONLY
+403,Jawa Tengah,Surakarta,Area Berkembang,Townhouse,135,85,3,1,1,7,SHM,Baik,3310865345,SYNTHETIC_DEMO_ONLY
+404,Bali,Denpasar,Area Berkembang,Rumah Minimalis,145,115,4,2,1,19,SHM,Baru,9014029846,SYNTHETIC_DEMO_ONLY
+405,Maluku Utara,Ternate,Kawasan Perumahan,Townhouse,70,35,1,1,1,18,SHM,Perlu Renovasi,1455108500,SYNTHETIC_DEMO_ONLY
+406,Kalimantan Barat,Pontianak,Area Berkembang,Rumah Tapak,330,290,6,4,3,17,Lainnya,Baik,7179088417,SYNTHETIC_DEMO_ONLY
+407,Jawa Barat,Bandung,Area Berkembang,Townhouse,275,285,6,3,2,20,SHM,Sangat Baik,14607526930,SYNTHETIC_DEMO_ONLY
+408,Kalimantan Timur,Balikpapan,Area Berkembang,Rumah 2 Lantai,110,110,3,2,2,19,SHGB,Sangat Baik,4501359008,SYNTHETIC_DEMO_ONLY
+409,Banten,Serang,Pinggiran Kota,Townhouse,200,160,5,3,1,10,SHM,Perlu Renovasi,5508044030,SYNTHETIC_DEMO_ONLY
+410,Papua Pegunungan,Wamena,Pusat Kota,Rumah Tapak,245,290,6,4,3,30,SHGB,Baru,8382883198,SYNTHETIC_DEMO_ONLY
+411,Papua Barat Daya,Sorong,Pusat Kota,Townhouse,255,245,6,4,2,31,SHGB,Perlu Renovasi,7594041887,SYNTHETIC_DEMO_ONLY
+412,Kalimantan Utara,Tarakan,Pinggiran Kota,Rumah Tapak,265,200,6,3,2,5,Lainnya,Baru,7246875016,SYNTHETIC_DEMO_ONLY
+413,DKI Jakarta,Jakarta Selatan,Kawasan Perumahan,Rumah Minimalis,230,160,4,3,1,11,Lainnya,Baik,13736670622,SYNTHETIC_DEMO_ONLY
+414,Jawa Tengah,Surakarta,Pinggiran Kota,Rumah Minimalis,245,205,6,5,1,24,SHGB,Baik,5793433790,SYNTHETIC_DEMO_ONLY
+415,Papua Selatan,Merauke,Area Berkembang,Townhouse,205,170,6,3,1,21,SHM,Perlu Renovasi,4794657226,SYNTHETIC_DEMO_ONLY
+416,Jawa Tengah,Semarang,Area Berkembang,Rumah Tapak,125,160,5,4,2,14,SHM,Perlu Renovasi,5532972463,SYNTHETIC_DEMO_ONLY
+417,Sulawesi Tengah,Palu,Kawasan Perumahan,Townhouse,80,85,3,2,2,17,Lainnya,Sangat Baik,2450248088,SYNTHETIC_DEMO_ONLY
+418,Jawa Barat,Bekasi,Area Berkembang,Townhouse,200,170,5,4,1,6,Lainnya,Baru,9306486353,SYNTHETIC_DEMO_ONLY
+419,Kalimantan Barat,Pontianak,Pinggiran Kota,Rumah Minimalis,335,460,6,5,2,2,Lainnya,Sangat Baik,9949287848,SYNTHETIC_DEMO_ONLY
+420,Jawa Timur,Malang,Pusat Kota,Rumah Tapak,65,40,2,1,1,17,Lainnya,Perlu Renovasi,1809464433,SYNTHETIC_DEMO_ONLY
+421,Jawa Barat,Bekasi,Kawasan Bisnis,Rumah Tapak,175,105,3,2,1,13,SHGB,Sangat Baik,7673653028,SYNTHETIC_DEMO_ONLY
+422,Jawa Barat,Bekasi,Area Berkembang,Rumah Minimalis,235,170,5,4,1,24,Lainnya,Baik,7812022681,SYNTHETIC_DEMO_ONLY
+423,Papua Barat,Manokwari,Kawasan Bisnis,Townhouse,345,230,6,4,1,31,SHM,Sangat Baik,9060723885,SYNTHETIC_DEMO_ONLY
+424,Papua,Jayapura,Area Berkembang,Rumah 2 Lantai,90,90,3,2,2,26,Lainnya,Baik,3495675500,SYNTHETIC_DEMO_ONLY
+425,Nusa Tenggara Barat,Mataram,Kawasan Bisnis,Rumah Tapak,250,290,6,4,3,14,SHGB,Sangat Baik,9595798233,SYNTHETIC_DEMO_ONLY
+426,Papua Selatan,Merauke,Pinggiran Kota,Rumah 2 Lantai,335,320,6,5,2,12,SHGB,Perlu Renovasi,7478406466,SYNTHETIC_DEMO_ONLY
+427,Lampung,Bandar Lampung,Area Berkembang,Rumah Tapak,130,65,3,2,1,23,SHM,Baik,2031547986,SYNTHETIC_DEMO_ONLY
+428,Papua Barat Daya,Sorong,Pinggiran Kota,Townhouse,350,220,6,4,1,21,SHM,Baik,7926555433,SYNTHETIC_DEMO_ONLY
+429,Papua Barat,Manokwari,Pusat Kota,Rumah Minimalis,195,110,4,3,1,10,SHM,Sangat Baik,5999714409,SYNTHETIC_DEMO_ONLY
+430,Papua Barat Daya,Sorong,Kawasan Bisnis,Rumah 2 Lantai,205,170,5,2,2,0,Lainnya,Baru,7870221358,SYNTHETIC_DEMO_ONLY
+431,Gorontalo,Gorontalo,Pusat Kota,Rumah 2 Lantai,325,390,6,4,2,4,SHGB,Perlu Renovasi,9050218296,SYNTHETIC_DEMO_ONLY
+432,Sumatera Utara,Medan,Kawasan Bisnis,Rumah Tapak,355,305,6,5,2,14,Lainnya,Perlu Renovasi,7332779028,SYNTHETIC_DEMO_ONLY
+433,Kalimantan Tengah,Palangka Raya,Kawasan Perumahan,Rumah Minimalis,170,140,5,3,3,2,SHM,Baik,5005905366,SYNTHETIC_DEMO_ONLY
+434,Lampung,Bandar Lampung,Kawasan Bisnis,Rumah Tapak,235,265,6,5,2,11,Lainnya,Perlu Renovasi,5852228707,SYNTHETIC_DEMO_ONLY
+435,Kepulauan Riau,Batam,Pusat Kota,Rumah 2 Lantai,255,255,6,5,2,15,Lainnya,Baik,10273180232,SYNTHETIC_DEMO_ONLY
+436,Kepulauan Riau,Batam,Area Berkembang,Townhouse,300,235,6,5,1,3,SHM,Baik,11893822230,SYNTHETIC_DEMO_ONLY
+437,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah 2 Lantai,195,230,6,5,2,18,SHM,Baik,13464706837,SYNTHETIC_DEMO_ONLY
+438,Kalimantan Barat,Pontianak,Kawasan Bisnis,Rumah 2 Lantai,105,90,3,2,2,16,SHGB,Baru,3893083064,SYNTHETIC_DEMO_ONLY
+439,Kepulauan Riau,Batam,Pusat Kota,Rumah Tapak,250,175,6,4,1,27,SHGB,Baik,8266194390,SYNTHETIC_DEMO_ONLY
+440,Sulawesi Utara,Manado,Area Berkembang,Rumah Minimalis,140,100,3,2,1,11,Lainnya,Sangat Baik,3852566162,SYNTHETIC_DEMO_ONLY
+441,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Rumah Minimalis,190,130,5,3,1,25,SHGB,Baru,3283858954,SYNTHETIC_DEMO_ONLY
+442,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Townhouse,220,150,5,3,1,29,SHGB,Baik,10858864391,SYNTHETIC_DEMO_ONLY
+443,DKI Jakarta,Jakarta Selatan,Pusat Kota,Rumah 2 Lantai,245,215,6,4,2,14,SHM,Perlu Renovasi,18025552937,SYNTHETIC_DEMO_ONLY
+444,Jawa Tengah,Semarang,Area Berkembang,Rumah Tapak,85,55,3,2,1,15,SHM,Baru,3330169285,SYNTHETIC_DEMO_ONLY
+445,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Minimalis,100,85,4,3,3,17,Lainnya,Baru,3923802316,SYNTHETIC_DEMO_ONLY
+446,Papua,Jayapura,Pusat Kota,Rumah 2 Lantai,135,115,4,3,2,23,SHM,Sangat Baik,6102417175,SYNTHETIC_DEMO_ONLY
+447,Kepulauan Riau,Batam,Pinggiran Kota,Rumah 2 Lantai,140,115,4,2,2,6,SHGB,Sangat Baik,4963214137,SYNTHETIC_DEMO_ONLY
+448,Papua Tengah,Nabire,Kawasan Bisnis,Rumah Tapak,160,105,4,2,1,2,SHGB,Perlu Renovasi,3597107849,SYNTHETIC_DEMO_ONLY
+449,Jawa Barat,Bekasi,Pusat Kota,Rumah Tapak,90,65,3,1,1,20,SHGB,Baru,4411159933,SYNTHETIC_DEMO_ONLY
+450,Banten,Serang,Area Berkembang,Rumah Tapak,165,105,4,3,1,19,Lainnya,Sangat Baik,4240760274,SYNTHETIC_DEMO_ONLY
+451,DKI Jakarta,Jakarta Selatan,Area Berkembang,Townhouse,220,190,5,3,1,29,SHM,Baru,14978937611,SYNTHETIC_DEMO_ONLY
+452,Jambi,Jambi,Pinggiran Kota,Rumah 2 Lantai,125,85,3,2,2,26,SHGB,Sangat Baik,1935850785,SYNTHETIC_DEMO_ONLY
+453,Riau,Pekanbaru,Kawasan Bisnis,Rumah Minimalis,300,180,6,4,1,4,SHGB,Baru,9123458034,SYNTHETIC_DEMO_ONLY
+454,Jambi,Jambi,Pusat Kota,Townhouse,355,355,6,4,3,3,SHGB,Perlu Renovasi,9777316032,SYNTHETIC_DEMO_ONLY
+455,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Rumah Tapak,200,175,6,3,3,27,SHM,Baik,7475113473,SYNTHETIC_DEMO_ONLY
+456,Gorontalo,Gorontalo,Area Berkembang,Rumah Minimalis,185,125,4,2,2,27,SHGB,Baru,3305513921,SYNTHETIC_DEMO_ONLY
+457,Bengkulu,Bengkulu,Pinggiran Kota,Rumah 2 Lantai,175,135,4,3,2,28,SHGB,Perlu Renovasi,2332304817,SYNTHETIC_DEMO_ONLY
+458,Jawa Tengah,Surakarta,Area Berkembang,Rumah Minimalis,235,130,4,3,1,16,SHGB,Perlu Renovasi,4525439414,SYNTHETIC_DEMO_ONLY
+459,Papua,Jayapura,Kawasan Bisnis,Rumah 2 Lantai,120,105,3,1,2,11,Lainnya,Sangat Baik,4624073450,SYNTHETIC_DEMO_ONLY
+460,Papua,Jayapura,Pinggiran Kota,Rumah 2 Lantai,300,200,5,2,2,9,SHM,Sangat Baik,9676177788,SYNTHETIC_DEMO_ONLY
+461,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Rumah 2 Lantai,310,400,6,4,2,1,Lainnya,Sangat Baik,9077595982,SYNTHETIC_DEMO_ONLY
+462,Jawa Timur,Malang,Pinggiran Kota,Rumah Tapak,245,185,5,4,1,14,Lainnya,Baru,6483494560,SYNTHETIC_DEMO_ONLY
+463,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah 2 Lantai,260,265,6,3,2,8,SHM,Sangat Baik,12665236506,SYNTHETIC_DEMO_ONLY
+464,Aceh,Banda Aceh,Area Berkembang,Rumah Tapak,65,50,2,2,1,31,SHGB,Sangat Baik,1254578900,SYNTHETIC_DEMO_ONLY
+465,Jawa Barat,Bogor,Pinggiran Kota,Rumah Tapak,235,120,4,2,1,10,Lainnya,Perlu Renovasi,5107554475,SYNTHETIC_DEMO_ONLY
+466,Banten,Serang,Kawasan Perumahan,Rumah 2 Lantai,290,260,6,5,2,9,SHM,Perlu Renovasi,8083205585,SYNTHETIC_DEMO_ONLY
+467,Jawa Tengah,Semarang,Kawasan Perumahan,Rumah Minimalis,285,210,6,3,2,22,Lainnya,Perlu Renovasi,7149375478,SYNTHETIC_DEMO_ONLY
+468,DKI Jakarta,Jakarta Selatan,Pusat Kota,Rumah Tapak,290,305,6,5,2,31,SHM,Sangat Baik,29318784034,SYNTHETIC_DEMO_ONLY
+469,Kepulauan Riau,Batam,Kawasan Perumahan,Townhouse,225,185,5,3,1,14,SHM,Baru,9594059941,SYNTHETIC_DEMO_ONLY
+470,Gorontalo,Gorontalo,Area Berkembang,Rumah Tapak,295,150,5,4,1,6,Lainnya,Perlu Renovasi,3505695032,SYNTHETIC_DEMO_ONLY
+471,Papua Tengah,Nabire,Pinggiran Kota,Rumah Minimalis,245,160,5,4,1,12,SHM,Perlu Renovasi,3911048918,SYNTHETIC_DEMO_ONLY
+472,DKI Jakarta,Jakarta Selatan,Pusat Kota,Rumah Minimalis,145,90,3,3,1,18,SHM,Sangat Baik,10601401596,SYNTHETIC_DEMO_ONLY
+473,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Bisnis,Rumah Minimalis,180,155,4,2,1,15,Lainnya,Baik,4864271054,SYNTHETIC_DEMO_ONLY
+474,Sulawesi Selatan,Makassar,Area Berkembang,Townhouse,235,205,6,5,1,16,Lainnya,Baru,7504987378,SYNTHETIC_DEMO_ONLY
+475,Jawa Timur,Surabaya,Area Berkembang,Townhouse,135,110,3,2,1,3,Lainnya,Baik,6519571992,SYNTHETIC_DEMO_ONLY
+476,Sulawesi Barat,Mamuju,Pusat Kota,Rumah Tapak,345,430,6,4,3,17,SHGB,Baik,11110841589,SYNTHETIC_DEMO_ONLY
+477,Papua,Jayapura,Kawasan Perumahan,Townhouse,260,215,6,4,1,11,Lainnya,Sangat Baik,8813732898,SYNTHETIC_DEMO_ONLY
+478,Sumatera Barat,Padang,Pinggiran Kota,Rumah Minimalis,60,30,1,1,1,0,SHGB,Sangat Baik,1180983537,SYNTHETIC_DEMO_ONLY
+479,Sumatera Barat,Padang,Kawasan Perumahan,Rumah 2 Lantai,160,140,4,3,2,15,SHM,Perlu Renovasi,3383999430,SYNTHETIC_DEMO_ONLY
+480,Jambi,Jambi,Area Berkembang,Rumah Minimalis,220,185,5,4,1,23,Lainnya,Baru,4853412533,SYNTHETIC_DEMO_ONLY
+481,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah Minimalis,165,130,4,3,1,1,Lainnya,Perlu Renovasi,2471603552,SYNTHETIC_DEMO_ONLY
+482,Papua Barat,Manokwari,Area Berkembang,Rumah Tapak,145,120,4,3,1,23,SHGB,Baik,3705887295,SYNTHETIC_DEMO_ONLY
+483,Sulawesi Utara,Manado,Kawasan Bisnis,Rumah Minimalis,70,35,1,1,1,13,SHGB,Perlu Renovasi,1798014706,SYNTHETIC_DEMO_ONLY
+484,Maluku,Ambon,Pusat Kota,Rumah Minimalis,315,155,5,3,1,5,SHGB,Perlu Renovasi,7591424389,SYNTHETIC_DEMO_ONLY
+485,Sumatera Selatan,Palembang,Kawasan Perumahan,Rumah 2 Lantai,325,395,6,5,2,28,Lainnya,Baik,9887970086,SYNTHETIC_DEMO_ONLY
+486,Aceh,Banda Aceh,Kawasan Perumahan,Rumah Tapak,285,230,6,5,2,6,SHM,Baru,7635051658,SYNTHETIC_DEMO_ONLY
+487,Riau,Pekanbaru,Pusat Kota,Townhouse,340,225,6,4,1,11,SHGB,Sangat Baik,10116578009,SYNTHETIC_DEMO_ONLY
+488,Sulawesi Barat,Mamuju,Area Berkembang,Rumah 2 Lantai,155,100,4,3,2,3,SHM,Baru,3142158530,SYNTHETIC_DEMO_ONLY
+489,DKI Jakarta,Jakarta Timur,Kawasan Bisnis,Rumah Minimalis,150,105,3,2,1,23,Lainnya,Baik,6157400969,SYNTHETIC_DEMO_ONLY
+490,DKI Jakarta,Jakarta Timur,Kawasan Perumahan,Rumah Minimalis,75,50,2,1,1,23,Lainnya,Baru,3414538652,SYNTHETIC_DEMO_ONLY
+491,Gorontalo,Gorontalo,Pinggiran Kota,Rumah Tapak,270,320,6,3,2,23,Lainnya,Baik,5090984303,SYNTHETIC_DEMO_ONLY
+492,Sulawesi Barat,Mamuju,Kawasan Bisnis,Rumah 2 Lantai,275,310,6,4,2,24,SHM,Baru,9520272523,SYNTHETIC_DEMO_ONLY
+493,DKI Jakarta,Jakarta Timur,Pusat Kota,Rumah Minimalis,170,215,6,3,2,27,SHM,Perlu Renovasi,12267399648,SYNTHETIC_DEMO_ONLY
+494,Maluku Utara,Ternate,Kawasan Perumahan,Rumah Minimalis,335,210,6,4,1,2,Lainnya,Baik,8673633373,SYNTHETIC_DEMO_ONLY
+495,Kalimantan Barat,Pontianak,Pinggiran Kota,Rumah Tapak,110,90,3,1,1,18,Lainnya,Baru,2797553659,SYNTHETIC_DEMO_ONLY
+496,Sumatera Selatan,Palembang,Area Berkembang,Rumah 2 Lantai,190,235,6,4,2,20,Lainnya,Baru,5360727741,SYNTHETIC_DEMO_ONLY
+497,Sulawesi Tenggara,Kendari,Kawasan Bisnis,Rumah 2 Lantai,315,250,6,5,2,24,SHGB,Sangat Baik,9086978393,SYNTHETIC_DEMO_ONLY
+498,DKI Jakarta,Jakarta Selatan,Pusat Kota,Rumah Minimalis,190,175,6,3,3,20,SHM,Baik,16685376363,SYNTHETIC_DEMO_ONLY
+499,Nusa Tenggara Barat,Mataram,Pusat Kota,Townhouse,70,45,1,1,1,17,Lainnya,Baru,1915317394,SYNTHETIC_DEMO_ONLY
+500,Papua Barat Daya,Sorong,Kawasan Perumahan,Rumah Minimalis,155,110,4,3,1,6,SHM,Baik,4568076239,SYNTHETIC_DEMO_ONLY
+501,Maluku Utara,Ternate,Pusat Kota,Townhouse,335,230,6,3,1,7,SHGB,Baru,11595991802,SYNTHETIC_DEMO_ONLY
+502,DI Yogyakarta,Yogyakarta,Pinggiran Kota,Rumah Minimalis,215,220,6,4,2,21,SHM,Baik,8207052800,SYNTHETIC_DEMO_ONLY
+503,Papua Tengah,Nabire,Area Berkembang,Rumah Tapak,290,215,6,3,2,24,Lainnya,Sangat Baik,4952098730,SYNTHETIC_DEMO_ONLY
+504,Jawa Barat,Bandung,Kawasan Perumahan,Townhouse,330,350,6,5,2,31,Lainnya,Sangat Baik,14207069626,SYNTHETIC_DEMO_ONLY
+505,Kepulauan Bangka Belitung,Pangkalpinang,Area Berkembang,Rumah Tapak,350,200,6,3,1,8,Lainnya,Baru,6068324732,SYNTHETIC_DEMO_ONLY
+506,Kalimantan Timur,Balikpapan,Pinggiran Kota,Townhouse,275,270,6,3,2,20,SHM,Sangat Baik,12393308333,SYNTHETIC_DEMO_ONLY
+507,Sulawesi Barat,Mamuju,Kawasan Perumahan,Rumah Tapak,220,190,6,4,3,19,SHGB,Sangat Baik,5324928091,SYNTHETIC_DEMO_ONLY
+508,Jawa Barat,Bandung,Kawasan Bisnis,Rumah Minimalis,350,250,6,3,2,0,SHGB,Sangat Baik,17304152896,SYNTHETIC_DEMO_ONLY
+509,Sulawesi Tengah,Palu,Kawasan Perumahan,Rumah 2 Lantai,70,70,2,1,2,12,SHM,Perlu Renovasi,1654761380,SYNTHETIC_DEMO_ONLY
+510,Sulawesi Tengah,Palu,Kawasan Bisnis,Rumah Minimalis,330,255,6,4,1,18,SHM,Baru,9388072320,SYNTHETIC_DEMO_ONLY
+511,Jawa Timur,Malang,Kawasan Bisnis,Rumah Tapak,100,65,3,2,2,11,Lainnya,Baik,3527135477,SYNTHETIC_DEMO_ONLY
+512,DKI Jakarta,Jakarta Timur,Kawasan Bisnis,Rumah 2 Lantai,220,180,6,3,2,25,Lainnya,Sangat Baik,10263892171,SYNTHETIC_DEMO_ONLY
+513,Sumatera Selatan,Palembang,Pinggiran Kota,Rumah Tapak,115,85,4,2,3,6,SHM,Baru,2800365110,SYNTHETIC_DEMO_ONLY
+514,Sulawesi Barat,Mamuju,Pinggiran Kota,Rumah 2 Lantai,160,185,6,5,2,6,SHGB,Baik,3849671139,SYNTHETIC_DEMO_ONLY
+515,Papua Barat,Manokwari,Kawasan Bisnis,Rumah Tapak,320,260,6,4,1,10,SHM,Baik,10310247257,SYNTHETIC_DEMO_ONLY
+516,Sulawesi Tenggara,Kendari,Pinggiran Kota,Townhouse,205,145,5,3,1,8,Lainnya,Baik,4620280450,SYNTHETIC_DEMO_ONLY
+517,Kalimantan Barat,Pontianak,Pusat Kota,Townhouse,355,310,6,4,1,6,SHM,Baru,14244144857,SYNTHETIC_DEMO_ONLY
+518,Sulawesi Barat,Mamuju,Pusat Kota,Rumah Minimalis,95,65,3,2,1,1,SHM,Baru,3255098489,SYNTHETIC_DEMO_ONLY
+519,Nusa Tenggara Timur,Kupang,Kawasan Perumahan,Townhouse,290,245,6,3,1,28,Lainnya,Baru,6017209422,SYNTHETIC_DEMO_ONLY
+520,Aceh,Banda Aceh,Area Berkembang,Rumah Tapak,195,220,6,4,2,6,SHM,Sangat Baik,6096937234,SYNTHETIC_DEMO_ONLY
+521,Bali,Denpasar,Pinggiran Kota,Townhouse,160,205,6,3,2,20,SHGB,Sangat Baik,9384346155,SYNTHETIC_DEMO_ONLY
+522,Papua Barat,Manokwari,Kawasan Bisnis,Townhouse,110,95,3,2,1,22,SHM,Sangat Baik,3671160806,SYNTHETIC_DEMO_ONLY
+523,Kalimantan Selatan,Banjarmasin,Pusat Kota,Townhouse,210,105,4,3,1,28,SHGB,Sangat Baik,5555401457,SYNTHETIC_DEMO_ONLY
+524,Jawa Tengah,Semarang,Pusat Kota,Rumah 2 Lantai,345,375,6,5,2,15,SHM,Sangat Baik,20087147278,SYNTHETIC_DEMO_ONLY
+525,Sulawesi Selatan,Makassar,Kawasan Bisnis,Townhouse,165,105,4,3,1,17,Lainnya,Baru,5910871856,SYNTHETIC_DEMO_ONLY
+526,Sulawesi Tengah,Palu,Pinggiran Kota,Rumah Minimalis,265,130,4,2,1,30,SHGB,Perlu Renovasi,3059654658,SYNTHETIC_DEMO_ONLY
+527,Jawa Timur,Malang,Kawasan Perumahan,Townhouse,90,100,3,2,3,28,SHGB,Perlu Renovasi,2914194840,SYNTHETIC_DEMO_ONLY
+528,Jawa Barat,Bandung,Kawasan Perumahan,Townhouse,60,30,2,1,1,1,SHGB,Baru,2475282019,SYNTHETIC_DEMO_ONLY
+529,Bali,Denpasar,Pusat Kota,Townhouse,125,170,5,4,2,21,Lainnya,Baik,8990282462,SYNTHETIC_DEMO_ONLY
+530,Sulawesi Selatan,Makassar,Pinggiran Kota,Rumah Minimalis,150,100,4,3,1,25,SHM,Baru,5060256202,SYNTHETIC_DEMO_ONLY
+531,Kalimantan Tengah,Palangka Raya,Area Berkembang,Rumah Tapak,170,115,4,2,3,4,SHM,Baru,4751355433,SYNTHETIC_DEMO_ONLY
+532,Gorontalo,Gorontalo,Kawasan Perumahan,Townhouse,240,170,5,3,1,15,Lainnya,Perlu Renovasi,3552533397,SYNTHETIC_DEMO_ONLY
+533,Aceh,Banda Aceh,Area Berkembang,Townhouse,245,135,5,3,1,26,Lainnya,Baik,3540494625,SYNTHETIC_DEMO_ONLY
+534,Riau,Pekanbaru,Pinggiran Kota,Townhouse,70,60,3,2,1,3,Lainnya,Baru,2091897912,SYNTHETIC_DEMO_ONLY
+535,Jambi,Jambi,Pusat Kota,Townhouse,170,130,4,3,1,26,Lainnya,Baru,4483864960,SYNTHETIC_DEMO_ONLY
+536,Bali,Denpasar,Pinggiran Kota,Townhouse,160,140,4,3,1,5,Lainnya,Perlu Renovasi,5572386466,SYNTHETIC_DEMO_ONLY
+537,Jawa Barat,Bandung,Kawasan Bisnis,Rumah Tapak,355,185,6,4,1,26,SHGB,Sangat Baik,13676318070,SYNTHETIC_DEMO_ONLY
+538,Jawa Timur,Malang,Kawasan Perumahan,Rumah 2 Lantai,345,290,6,3,2,31,SHM,Baik,10061155342,SYNTHETIC_DEMO_ONLY
+539,Papua,Jayapura,Pusat Kota,Rumah Tapak,280,165,5,4,1,12,SHM,Perlu Renovasi,9092660592,SYNTHETIC_DEMO_ONLY
+540,Nusa Tenggara Barat,Mataram,Pusat Kota,Townhouse,185,90,3,2,1,24,SHM,Sangat Baik,5099719189,SYNTHETIC_DEMO_ONLY
+541,Jawa Barat,Depok,Pinggiran Kota,Rumah Minimalis,165,100,3,3,1,10,Lainnya,Baru,5817919624,SYNTHETIC_DEMO_ONLY
+542,Bengkulu,Bengkulu,Kawasan Bisnis,Rumah Minimalis,350,200,6,3,1,8,SHGB,Baik,5976566463,SYNTHETIC_DEMO_ONLY
+543,Kalimantan Selatan,Banjarmasin,Pinggiran Kota,Rumah Minimalis,255,160,5,3,1,7,Lainnya,Baru,5570829609,SYNTHETIC_DEMO_ONLY
+544,DKI Jakarta,Jakarta Selatan,Kawasan Perumahan,Townhouse,240,185,6,3,1,12,Lainnya,Baru,16621284896,SYNTHETIC_DEMO_ONLY
+545,Sulawesi Barat,Mamuju,Area Berkembang,Rumah Minimalis,245,190,6,5,1,20,SHM,Baru,6021026710,SYNTHETIC_DEMO_ONLY
+546,Bali,Denpasar,Pusat Kota,Townhouse,90,70,2,1,1,30,Lainnya,Baik,4006538250,SYNTHETIC_DEMO_ONLY
+547,Kalimantan Tengah,Palangka Raya,Kawasan Bisnis,Townhouse,150,110,3,2,1,16,SHGB,Sangat Baik,4160760874,SYNTHETIC_DEMO_ONLY
+548,Gorontalo,Gorontalo,Pinggiran Kota,Rumah 2 Lantai,225,190,5,3,2,19,Lainnya,Baik,4252818150,SYNTHETIC_DEMO_ONLY
+549,Kalimantan Tengah,Palangka Raya,Pusat Kota,Rumah Tapak,230,135,5,3,1,16,SHM,Sangat Baik,6154391371,SYNTHETIC_DEMO_ONLY
+550,Papua Selatan,Merauke,Kawasan Bisnis,Rumah 2 Lantai,255,290,6,4,2,3,SHM,Sangat Baik,10402761337,SYNTHETIC_DEMO_ONLY
+551,Aceh,Banda Aceh,Pusat Kota,Townhouse,180,160,5,4,1,20,SHM,Sangat Baik,4879726517,SYNTHETIC_DEMO_ONLY
+552,Jawa Barat,Bekasi,Kawasan Perumahan,Rumah 2 Lantai,210,230,6,5,2,16,Lainnya,Baru,11802638774,SYNTHETIC_DEMO_ONLY
+553,Sumatera Utara,Medan,Kawasan Bisnis,Rumah 2 Lantai,220,185,6,5,2,13,SHGB,Sangat Baik,8169614776,SYNTHETIC_DEMO_ONLY
+554,Jawa Barat,Bogor,Pusat Kota,Rumah Tapak,215,165,6,5,1,25,SHGB,Perlu Renovasi,7092722282,SYNTHETIC_DEMO_ONLY
+555,Sulawesi Tenggara,Kendari,Pusat Kota,Rumah Tapak,140,150,5,3,3,13,Lainnya,Baru,6433013520,SYNTHETIC_DEMO_ONLY
+556,Sulawesi Tenggara,Kendari,Area Berkembang,Rumah Minimalis,250,150,5,4,1,9,Lainnya,Baru,5195645345,SYNTHETIC_DEMO_ONLY
+557,DKI Jakarta,Jakarta Selatan,Area Berkembang,Rumah Tapak,235,260,6,5,2,19,SHGB,Baik,18878994209,SYNTHETIC_DEMO_ONLY
+558,Papua,Jayapura,Kawasan Perumahan,Rumah Minimalis,165,185,6,5,3,1,SHGB,Sangat Baik,9446604985,SYNTHETIC_DEMO_ONLY
+559,Sulawesi Utara,Manado,Area Berkembang,Rumah 2 Lantai,190,135,4,3,2,31,Lainnya,Baik,4233734419,SYNTHETIC_DEMO_ONLY
+560,Jawa Tengah,Semarang,Area Berkembang,Rumah Tapak,100,110,4,3,2,21,SHM,Baru,4669054359,SYNTHETIC_DEMO_ONLY
+561,DKI Jakarta,Jakarta Timur,Area Berkembang,Rumah Tapak,90,75,2,1,1,1,Lainnya,Baru,4356828435,SYNTHETIC_DEMO_ONLY
+562,Papua Selatan,Merauke,Kawasan Bisnis,Rumah 2 Lantai,240,245,6,5,2,13,SHM,Baru,10154642691,SYNTHETIC_DEMO_ONLY
+563,Jawa Timur,Surabaya,Area Berkembang,Rumah Tapak,240,140,5,4,1,9,Lainnya,Baik,8869517932,SYNTHETIC_DEMO_ONLY
+564,Papua Tengah,Nabire,Kawasan Bisnis,Rumah 2 Lantai,90,90,3,2,2,3,SHGB,Baru,3077373149,SYNTHETIC_DEMO_ONLY
+565,Sumatera Utara,Medan,Kawasan Bisnis,Rumah Minimalis,350,475,6,3,3,4,SHGB,Baik,15961333244,SYNTHETIC_DEMO_ONLY
+566,Papua Barat,Manokwari,Kawasan Perumahan,Rumah Minimalis,350,190,6,4,1,14,Lainnya,Perlu Renovasi,5941904636,SYNTHETIC_DEMO_ONLY
+567,Papua Barat,Manokwari,Kawasan Perumahan,Rumah Minimalis,225,125,4,3,1,6,SHM,Sangat Baik,6281848378,SYNTHETIC_DEMO_ONLY
+568,Bengkulu,Bengkulu,Pinggiran Kota,Rumah Minimalis,280,295,6,5,3,6,SHM,Perlu Renovasi,5236932903,SYNTHETIC_DEMO_ONLY
+569,Jawa Barat,Depok,Kawasan Bisnis,Rumah 2 Lantai,120,155,5,3,2,19,SHGB,Perlu Renovasi,6815712860,SYNTHETIC_DEMO_ONLY
+570,Sumatera Barat,Padang,Pinggiran Kota,Rumah Tapak,135,95,3,1,3,15,SHM,Sangat Baik,2564745439,SYNTHETIC_DEMO_ONLY
+571,Gorontalo,Gorontalo,Kawasan Bisnis,Rumah 2 Lantai,200,160,6,3,2,17,SHGB,Baik,4465146515,SYNTHETIC_DEMO_ONLY
+572,Jawa Tengah,Surakarta,Kawasan Perumahan,Rumah 2 Lantai,180,160,5,4,2,21,SHM,Baru,6995669499,SYNTHETIC_DEMO_ONLY
+573,Jambi,Jambi,Area Berkembang,Rumah 2 Lantai,185,215,6,4,2,14,Lainnya,Perlu Renovasi,4073337888,SYNTHETIC_DEMO_ONLY
+574,Papua Pegunungan,Wamena,Pusat Kota,Rumah 2 Lantai,335,325,6,3,2,23,SHGB,Sangat Baik,9671403217,SYNTHETIC_DEMO_ONLY
+575,Nusa Tenggara Timur,Kupang,Pusat Kota,Rumah Minimalis,295,245,6,3,1,14,SHGB,Perlu Renovasi,7172949404,SYNTHETIC_DEMO_ONLY
+576,Sumatera Selatan,Palembang,Kawasan Bisnis,Rumah Minimalis,100,80,3,2,3,24,SHGB,Perlu Renovasi,2311075509,SYNTHETIC_DEMO_ONLY
+577,Sulawesi Utara,Manado,Kawasan Perumahan,Rumah 2 Lantai,325,390,6,3,2,5,SHM,Baik,14472925160,SYNTHETIC_DEMO_ONLY
+578,Papua Selatan,Merauke,Pusat Kota,Rumah Minimalis,140,135,5,4,3,27,SHM,Sangat Baik,5108876622,SYNTHETIC_DEMO_ONLY
+579,Papua Pegunungan,Wamena,Pusat Kota,Rumah Tapak,70,45,1,1,1,12,SHM,Baik,1825873153,SYNTHETIC_DEMO_ONLY
+580,Aceh,Banda Aceh,Kawasan Perumahan,Rumah Minimalis,280,240,6,3,1,20,SHGB,Perlu Renovasi,5308466243,SYNTHETIC_DEMO_ONLY
+581,Gorontalo,Gorontalo,Kawasan Bisnis,Townhouse,205,230,6,4,3,5,SHGB,Sangat Baik,7006519719,SYNTHETIC_DEMO_ONLY
+582,Jawa Timur,Surabaya,Area Berkembang,Rumah 2 Lantai,305,210,6,4,2,24,SHGB,Sangat Baik,11097910756,SYNTHETIC_DEMO_ONLY
+583,Bengkulu,Bengkulu,Pusat Kota,Rumah 2 Lantai,135,120,3,2,2,31,SHGB,Sangat Baik,3166932811,SYNTHETIC_DEMO_ONLY
+584,Lampung,Bandar Lampung,Pusat Kota,Rumah 2 Lantai,70,65,2,1,2,19,SHGB,Baik,1970540594,SYNTHETIC_DEMO_ONLY
+585,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Rumah 2 Lantai,250,325,6,5,2,27,SHM,Sangat Baik,6507841245,SYNTHETIC_DEMO_ONLY
+586,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah Minimalis,200,125,3,2,1,0,SHM,Baik,4331899127,SYNTHETIC_DEMO_ONLY
+587,Sulawesi Selatan,Makassar,Kawasan Bisnis,Rumah 2 Lantai,125,135,4,3,2,29,SHM,Perlu Renovasi,5283336552,SYNTHETIC_DEMO_ONLY
+588,Papua Barat Daya,Sorong,Pusat Kota,Rumah Tapak,335,285,6,3,1,0,SHGB,Baik,12690244989,SYNTHETIC_DEMO_ONLY
+589,Papua Selatan,Merauke,Area Berkembang,Rumah Minimalis,130,105,4,3,1,11,SHM,Baru,4350543228,SYNTHETIC_DEMO_ONLY
+590,Banten,Serang,Kawasan Bisnis,Townhouse,220,175,5,3,1,7,SHM,Perlu Renovasi,7063879208,SYNTHETIC_DEMO_ONLY
+591,Jawa Tengah,Semarang,Pinggiran Kota,Rumah Tapak,145,165,4,2,2,9,Lainnya,Baik,4851443829,SYNTHETIC_DEMO_ONLY
+592,Sulawesi Tengah,Palu,Kawasan Perumahan,Rumah Minimalis,230,120,4,2,1,16,SHGB,Sangat Baik,5143234182,SYNTHETIC_DEMO_ONLY
+593,DKI Jakarta,Jakarta Timur,Kawasan Perumahan,Rumah Tapak,145,140,5,3,2,23,SHGB,Perlu Renovasi,6275704627,SYNTHETIC_DEMO_ONLY
+594,Kalimantan Utara,Tarakan,Pinggiran Kota,Rumah 2 Lantai,110,100,3,2,2,13,SHGB,Baik,2825340272,SYNTHETIC_DEMO_ONLY
+595,Sulawesi Utara,Manado,Kawasan Bisnis,Rumah Minimalis,160,115,4,3,1,30,Lainnya,Baik,4858629905,SYNTHETIC_DEMO_ONLY
+596,Gorontalo,Gorontalo,Kawasan Perumahan,Rumah Minimalis,265,295,6,4,2,30,Lainnya,Sangat Baik,5513055803,SYNTHETIC_DEMO_ONLY
+597,Jawa Timur,Malang,Area Berkembang,Townhouse,145,115,3,1,1,25,SHM,Baru,4474110280,SYNTHETIC_DEMO_ONLY
+598,Bengkulu,Bengkulu,Kawasan Bisnis,Rumah 2 Lantai,115,140,5,4,2,31,SHM,Baru,4066577051,SYNTHETIC_DEMO_ONLY
+599,Papua,Jayapura,Pusat Kota,Townhouse,195,145,5,3,1,30,SHGB,Sangat Baik,7028519955,SYNTHETIC_DEMO_ONLY
+600,Bali,Denpasar,Area Berkembang,Townhouse,255,205,6,4,2,11,Lainnya,Sangat Baik,13163590556,SYNTHETIC_DEMO_ONLY
+601,Nusa Tenggara Barat,Mataram,Area Berkembang,Rumah Tapak,130,65,2,1,1,29,Lainnya,Perlu Renovasi,1797577327,SYNTHETIC_DEMO_ONLY
+602,Papua Selatan,Merauke,Kawasan Perumahan,Rumah 2 Lantai,225,215,6,3,2,2,Lainnya,Sangat Baik,7504894522,SYNTHETIC_DEMO_ONLY
+603,Sulawesi Tengah,Palu,Pinggiran Kota,Rumah Minimalis,240,325,6,3,2,8,SHGB,Baik,8343974406,SYNTHETIC_DEMO_ONLY
+604,Papua Barat Daya,Sorong,Area Berkembang,Rumah 2 Lantai,220,235,6,4,2,11,SHM,Sangat Baik,9478777391,SYNTHETIC_DEMO_ONLY
+605,Papua,Jayapura,Kawasan Bisnis,Townhouse,350,420,6,4,2,32,SHM,Baik,16918643595,SYNTHETIC_DEMO_ONLY
+606,Sulawesi Selatan,Makassar,Pusat Kota,Rumah Minimalis,255,195,6,5,1,19,Lainnya,Baik,10111620776,SYNTHETIC_DEMO_ONLY
+607,Papua Barat,Manokwari,Pinggiran Kota,Rumah Tapak,300,180,5,4,1,31,SHGB,Sangat Baik,5826039606,SYNTHETIC_DEMO_ONLY
+608,DKI Jakarta,Jakarta Timur,Kawasan Bisnis,Rumah 2 Lantai,65,80,3,2,2,5,SHGB,Perlu Renovasi,3981591693,SYNTHETIC_DEMO_ONLY
+609,Lampung,Bandar Lampung,Kawasan Perumahan,Rumah Minimalis,170,140,4,3,1,20,SHM,Sangat Baik,4741346390,SYNTHETIC_DEMO_ONLY
+610,DKI Jakarta,Jakarta Selatan,Area Berkembang,Rumah 2 Lantai,135,165,5,4,2,6,SHM,Baru,13264926678,SYNTHETIC_DEMO_ONLY
+611,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Rumah 2 Lantai,195,165,5,3,2,22,SHM,Sangat Baik,12456984997,SYNTHETIC_DEMO_ONLY
+612,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Bisnis,Rumah Minimalis,255,240,6,5,2,13,SHM,Baik,7495502742,SYNTHETIC_DEMO_ONLY
+613,Aceh,Banda Aceh,Area Berkembang,Rumah 2 Lantai,110,75,3,2,2,7,SHGB,Baru,2477488308,SYNTHETIC_DEMO_ONLY
+614,Jawa Tengah,Surakarta,Kawasan Perumahan,Townhouse,110,110,4,3,2,1,SHGB,Perlu Renovasi,3596715377,SYNTHETIC_DEMO_ONLY
+615,Jawa Barat,Bandung,Pinggiran Kota,Rumah Tapak,200,135,4,3,1,23,SHM,Baru,7749069413,SYNTHETIC_DEMO_ONLY
+616,Maluku,Ambon,Pinggiran Kota,Rumah Tapak,225,190,6,4,2,24,Lainnya,Baru,5105532305,SYNTHETIC_DEMO_ONLY
+617,Bali,Denpasar,Pusat Kota,Rumah 2 Lantai,330,420,6,5,2,9,SHGB,Perlu Renovasi,22498440897,SYNTHETIC_DEMO_ONLY
+618,Kalimantan Barat,Pontianak,Area Berkembang,Rumah Minimalis,170,160,4,2,3,7,Lainnya,Sangat Baik,4781469261,SYNTHETIC_DEMO_ONLY
+619,Bengkulu,Bengkulu,Pusat Kota,Rumah Minimalis,355,250,6,4,1,21,SHM,Sangat Baik,7287603108,SYNTHETIC_DEMO_ONLY
+620,Bengkulu,Bengkulu,Pusat Kota,Townhouse,70,60,2,1,2,17,SHGB,Baru,1754392443,SYNTHETIC_DEMO_ONLY
+621,Bali,Denpasar,Kawasan Perumahan,Rumah 2 Lantai,235,225,6,5,2,29,SHGB,Baik,12513762522,SYNTHETIC_DEMO_ONLY
+622,Riau,Pekanbaru,Area Berkembang,Rumah Minimalis,275,230,6,5,2,3,SHGB,Baik,7919822197,SYNTHETIC_DEMO_ONLY
+623,Bali,Denpasar,Kawasan Bisnis,Rumah Minimalis,95,105,4,2,2,0,SHM,Perlu Renovasi,6049790797,SYNTHETIC_DEMO_ONLY
+624,Papua Barat,Manokwari,Kawasan Bisnis,Rumah Tapak,295,280,6,4,3,21,SHM,Baik,8882424127,SYNTHETIC_DEMO_ONLY
+625,Jawa Barat,Bandung,Pusat Kota,Rumah Minimalis,110,85,2,2,1,19,SHM,Baru,5937554642,SYNTHETIC_DEMO_ONLY
+626,Kalimantan Barat,Pontianak,Area Berkembang,Rumah 2 Lantai,305,340,6,4,2,27,Lainnya,Baik,7966468901,SYNTHETIC_DEMO_ONLY
+627,Sumatera Barat,Padang,Pusat Kota,Rumah 2 Lantai,120,110,4,3,2,4,Lainnya,Sangat Baik,3992703898,SYNTHETIC_DEMO_ONLY
+628,Papua Barat,Manokwari,Kawasan Perumahan,Townhouse,235,140,4,3,1,18,SHM,Sangat Baik,6065945533,SYNTHETIC_DEMO_ONLY
+629,Kalimantan Timur,Balikpapan,Pinggiran Kota,Rumah Minimalis,315,395,6,3,2,19,SHGB,Sangat Baik,14501137766,SYNTHETIC_DEMO_ONLY
+630,Kepulauan Riau,Batam,Kawasan Perumahan,Rumah Tapak,220,185,6,5,1,7,SHGB,Sangat Baik,9774244439,SYNTHETIC_DEMO_ONLY
+631,Aceh,Banda Aceh,Kawasan Perumahan,Townhouse,110,85,3,2,2,11,Lainnya,Sangat Baik,2035401730,SYNTHETIC_DEMO_ONLY
+632,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah Minimalis,350,295,6,3,1,8,SHM,Perlu Renovasi,6856130905,SYNTHETIC_DEMO_ONLY
+633,Jawa Barat,Bogor,Pusat Kota,Rumah Tapak,320,270,6,4,2,32,SHM,Perlu Renovasi,11297914312,SYNTHETIC_DEMO_ONLY
+634,Jawa Timur,Surabaya,Pusat Kota,Townhouse,105,70,3,2,1,30,SHM,Baik,5262719280,SYNTHETIC_DEMO_ONLY
+635,Papua Barat Daya,Sorong,Kawasan Perumahan,Townhouse,70,55,2,1,1,18,SHM,Baik,2360192435,SYNTHETIC_DEMO_ONLY
+636,DI Yogyakarta,Yogyakarta,Pusat Kota,Rumah Tapak,110,60,2,1,1,11,SHM,Baru,5040268461,SYNTHETIC_DEMO_ONLY
+637,Bengkulu,Bengkulu,Area Berkembang,Rumah Tapak,160,110,4,3,1,30,SHM,Baru,3046274793,SYNTHETIC_DEMO_ONLY
+638,Aceh,Banda Aceh,Pinggiran Kota,Rumah Tapak,355,245,6,3,1,28,SHM,Sangat Baik,5189631719,SYNTHETIC_DEMO_ONLY
+639,Sulawesi Tengah,Palu,Kawasan Perumahan,Rumah Minimalis,295,190,6,4,1,30,SHGB,Perlu Renovasi,4788635525,SYNTHETIC_DEMO_ONLY
+640,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Rumah 2 Lantai,195,185,6,4,2,7,SHM,Baru,9490741564,SYNTHETIC_DEMO_ONLY
+641,Riau,Pekanbaru,Pusat Kota,Rumah 2 Lantai,185,250,6,5,2,23,SHM,Baik,8534945906,SYNTHETIC_DEMO_ONLY
+642,Aceh,Banda Aceh,Pusat Kota,Townhouse,125,170,5,2,2,11,SHGB,Baik,5195286442,SYNTHETIC_DEMO_ONLY
+643,Kalimantan Tengah,Palangka Raya,Kawasan Perumahan,Rumah Tapak,120,130,4,3,3,10,SHM,Baik,4172757516,SYNTHETIC_DEMO_ONLY
+644,Kepulauan Riau,Batam,Pinggiran Kota,Townhouse,320,235,6,4,2,4,SHM,Perlu Renovasi,7421857423,SYNTHETIC_DEMO_ONLY
+645,Sulawesi Tenggara,Kendari,Pinggiran Kota,Rumah 2 Lantai,225,175,5,3,2,8,SHGB,Perlu Renovasi,4780415094,SYNTHETIC_DEMO_ONLY
+646,Sumatera Utara,Medan,Kawasan Bisnis,Rumah Minimalis,275,315,6,3,2,15,Lainnya,Perlu Renovasi,7285415400,SYNTHETIC_DEMO_ONLY
+647,Banten,Serang,Pinggiran Kota,Rumah 2 Lantai,70,80,2,1,2,18,SHGB,Perlu Renovasi,1732243596,SYNTHETIC_DEMO_ONLY
+648,Sulawesi Tengah,Palu,Pusat Kota,Townhouse,65,70,2,1,2,7,Lainnya,Baik,2519687849,SYNTHETIC_DEMO_ONLY
+649,DKI Jakarta,Jakarta Selatan,Kawasan Perumahan,Rumah Minimalis,250,135,5,3,1,28,Lainnya,Baik,10142293071,SYNTHETIC_DEMO_ONLY
+650,Nusa Tenggara Barat,Mataram,Kawasan Bisnis,Rumah Minimalis,170,85,4,3,1,10,SHGB,Baik,3961493961,SYNTHETIC_DEMO_ONLY
+651,DKI Jakarta,Jakarta Selatan,Pusat Kota,Rumah 2 Lantai,180,145,4,3,2,26,SHGB,Baru,14156767711,SYNTHETIC_DEMO_ONLY
+652,Nusa Tenggara Barat,Mataram,Area Berkembang,Rumah Minimalis,210,150,4,3,1,19,SHM,Perlu Renovasi,4702677255,SYNTHETIC_DEMO_ONLY
+653,Papua,Jayapura,Kawasan Bisnis,Rumah 2 Lantai,95,95,4,3,2,25,SHM,Sangat Baik,5095309758,SYNTHETIC_DEMO_ONLY
+654,Jambi,Jambi,Kawasan Perumahan,Rumah Tapak,255,335,6,3,2,27,Lainnya,Baik,6634681484,SYNTHETIC_DEMO_ONLY
+655,Sumatera Selatan,Palembang,Kawasan Perumahan,Townhouse,300,235,6,3,3,6,SHGB,Perlu Renovasi,6891408958,SYNTHETIC_DEMO_ONLY
+656,Papua Selatan,Merauke,Kawasan Bisnis,Townhouse,215,145,4,3,1,3,SHM,Sangat Baik,6785861943,SYNTHETIC_DEMO_ONLY
+657,Papua Pegunungan,Wamena,Area Berkembang,Rumah 2 Lantai,100,115,4,2,2,27,SHM,Baik,2681500438,SYNTHETIC_DEMO_ONLY
+658,Papua Selatan,Merauke,Kawasan Perumahan,Rumah Minimalis,90,130,4,2,2,10,Lainnya,Baru,3720759497,SYNTHETIC_DEMO_ONLY
+659,Lampung,Bandar Lampung,Pusat Kota,Townhouse,165,95,3,2,1,16,Lainnya,Sangat Baik,3865264089,SYNTHETIC_DEMO_ONLY
+660,Kepulauan Riau,Batam,Pusat Kota,Townhouse,310,160,5,3,1,29,Lainnya,Perlu Renovasi,7364104327,SYNTHETIC_DEMO_ONLY
+661,Sulawesi Barat,Mamuju,Area Berkembang,Townhouse,200,140,4,2,3,13,SHM,Perlu Renovasi,3338482529,SYNTHETIC_DEMO_ONLY
+662,Sumatera Barat,Padang,Kawasan Perumahan,Townhouse,235,235,6,4,2,17,SHM,Sangat Baik,7270321619,SYNTHETIC_DEMO_ONLY
+663,Nusa Tenggara Barat,Mataram,Area Berkembang,Rumah Tapak,250,140,4,3,1,12,Lainnya,Baru,5714262927,SYNTHETIC_DEMO_ONLY
+664,Papua Pegunungan,Wamena,Pinggiran Kota,Townhouse,265,220,6,3,2,11,Lainnya,Perlu Renovasi,3709549425,SYNTHETIC_DEMO_ONLY
+665,Maluku,Ambon,Pusat Kota,Townhouse,130,105,3,1,1,28,Lainnya,Baru,4490944383,SYNTHETIC_DEMO_ONLY
+666,Kalimantan Barat,Pontianak,Pinggiran Kota,Townhouse,115,100,4,3,1,2,Lainnya,Perlu Renovasi,2219370521,SYNTHETIC_DEMO_ONLY
+667,Aceh,Banda Aceh,Pinggiran Kota,Townhouse,155,110,3,2,1,10,SHM,Perlu Renovasi,2074863709,SYNTHETIC_DEMO_ONLY
+668,Jawa Barat,Bekasi,Kawasan Perumahan,Rumah Minimalis,205,205,6,3,3,2,SHM,Baik,11247097355,SYNTHETIC_DEMO_ONLY
+669,Jawa Barat,Bekasi,Kawasan Perumahan,Rumah 2 Lantai,165,165,6,5,2,24,Lainnya,Perlu Renovasi,5216575578,SYNTHETIC_DEMO_ONLY
+670,Papua Selatan,Merauke,Area Berkembang,Rumah Tapak,290,245,6,5,1,23,Lainnya,Baru,7286342570,SYNTHETIC_DEMO_ONLY
+671,DI Yogyakarta,Yogyakarta,Pusat Kota,Rumah 2 Lantai,315,240,6,4,2,7,SHM,Baik,16707858369,SYNTHETIC_DEMO_ONLY
+672,DKI Jakarta,Jakarta Timur,Kawasan Bisnis,Rumah Tapak,360,210,6,4,1,17,SHM,Sangat Baik,16693434079,SYNTHETIC_DEMO_ONLY
+673,Gorontalo,Gorontalo,Area Berkembang,Townhouse,145,100,3,1,1,12,SHM,Sangat Baik,3256032324,SYNTHETIC_DEMO_ONLY
+674,Jawa Barat,Depok,Area Berkembang,Townhouse,245,145,4,3,1,10,Lainnya,Sangat Baik,9077425378,SYNTHETIC_DEMO_ONLY
+675,Banten,Serang,Pusat Kota,Townhouse,75,50,3,2,1,20,SHM,Sangat Baik,2721171644,SYNTHETIC_DEMO_ONLY
+676,Sulawesi Selatan,Makassar,Pinggiran Kota,Rumah Tapak,105,90,3,2,1,23,Lainnya,Sangat Baik,3342634176,SYNTHETIC_DEMO_ONLY
+677,Jawa Barat,Bekasi,Pinggiran Kota,Rumah 2 Lantai,200,170,6,3,2,25,Lainnya,Sangat Baik,6176446546,SYNTHETIC_DEMO_ONLY
+678,Jawa Barat,Depok,Pusat Kota,Rumah Minimalis,275,140,5,3,1,21,SHM,Sangat Baik,11586561718,SYNTHETIC_DEMO_ONLY
+679,Jambi,Jambi,Area Berkembang,Rumah Tapak,95,50,2,1,1,17,SHM,Baru,1801057702,SYNTHETIC_DEMO_ONLY
+680,Kepulauan Riau,Batam,Kawasan Perumahan,Townhouse,275,135,4,2,1,31,SHGB,Baru,7441317867,SYNTHETIC_DEMO_ONLY
+681,Jawa Timur,Malang,Kawasan Bisnis,Townhouse,125,110,3,2,2,26,Lainnya,Baru,4532162077,SYNTHETIC_DEMO_ONLY
+682,Nusa Tenggara Barat,Mataram,Pusat Kota,Rumah 2 Lantai,265,255,6,3,2,18,SHGB,Baru,9874305721,SYNTHETIC_DEMO_ONLY
+683,Jawa Barat,Bogor,Kawasan Perumahan,Rumah Tapak,60,40,1,1,3,22,SHGB,Baru,2165008251,SYNTHETIC_DEMO_ONLY
+684,Sumatera Barat,Padang,Kawasan Bisnis,Rumah 2 Lantai,305,260,6,3,2,7,SHGB,Baru,10447260673,SYNTHETIC_DEMO_ONLY
+685,Sumatera Selatan,Palembang,Area Berkembang,Rumah Minimalis,240,130,4,3,1,15,SHGB,Baik,4961411070,SYNTHETIC_DEMO_ONLY
+686,Sulawesi Tengah,Palu,Pinggiran Kota,Rumah 2 Lantai,205,215,6,4,2,1,Lainnya,Perlu Renovasi,4378967212,SYNTHETIC_DEMO_ONLY
+687,Sumatera Barat,Padang,Pinggiran Kota,Townhouse,250,135,4,3,1,21,SHGB,Baru,4652898149,SYNTHETIC_DEMO_ONLY
+688,Jawa Barat,Bogor,Area Berkembang,Rumah Minimalis,190,145,5,4,1,9,Lainnya,Sangat Baik,6213771600,SYNTHETIC_DEMO_ONLY
+689,Sumatera Selatan,Palembang,Kawasan Bisnis,Rumah Minimalis,220,210,6,4,2,24,SHM,Baru,7201582620,SYNTHETIC_DEMO_ONLY
+690,Bengkulu,Bengkulu,Pusat Kota,Townhouse,140,110,3,1,1,2,Lainnya,Baik,3612762160,SYNTHETIC_DEMO_ONLY
+691,DKI Jakarta,Jakarta Selatan,Area Berkembang,Rumah 2 Lantai,220,255,6,5,2,32,Lainnya,Baru,14800224049,SYNTHETIC_DEMO_ONLY
+692,Nusa Tenggara Barat,Mataram,Pusat Kota,Townhouse,180,185,6,3,2,25,Lainnya,Baik,5925532088,SYNTHETIC_DEMO_ONLY
+693,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Rumah Minimalis,120,60,2,2,1,12,SHGB,Perlu Renovasi,1567605951,SYNTHETIC_DEMO_ONLY
+694,Bali,Denpasar,Kawasan Bisnis,Rumah 2 Lantai,270,210,6,4,2,3,Lainnya,Perlu Renovasi,12261050907,SYNTHETIC_DEMO_ONLY
+695,Jawa Barat,Bogor,Pusat Kota,Townhouse,70,55,3,2,2,7,Lainnya,Perlu Renovasi,2705077755,SYNTHETIC_DEMO_ONLY
+696,Jawa Barat,Depok,Pinggiran Kota,Townhouse,185,185,5,2,2,14,SHM,Sangat Baik,9614496476,SYNTHETIC_DEMO_ONLY
+697,Aceh,Banda Aceh,Kawasan Perumahan,Rumah Tapak,150,110,3,2,3,16,SHM,Baru,3742659029,SYNTHETIC_DEMO_ONLY
+698,Jawa Tengah,Semarang,Kawasan Perumahan,Rumah Tapak,180,155,4,3,3,24,Lainnya,Baru,6934823594,SYNTHETIC_DEMO_ONLY
+699,DKI Jakarta,Jakarta Timur,Pusat Kota,Rumah 2 Lantai,285,310,6,5,2,25,SHM,Sangat Baik,20776291363,SYNTHETIC_DEMO_ONLY
+700,Aceh,Banda Aceh,Area Berkembang,Townhouse,295,160,5,3,1,7,SHGB,Perlu Renovasi,4333580336,SYNTHETIC_DEMO_ONLY
+701,Jawa Timur,Surabaya,Kawasan Perumahan,Townhouse,160,100,3,2,1,19,SHM,Baik,6517443525,SYNTHETIC_DEMO_ONLY
+702,Riau,Pekanbaru,Area Berkembang,Townhouse,285,230,6,3,1,11,SHGB,Baik,7904902277,SYNTHETIC_DEMO_ONLY
+703,Sumatera Barat,Padang,Kawasan Perumahan,Rumah 2 Lantai,70,95,3,2,2,10,Lainnya,Baru,2531439801,SYNTHETIC_DEMO_ONLY
+704,Papua Selatan,Merauke,Pinggiran Kota,Rumah Minimalis,330,275,6,4,1,20,Lainnya,Perlu Renovasi,5673781673,SYNTHETIC_DEMO_ONLY
+705,DI Yogyakarta,Yogyakarta,Kawasan Bisnis,Rumah Tapak,125,140,4,2,3,31,Lainnya,Baru,6519361161,SYNTHETIC_DEMO_ONLY
+706,Sulawesi Tengah,Palu,Pinggiran Kota,Townhouse,205,200,6,4,3,29,SHM,Sangat Baik,4534585139,SYNTHETIC_DEMO_ONLY
+707,Jawa Barat,Bandung,Pinggiran Kota,Rumah 2 Lantai,155,190,6,4,2,11,SHGB,Baru,8179163070,SYNTHETIC_DEMO_ONLY
+708,Kepulauan Riau,Batam,Kawasan Perumahan,Rumah Minimalis,95,110,4,2,2,12,SHM,Perlu Renovasi,3878881168,SYNTHETIC_DEMO_ONLY
+709,Riau,Pekanbaru,Pusat Kota,Rumah Tapak,320,200,6,3,1,19,SHM,Baik,8554458673,SYNTHETIC_DEMO_ONLY
+710,Gorontalo,Gorontalo,Kawasan Perumahan,Rumah Minimalis,315,310,6,3,3,9,SHGB,Perlu Renovasi,5851516910,SYNTHETIC_DEMO_ONLY
+711,Gorontalo,Gorontalo,Kawasan Bisnis,Rumah Minimalis,345,180,6,5,1,22,SHGB,Baik,6627955508,SYNTHETIC_DEMO_ONLY
+712,Kepulauan Bangka Belitung,Pangkalpinang,Area Berkembang,Rumah Minimalis,310,225,6,3,1,25,Lainnya,Baru,6576942658,SYNTHETIC_DEMO_ONLY
+713,Jawa Timur,Surabaya,Pusat Kota,Rumah 2 Lantai,185,200,6,5,2,10,SHM,Perlu Renovasi,11795698041,SYNTHETIC_DEMO_ONLY
+714,Papua,Jayapura,Kawasan Bisnis,Rumah Minimalis,280,220,6,4,2,10,SHGB,Sangat Baik,11639104403,SYNTHETIC_DEMO_ONLY
+715,Papua Barat Daya,Sorong,Area Berkembang,Townhouse,250,175,6,4,1,4,SHM,Sangat Baik,7893339193,SYNTHETIC_DEMO_ONLY
+716,Aceh,Banda Aceh,Area Berkembang,Rumah Tapak,80,75,2,2,2,30,SHGB,Baik,1656626528,SYNTHETIC_DEMO_ONLY
+717,Papua Barat Daya,Sorong,Pusat Kota,Rumah Tapak,305,205,6,3,1,23,SHGB,Baik,8937580303,SYNTHETIC_DEMO_ONLY
+718,Gorontalo,Gorontalo,Area Berkembang,Rumah Tapak,100,85,3,1,2,4,Lainnya,Perlu Renovasi,1592814478,SYNTHETIC_DEMO_ONLY
+719,Jawa Tengah,Semarang,Area Berkembang,Rumah Tapak,210,135,5,2,1,26,SHGB,Sangat Baik,5261217697,SYNTHETIC_DEMO_ONLY
+720,Sumatera Selatan,Palembang,Kawasan Bisnis,Rumah Tapak,85,120,3,2,3,17,Lainnya,Perlu Renovasi,2854786196,SYNTHETIC_DEMO_ONLY
+721,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Perumahan,Rumah Tapak,320,225,6,3,3,9,SHM,Perlu Renovasi,6544667261,SYNTHETIC_DEMO_ONLY
+722,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah Minimalis,65,45,2,1,1,28,Lainnya,Baik,1012791202,SYNTHETIC_DEMO_ONLY
+723,DKI Jakarta,Jakarta Timur,Kawasan Bisnis,Rumah Tapak,215,190,5,4,2,12,SHM,Baik,12615740596,SYNTHETIC_DEMO_ONLY
+724,Lampung,Bandar Lampung,Area Berkembang,Rumah 2 Lantai,295,405,6,3,2,12,SHM,Sangat Baik,10373980685,SYNTHETIC_DEMO_ONLY
+725,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah 2 Lantai,300,240,6,5,2,22,Lainnya,Baru,11057186310,SYNTHETIC_DEMO_ONLY
+726,Sulawesi Selatan,Makassar,Kawasan Bisnis,Rumah Tapak,285,150,5,4,1,21,Lainnya,Baru,7812158769,SYNTHETIC_DEMO_ONLY
+727,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Tapak,115,145,4,3,2,19,SHM,Baik,6167410776,SYNTHETIC_DEMO_ONLY
+728,Sulawesi Barat,Mamuju,Kawasan Bisnis,Rumah Tapak,75,60,3,2,1,25,SHM,Baik,1771254695,SYNTHETIC_DEMO_ONLY
+729,Sumatera Selatan,Palembang,Kawasan Bisnis,Rumah 2 Lantai,320,255,6,4,2,3,SHM,Sangat Baik,9801399622,SYNTHETIC_DEMO_ONLY
+730,Jawa Barat,Bandung,Pinggiran Kota,Townhouse,300,195,6,3,1,23,SHM,Perlu Renovasi,7260924459,SYNTHETIC_DEMO_ONLY
+731,Sulawesi Tenggara,Kendari,Kawasan Perumahan,Rumah Minimalis,295,160,5,2,1,7,SHGB,Baru,6968012310,SYNTHETIC_DEMO_ONLY
+732,Kalimantan Utara,Tarakan,Area Berkembang,Townhouse,320,250,6,3,2,19,SHGB,Sangat Baik,9022205517,SYNTHETIC_DEMO_ONLY
+733,Jawa Barat,Bekasi,Kawasan Bisnis,Rumah Tapak,120,65,3,2,1,14,Lainnya,Sangat Baik,3967989435,SYNTHETIC_DEMO_ONLY
+734,Jawa Tengah,Semarang,Kawasan Perumahan,Townhouse,235,165,5,3,1,28,SHGB,Baik,6373136558,SYNTHETIC_DEMO_ONLY
+735,Jawa Tengah,Surakarta,Pusat Kota,Rumah 2 Lantai,265,295,6,3,2,25,SHM,Sangat Baik,11941453131,SYNTHETIC_DEMO_ONLY
+736,Kepulauan Bangka Belitung,Pangkalpinang,Area Berkembang,Townhouse,140,145,4,3,3,20,Lainnya,Baru,3546586401,SYNTHETIC_DEMO_ONLY
+737,Jawa Barat,Depok,Pusat Kota,Rumah 2 Lantai,175,150,5,4,2,17,SHM,Baik,10916346519,SYNTHETIC_DEMO_ONLY
+738,Sulawesi Tengah,Palu,Pusat Kota,Rumah Minimalis,330,265,6,3,1,15,Lainnya,Baru,10567856212,SYNTHETIC_DEMO_ONLY
+739,Jawa Barat,Depok,Kawasan Perumahan,Rumah Minimalis,170,185,6,3,2,11,SHM,Baru,11473585633,SYNTHETIC_DEMO_ONLY
+740,Sulawesi Barat,Mamuju,Pusat Kota,Rumah 2 Lantai,170,170,5,3,2,17,SHM,Baik,4881393895,SYNTHETIC_DEMO_ONLY
+741,Papua Pegunungan,Wamena,Area Berkembang,Townhouse,200,170,6,4,1,16,SHGB,Perlu Renovasi,4102538248,SYNTHETIC_DEMO_ONLY
+742,Jawa Barat,Depok,Kawasan Perumahan,Townhouse,125,60,3,2,1,3,SHGB,Baik,4454312807,SYNTHETIC_DEMO_ONLY
+743,Banten,Serang,Pusat Kota,Rumah Minimalis,190,120,4,3,2,0,Lainnya,Baik,6213227534,SYNTHETIC_DEMO_ONLY
+744,Papua Barat,Manokwari,Area Berkembang,Rumah 2 Lantai,220,255,6,4,2,7,SHGB,Perlu Renovasi,5768901272,SYNTHETIC_DEMO_ONLY
+745,Sumatera Selatan,Palembang,Kawasan Perumahan,Rumah 2 Lantai,300,285,6,4,2,10,Lainnya,Sangat Baik,8068232499,SYNTHETIC_DEMO_ONLY
+746,Bengkulu,Bengkulu,Pusat Kota,Townhouse,300,190,6,3,1,10,Lainnya,Baik,6222721996,SYNTHETIC_DEMO_ONLY
+747,Papua Barat Daya,Sorong,Kawasan Bisnis,Townhouse,150,75,2,2,1,22,SHGB,Baru,3952933310,SYNTHETIC_DEMO_ONLY
+748,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Rumah Minimalis,260,220,6,5,1,26,SHGB,Perlu Renovasi,4202503537,SYNTHETIC_DEMO_ONLY
+749,DKI Jakarta,Jakarta Selatan,Area Berkembang,Townhouse,110,60,2,1,1,8,SHGB,Sangat Baik,5488648806,SYNTHETIC_DEMO_ONLY
+750,Banten,Serang,Pinggiran Kota,Rumah Minimalis,75,60,3,2,3,28,SHGB,Sangat Baik,2126552264,SYNTHETIC_DEMO_ONLY
+751,Papua Barat,Manokwari,Pinggiran Kota,Townhouse,270,150,5,3,1,29,SHM,Baik,5209880113,SYNTHETIC_DEMO_ONLY
+752,Nusa Tenggara Barat,Mataram,Pusat Kota,Rumah 2 Lantai,95,115,4,3,2,16,SHGB,Baru,4894438514,SYNTHETIC_DEMO_ONLY
+753,Jawa Timur,Surabaya,Kawasan Bisnis,Rumah Tapak,280,190,6,4,1,17,SHGB,Perlu Renovasi,11751111892,SYNTHETIC_DEMO_ONLY
+754,Papua Pegunungan,Wamena,Kawasan Bisnis,Townhouse,270,295,6,4,2,20,SHGB,Perlu Renovasi,7451359671,SYNTHETIC_DEMO_ONLY
+755,Riau,Pekanbaru,Pinggiran Kota,Rumah 2 Lantai,105,90,3,3,2,1,Lainnya,Perlu Renovasi,2165228652,SYNTHETIC_DEMO_ONLY
+756,Jawa Tengah,Semarang,Pusat Kota,Townhouse,90,115,3,1,3,10,SHGB,Baik,5314163348,SYNTHETIC_DEMO_ONLY
+757,Jawa Barat,Depok,Kawasan Perumahan,Townhouse,255,170,5,3,1,1,SHGB,Baru,12596288822,SYNTHETIC_DEMO_ONLY
+758,Kalimantan Selatan,Banjarmasin,Pinggiran Kota,Rumah Tapak,355,475,6,4,2,23,SHM,Perlu Renovasi,10310931913,SYNTHETIC_DEMO_ONLY
+759,Jawa Barat,Bandung,Kawasan Perumahan,Townhouse,265,205,5,4,1,28,Lainnya,Sangat Baik,8950898047,SYNTHETIC_DEMO_ONLY
+760,Sulawesi Tenggara,Kendari,Area Berkembang,Townhouse,310,270,6,4,1,21,Lainnya,Sangat Baik,6766026270,SYNTHETIC_DEMO_ONLY
+761,Sulawesi Tenggara,Kendari,Pinggiran Kota,Townhouse,235,290,6,4,3,21,SHGB,Baik,7658921922,SYNTHETIC_DEMO_ONLY
+762,Riau,Pekanbaru,Area Berkembang,Rumah 2 Lantai,235,205,6,5,2,2,SHM,Baik,7738551399,SYNTHETIC_DEMO_ONLY
+763,Sumatera Selatan,Palembang,Pusat Kota,Rumah Tapak,200,180,6,4,2,16,SHGB,Sangat Baik,6837046029,SYNTHETIC_DEMO_ONLY
+764,DKI Jakarta,Jakarta Selatan,Area Berkembang,Rumah Minimalis,350,240,6,5,1,25,Lainnya,Baru,19060376258,SYNTHETIC_DEMO_ONLY
+765,Kalimantan Tengah,Palangka Raya,Kawasan Bisnis,Rumah Minimalis,350,200,5,3,1,15,SHM,Sangat Baik,8082101574,SYNTHETIC_DEMO_ONLY
+766,Bali,Denpasar,Kawasan Perumahan,Townhouse,130,110,4,3,1,20,Lainnya,Perlu Renovasi,5180700198,SYNTHETIC_DEMO_ONLY
+767,Bengkulu,Bengkulu,Pusat Kota,Townhouse,180,90,3,2,1,20,SHGB,Baru,3366871009,SYNTHETIC_DEMO_ONLY
+768,DI Yogyakarta,Yogyakarta,Pusat Kota,Townhouse,225,195,6,4,1,11,Lainnya,Sangat Baik,9964844947,SYNTHETIC_DEMO_ONLY
+769,Nusa Tenggara Barat,Mataram,Kawasan Bisnis,Townhouse,355,400,6,5,3,4,SHM,Sangat Baik,15352721837,SYNTHETIC_DEMO_ONLY
+770,Kepulauan Riau,Batam,Pinggiran Kota,Rumah Minimalis,125,65,3,1,1,18,SHGB,Baik,2968068162,SYNTHETIC_DEMO_ONLY
+771,Sulawesi Selatan,Makassar,Kawasan Bisnis,Townhouse,190,145,4,3,1,31,Lainnya,Perlu Renovasi,5127575728,SYNTHETIC_DEMO_ONLY
+772,DKI Jakarta,Jakarta Selatan,Area Berkembang,Rumah Tapak,155,125,4,2,1,16,SHGB,Sangat Baik,11050988185,SYNTHETIC_DEMO_ONLY
+773,Jawa Barat,Depok,Pusat Kota,Townhouse,330,210,6,5,1,29,SHM,Baru,16461285338,SYNTHETIC_DEMO_ONLY
+774,Jambi,Jambi,Pusat Kota,Rumah Tapak,190,110,4,2,1,13,SHGB,Perlu Renovasi,3234109006,SYNTHETIC_DEMO_ONLY
+775,Papua Pegunungan,Wamena,Kawasan Perumahan,Rumah Tapak,190,165,6,4,1,10,SHM,Baru,5831927655,SYNTHETIC_DEMO_ONLY
+776,Sulawesi Utara,Manado,Kawasan Perumahan,Rumah Minimalis,85,50,2,2,1,27,SHGB,Sangat Baik,2122034359,SYNTHETIC_DEMO_ONLY
+777,Papua Selatan,Merauke,Kawasan Perumahan,Rumah Tapak,285,245,6,3,2,1,SHM,Baru,9341337925,SYNTHETIC_DEMO_ONLY
+778,Jawa Barat,Bandung,Kawasan Perumahan,Townhouse,110,95,3,2,2,22,SHGB,Sangat Baik,4958090474,SYNTHETIC_DEMO_ONLY
+779,Aceh,Banda Aceh,Kawasan Perumahan,Townhouse,80,65,2,1,1,28,SHM,Baru,1651337553,SYNTHETIC_DEMO_ONLY
+780,Jawa Timur,Surabaya,Pinggiran Kota,Rumah Minimalis,310,235,6,4,1,8,Lainnya,Baik,11139043704,SYNTHETIC_DEMO_ONLY
+781,Bengkulu,Bengkulu,Area Berkembang,Rumah Tapak,310,235,6,5,1,12,SHM,Baik,6802848125,SYNTHETIC_DEMO_ONLY
+782,Nusa Tenggara Barat,Mataram,Pinggiran Kota,Rumah 2 Lantai,150,140,5,4,2,13,SHM,Baru,5362189632,SYNTHETIC_DEMO_ONLY
+783,Aceh,Banda Aceh,Pinggiran Kota,Rumah Minimalis,190,110,4,3,1,22,SHGB,Baru,2767974425,SYNTHETIC_DEMO_ONLY
+784,Nusa Tenggara Barat,Mataram,Pinggiran Kota,Rumah Tapak,315,345,6,3,3,11,SHGB,Baru,10292105009,SYNTHETIC_DEMO_ONLY
+785,Papua Selatan,Merauke,Pusat Kota,Rumah Tapak,185,195,6,4,2,31,SHM,Perlu Renovasi,4914968307,SYNTHETIC_DEMO_ONLY
+786,DI Yogyakarta,Yogyakarta,Pinggiran Kota,Townhouse,355,440,6,4,3,13,SHGB,Sangat Baik,15601500776,SYNTHETIC_DEMO_ONLY
+787,Kalimantan Selatan,Banjarmasin,Area Berkembang,Rumah Minimalis,250,230,6,4,3,10,Lainnya,Baik,6260280595,SYNTHETIC_DEMO_ONLY
+788,Papua,Jayapura,Kawasan Perumahan,Rumah Minimalis,200,115,3,2,1,6,SHM,Perlu Renovasi,6100961362,SYNTHETIC_DEMO_ONLY
+789,Jawa Timur,Surabaya,Pinggiran Kota,Rumah Minimalis,210,225,6,3,2,17,SHM,Perlu Renovasi,9474878515,SYNTHETIC_DEMO_ONLY
+790,Papua Tengah,Nabire,Area Berkembang,Rumah Tapak,195,130,4,2,1,6,SHM,Sangat Baik,4679954794,SYNTHETIC_DEMO_ONLY
+791,Kalimantan Tengah,Palangka Raya,Kawasan Perumahan,Townhouse,310,170,5,3,1,27,Lainnya,Sangat Baik,5622141005,SYNTHETIC_DEMO_ONLY
+792,Kalimantan Timur,Balikpapan,Area Berkembang,Townhouse,195,155,5,3,1,16,Lainnya,Sangat Baik,8056134247,SYNTHETIC_DEMO_ONLY
+793,Jawa Tengah,Surakarta,Kawasan Perumahan,Rumah Tapak,230,180,5,3,2,7,SHM,Baru,8386687300,SYNTHETIC_DEMO_ONLY
+794,Papua Pegunungan,Wamena,Kawasan Bisnis,Rumah Minimalis,105,50,2,1,1,21,SHGB,Perlu Renovasi,1595975797,SYNTHETIC_DEMO_ONLY
+795,Jawa Tengah,Surakarta,Pusat Kota,Townhouse,315,185,5,3,1,15,SHGB,Baik,8223749428,SYNTHETIC_DEMO_ONLY
+796,Papua Barat,Manokwari,Pinggiran Kota,Rumah Minimalis,315,325,6,3,3,24,SHM,Perlu Renovasi,7116009537,SYNTHETIC_DEMO_ONLY
+797,Papua Barat Daya,Sorong,Kawasan Perumahan,Townhouse,90,75,3,2,1,25,Lainnya,Baik,2587008252,SYNTHETIC_DEMO_ONLY
+798,Aceh,Banda Aceh,Kawasan Bisnis,Rumah Minimalis,345,425,6,3,3,26,SHM,Baik,9721710005,SYNTHETIC_DEMO_ONLY
+799,Jawa Barat,Bekasi,Pinggiran Kota,Rumah Tapak,120,75,2,2,2,2,SHM,Baik,4404997305,SYNTHETIC_DEMO_ONLY
+800,DKI Jakarta,Jakarta Selatan,Pusat Kota,Rumah 2 Lantai,100,105,4,2,2,5,SHGB,Baik,10587383716,SYNTHETIC_DEMO_ONLY
+801,Sulawesi Selatan,Makassar,Pusat Kota,Townhouse,350,260,6,5,1,6,SHGB,Baru,17904236230,SYNTHETIC_DEMO_ONLY
+802,Kalimantan Tengah,Palangka Raya,Pinggiran Kota,Rumah Minimalis,185,105,3,2,1,4,Lainnya,Perlu Renovasi,2633676217,SYNTHETIC_DEMO_ONLY
+803,Papua Barat,Manokwari,Pinggiran Kota,Townhouse,230,175,6,4,1,11,SHGB,Perlu Renovasi,4522013550,SYNTHETIC_DEMO_ONLY
+804,Jawa Tengah,Surakarta,Area Berkembang,Rumah 2 Lantai,275,320,6,4,2,10,SHGB,Baik,9828414499,SYNTHETIC_DEMO_ONLY
+805,Jawa Barat,Depok,Area Berkembang,Rumah Minimalis,295,315,6,5,3,26,SHM,Perlu Renovasi,12486704666,SYNTHETIC_DEMO_ONLY
+806,Sumatera Selatan,Palembang,Kawasan Bisnis,Rumah Tapak,250,235,6,3,2,5,SHM,Baru,10184274864,SYNTHETIC_DEMO_ONLY
+807,Maluku,Ambon,Pinggiran Kota,Townhouse,325,230,6,4,1,23,Lainnya,Baik,6299996160,SYNTHETIC_DEMO_ONLY
+808,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Rumah Tapak,70,70,3,2,2,12,SHGB,Baik,2931392316,SYNTHETIC_DEMO_ONLY
+809,DKI Jakarta,Jakarta Timur,Pinggiran Kota,Rumah 2 Lantai,345,380,6,3,2,23,SHGB,Perlu Renovasi,15323724943,SYNTHETIC_DEMO_ONLY
+810,Kalimantan Utara,Tarakan,Kawasan Perumahan,Rumah Minimalis,275,155,5,2,1,16,SHGB,Baru,6241390632,SYNTHETIC_DEMO_ONLY
+811,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah Tapak,300,155,5,4,1,3,SHM,Perlu Renovasi,11979287518,SYNTHETIC_DEMO_ONLY
+812,Jawa Tengah,Semarang,Kawasan Bisnis,Townhouse,165,115,4,3,2,0,Lainnya,Perlu Renovasi,5252197801,SYNTHETIC_DEMO_ONLY
+813,Papua Selatan,Merauke,Kawasan Perumahan,Townhouse,305,370,6,4,2,29,SHGB,Sangat Baik,8755200985,SYNTHETIC_DEMO_ONLY
+814,Bali,Denpasar,Area Berkembang,Rumah Minimalis,80,70,3,3,2,22,Lainnya,Baik,4151627977,SYNTHETIC_DEMO_ONLY
+815,Jawa Timur,Surabaya,Pusat Kota,Rumah Minimalis,270,165,5,3,1,18,Lainnya,Baik,11037151557,SYNTHETIC_DEMO_ONLY
+816,Sumatera Barat,Padang,Area Berkembang,Rumah 2 Lantai,110,120,4,2,2,10,Lainnya,Perlu Renovasi,2386892787,SYNTHETIC_DEMO_ONLY
+817,Jawa Tengah,Surakarta,Pinggiran Kota,Rumah Tapak,225,165,4,2,1,4,Lainnya,Perlu Renovasi,4578174895,SYNTHETIC_DEMO_ONLY
+818,Nusa Tenggara Timur,Kupang,Kawasan Perumahan,Rumah 2 Lantai,300,340,6,3,2,3,Lainnya,Baru,9553928756,SYNTHETIC_DEMO_ONLY
+819,Sumatera Barat,Padang,Area Berkembang,Rumah 2 Lantai,275,335,6,3,2,7,SHM,Baik,8307523338,SYNTHETIC_DEMO_ONLY
+820,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah 2 Lantai,150,160,5,3,2,14,SHGB,Sangat Baik,3680706230,SYNTHETIC_DEMO_ONLY
+821,Papua Barat,Manokwari,Kawasan Perumahan,Townhouse,355,180,6,4,1,17,SHM,Baru,9433246009,SYNTHETIC_DEMO_ONLY
+822,Kalimantan Tengah,Palangka Raya,Pusat Kota,Rumah Tapak,200,135,4,2,1,10,SHM,Perlu Renovasi,5089234150,SYNTHETIC_DEMO_ONLY
+823,Jawa Tengah,Surakarta,Pinggiran Kota,Townhouse,175,150,4,2,1,25,SHGB,Baik,4468419378,SYNTHETIC_DEMO_ONLY
+824,Sulawesi Barat,Mamuju,Pusat Kota,Townhouse,340,460,6,3,2,16,SHM,Baru,13932686345,SYNTHETIC_DEMO_ONLY
+825,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah Tapak,220,115,3,1,1,18,SHM,Baik,3795945642,SYNTHETIC_DEMO_ONLY
+826,Papua Pegunungan,Wamena,Pusat Kota,Rumah 2 Lantai,70,55,2,1,2,21,SHM,Sangat Baik,1916054558,SYNTHETIC_DEMO_ONLY
+827,Sulawesi Selatan,Makassar,Kawasan Perumahan,Townhouse,155,75,2,1,1,17,Lainnya,Perlu Renovasi,2666501596,SYNTHETIC_DEMO_ONLY
+828,Lampung,Bandar Lampung,Area Berkembang,Townhouse,305,195,6,5,1,8,Lainnya,Baik,6199097728,SYNTHETIC_DEMO_ONLY
+829,Kepulauan Riau,Batam,Kawasan Bisnis,Rumah Tapak,90,45,2,1,1,3,Lainnya,Perlu Renovasi,2010098024,SYNTHETIC_DEMO_ONLY
+830,Sulawesi Utara,Manado,Kawasan Perumahan,Rumah Tapak,255,215,6,3,1,29,SHGB,Baik,7800886345,SYNTHETIC_DEMO_ONLY
+831,Jawa Timur,Malang,Kawasan Bisnis,Rumah 2 Lantai,65,70,3,2,2,21,SHM,Baik,3013058601,SYNTHETIC_DEMO_ONLY
+832,Bengkulu,Bengkulu,Pusat Kota,Rumah 2 Lantai,260,255,6,4,2,9,SHGB,Perlu Renovasi,6074900629,SYNTHETIC_DEMO_ONLY
+833,Papua Barat,Manokwari,Kawasan Bisnis,Townhouse,335,160,5,3,1,20,SHGB,Baik,6887277094,SYNTHETIC_DEMO_ONLY
+834,Riau,Pekanbaru,Kawasan Perumahan,Rumah Tapak,305,265,6,3,1,12,Lainnya,Baik,8762121929,SYNTHETIC_DEMO_ONLY
+835,Papua Selatan,Merauke,Area Berkembang,Rumah 2 Lantai,320,245,6,4,2,21,SHM,Baik,7502537244,SYNTHETIC_DEMO_ONLY
+836,Jawa Timur,Malang,Kawasan Perumahan,Rumah Minimalis,120,95,3,2,1,27,Lainnya,Sangat Baik,3486648254,SYNTHETIC_DEMO_ONLY
+837,Riau,Pekanbaru,Pinggiran Kota,Townhouse,190,90,3,2,1,6,Lainnya,Baru,3884527393,SYNTHETIC_DEMO_ONLY
+838,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah Tapak,80,50,2,1,1,10,SHGB,Perlu Renovasi,2826403714,SYNTHETIC_DEMO_ONLY
+839,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah 2 Lantai,230,220,6,5,2,16,SHM,Perlu Renovasi,8975846775,SYNTHETIC_DEMO_ONLY
+840,Jawa Barat,Bandung,Pinggiran Kota,Townhouse,290,230,6,4,2,25,Lainnya,Perlu Renovasi,7813254287,SYNTHETIC_DEMO_ONLY
+841,Jambi,Jambi,Pusat Kota,Townhouse,75,40,1,1,1,4,SHM,Sangat Baik,2012759697,SYNTHETIC_DEMO_ONLY
+842,Banten,Serang,Pinggiran Kota,Rumah Minimalis,320,240,6,4,1,11,Lainnya,Sangat Baik,7514563365,SYNTHETIC_DEMO_ONLY
+843,Sulawesi Tengah,Palu,Pinggiran Kota,Townhouse,95,75,2,1,1,5,SHM,Baru,2475227510,SYNTHETIC_DEMO_ONLY
+844,DKI Jakarta,Jakarta Selatan,Area Berkembang,Rumah Minimalis,160,120,4,2,3,23,SHGB,Perlu Renovasi,7316347608,SYNTHETIC_DEMO_ONLY
+845,Sulawesi Barat,Mamuju,Kawasan Perumahan,Rumah Minimalis,130,85,3,2,1,12,SHM,Perlu Renovasi,2196008611,SYNTHETIC_DEMO_ONLY
+846,Sulawesi Selatan,Makassar,Kawasan Bisnis,Rumah Tapak,215,175,6,4,1,3,Lainnya,Baik,7768090086,SYNTHETIC_DEMO_ONLY
+847,Sulawesi Tenggara,Kendari,Kawasan Bisnis,Rumah 2 Lantai,240,330,6,3,2,13,Lainnya,Baik,9993297276,SYNTHETIC_DEMO_ONLY
+848,Jawa Timur,Surabaya,Kawasan Perumahan,Rumah 2 Lantai,355,355,6,3,2,9,SHGB,Perlu Renovasi,16489138067,SYNTHETIC_DEMO_ONLY
+849,Kalimantan Utara,Tarakan,Kawasan Perumahan,Rumah Minimalis,140,120,4,2,1,15,SHM,Perlu Renovasi,4165537140,SYNTHETIC_DEMO_ONLY
+850,Papua Tengah,Nabire,Pinggiran Kota,Townhouse,280,220,6,5,1,1,SHM,Sangat Baik,6643934749,SYNTHETIC_DEMO_ONLY
+851,Jawa Tengah,Semarang,Pinggiran Kota,Rumah Tapak,340,245,6,3,1,4,Lainnya,Baik,9940103690,SYNTHETIC_DEMO_ONLY
+852,Papua Selatan,Merauke,Kawasan Perumahan,Rumah Minimalis,130,110,4,2,1,0,Lainnya,Perlu Renovasi,2791766269,SYNTHETIC_DEMO_ONLY
+853,Nusa Tenggara Timur,Kupang,Kawasan Perumahan,Rumah Tapak,220,290,6,4,2,11,SHGB,Baru,8466353550,SYNTHETIC_DEMO_ONLY
+854,Jawa Barat,Bandung,Kawasan Bisnis,Rumah Tapak,355,220,6,5,1,18,SHGB,Baru,16797862673,SYNTHETIC_DEMO_ONLY
+855,Sulawesi Utara,Manado,Pinggiran Kota,Townhouse,170,145,4,2,2,2,SHM,Baru,5828990613,SYNTHETIC_DEMO_ONLY
+856,Jawa Tengah,Surakarta,Kawasan Perumahan,Rumah Minimalis,175,170,5,4,3,27,SHM,Perlu Renovasi,5152800160,SYNTHETIC_DEMO_ONLY
+857,Lampung,Bandar Lampung,Area Berkembang,Townhouse,115,80,4,2,1,22,SHGB,Baru,2794084653,SYNTHETIC_DEMO_ONLY
+858,Aceh,Banda Aceh,Kawasan Bisnis,Rumah 2 Lantai,225,210,6,3,2,8,Lainnya,Baik,6010130465,SYNTHETIC_DEMO_ONLY
+859,Sulawesi Utara,Manado,Pusat Kota,Rumah Minimalis,145,75,2,2,1,32,SHGB,Sangat Baik,3729505723,SYNTHETIC_DEMO_ONLY
+860,Jawa Barat,Depok,Kawasan Bisnis,Rumah Minimalis,345,215,6,5,1,27,SHGB,Baru,16649285356,SYNTHETIC_DEMO_ONLY
+861,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Rumah 2 Lantai,315,270,6,4,2,12,Lainnya,Perlu Renovasi,8414727210,SYNTHETIC_DEMO_ONLY
+862,Jawa Timur,Malang,Kawasan Perumahan,Townhouse,165,170,6,3,2,28,Lainnya,Baik,5965834992,SYNTHETIC_DEMO_ONLY
+863,Papua Tengah,Nabire,Pusat Kota,Townhouse,150,90,4,3,1,18,SHGB,Baik,3941233422,SYNTHETIC_DEMO_ONLY
+864,Sulawesi Utara,Manado,Area Berkembang,Rumah 2 Lantai,115,85,3,2,2,14,Lainnya,Perlu Renovasi,2839058337,SYNTHETIC_DEMO_ONLY
+865,Papua Barat,Manokwari,Pinggiran Kota,Rumah Minimalis,175,210,6,4,2,25,Lainnya,Baik,4934491004,SYNTHETIC_DEMO_ONLY
+866,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Rumah Tapak,105,105,4,3,2,15,SHGB,Perlu Renovasi,5509837502,SYNTHETIC_DEMO_ONLY
+867,Papua Barat,Manokwari,Kawasan Bisnis,Rumah Minimalis,140,85,4,3,1,23,SHGB,Perlu Renovasi,2888363760,SYNTHETIC_DEMO_ONLY
+868,Jawa Timur,Surabaya,Pinggiran Kota,Townhouse,265,335,6,4,3,4,SHM,Sangat Baik,16284243664,SYNTHETIC_DEMO_ONLY
+869,Papua,Jayapura,Kawasan Bisnis,Rumah 2 Lantai,285,210,6,3,2,8,Lainnya,Sangat Baik,10996005418,SYNTHETIC_DEMO_ONLY
+870,Jawa Timur,Malang,Kawasan Perumahan,Townhouse,300,230,6,4,1,27,SHGB,Baik,9645914915,SYNTHETIC_DEMO_ONLY
+871,Jawa Tengah,Semarang,Pusat Kota,Rumah Minimalis,165,85,3,2,1,21,SHGB,Baru,4974486754,SYNTHETIC_DEMO_ONLY
+872,Sulawesi Utara,Manado,Pinggiran Kota,Rumah 2 Lantai,240,285,6,3,2,3,SHM,Baik,9423064322,SYNTHETIC_DEMO_ONLY
+873,Jawa Barat,Bogor,Area Berkembang,Townhouse,110,65,3,1,1,24,SHM,Sangat Baik,3405943199,SYNTHETIC_DEMO_ONLY
+874,Bengkulu,Bengkulu,Area Berkembang,Rumah Minimalis,350,390,6,4,2,20,SHGB,Baik,7350103756,SYNTHETIC_DEMO_ONLY
+875,Jambi,Jambi,Kawasan Perumahan,Rumah Tapak,190,90,3,2,1,25,SHGB,Sangat Baik,3111976255,SYNTHETIC_DEMO_ONLY
+876,Papua Tengah,Nabire,Area Berkembang,Rumah 2 Lantai,70,75,3,1,2,10,SHGB,Sangat Baik,1971028287,SYNTHETIC_DEMO_ONLY
+877,Jawa Barat,Bandung,Pusat Kota,Townhouse,275,180,6,4,2,3,Lainnya,Baik,11352983395,SYNTHETIC_DEMO_ONLY
+878,Jawa Timur,Malang,Pinggiran Kota,Rumah 2 Lantai,215,290,6,3,2,24,SHM,Baik,8561790696,SYNTHETIC_DEMO_ONLY
+879,Papua Barat,Manokwari,Pusat Kota,Rumah Minimalis,175,85,4,2,1,1,SHGB,Baik,5177826337,SYNTHETIC_DEMO_ONLY
+880,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah 2 Lantai,170,225,6,4,2,31,SHM,Baru,12906159194,SYNTHETIC_DEMO_ONLY
+881,Kalimantan Timur,Balikpapan,Kawasan Bisnis,Rumah 2 Lantai,215,150,5,4,2,25,SHGB,Sangat Baik,9788633022,SYNTHETIC_DEMO_ONLY
+882,Papua,Jayapura,Pinggiran Kota,Rumah 2 Lantai,190,140,4,2,2,19,Lainnya,Baik,5781237315,SYNTHETIC_DEMO_ONLY
+883,Kalimantan Barat,Pontianak,Pusat Kota,Rumah Tapak,120,75,3,1,1,30,SHM,Sangat Baik,3126699191,SYNTHETIC_DEMO_ONLY
+884,Sulawesi Tengah,Palu,Kawasan Bisnis,Rumah Minimalis,245,185,5,4,1,21,Lainnya,Baik,5806054958,SYNTHETIC_DEMO_ONLY
+885,Sulawesi Tengah,Palu,Kawasan Perumahan,Townhouse,325,165,5,3,1,5,Lainnya,Baik,6001699516,SYNTHETIC_DEMO_ONLY
+886,Kalimantan Barat,Pontianak,Pusat Kota,Rumah Minimalis,125,90,3,2,1,4,Lainnya,Baik,3592795168,SYNTHETIC_DEMO_ONLY
+887,Maluku Utara,Ternate,Kawasan Perumahan,Rumah 2 Lantai,195,200,6,4,2,31,SHGB,Baik,5562436053,SYNTHETIC_DEMO_ONLY
+888,Papua,Jayapura,Pusat Kota,Townhouse,210,130,4,2,1,16,Lainnya,Baru,8865935219,SYNTHETIC_DEMO_ONLY
+889,Nusa Tenggara Timur,Kupang,Area Berkembang,Rumah Minimalis,235,260,6,4,3,23,SHGB,Baru,6810011550,SYNTHETIC_DEMO_ONLY
+890,Sulawesi Barat,Mamuju,Area Berkembang,Townhouse,345,330,6,4,2,19,SHM,Perlu Renovasi,5803892293,SYNTHETIC_DEMO_ONLY
+891,Sulawesi Selatan,Makassar,Pinggiran Kota,Townhouse,340,210,6,3,1,5,Lainnya,Sangat Baik,9660458816,SYNTHETIC_DEMO_ONLY
+892,Riau,Pekanbaru,Pinggiran Kota,Townhouse,290,155,5,3,1,3,SHGB,Perlu Renovasi,4641482679,SYNTHETIC_DEMO_ONLY
+893,Jawa Timur,Surabaya,Pusat Kota,Rumah 2 Lantai,140,125,3,2,2,21,SHGB,Baik,7290136213,SYNTHETIC_DEMO_ONLY
+894,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah Tapak,280,250,6,3,2,16,SHM,Baik,13362525553,SYNTHETIC_DEMO_ONLY
+895,DI Yogyakarta,Yogyakarta,Pusat Kota,Rumah 2 Lantai,170,115,4,2,2,17,Lainnya,Baik,6151367237,SYNTHETIC_DEMO_ONLY
+896,Papua Barat Daya,Sorong,Kawasan Bisnis,Rumah Minimalis,80,70,2,1,1,2,Lainnya,Sangat Baik,2629576067,SYNTHETIC_DEMO_ONLY
+897,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Townhouse,135,120,4,2,1,9,SHM,Perlu Renovasi,2652156840,SYNTHETIC_DEMO_ONLY
+898,Banten,Serang,Area Berkembang,Townhouse,140,150,5,3,3,24,Lainnya,Sangat Baik,4973608429,SYNTHETIC_DEMO_ONLY
+899,Kepulauan Riau,Batam,Area Berkembang,Rumah Minimalis,270,225,6,4,2,29,Lainnya,Perlu Renovasi,5431585488,SYNTHETIC_DEMO_ONLY
+900,Kalimantan Tengah,Palangka Raya,Area Berkembang,Rumah Tapak,200,125,5,3,1,8,SHGB,Baru,4600640648,SYNTHETIC_DEMO_ONLY
+901,Lampung,Bandar Lampung,Kawasan Bisnis,Rumah 2 Lantai,250,230,6,5,2,20,SHGB,Baik,7096590730,SYNTHETIC_DEMO_ONLY
+902,Jawa Barat,Bandung,Pusat Kota,Rumah Minimalis,310,200,6,4,1,1,SHM,Sangat Baik,18843805239,SYNTHETIC_DEMO_ONLY
+903,Sulawesi Barat,Mamuju,Kawasan Bisnis,Rumah Minimalis,315,360,6,5,3,28,SHM,Baik,9370733209,SYNTHETIC_DEMO_ONLY
+904,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Townhouse,85,50,2,1,1,30,SHGB,Sangat Baik,2294333167,SYNTHETIC_DEMO_ONLY
+905,Kalimantan Barat,Pontianak,Kawasan Perumahan,Townhouse,80,65,2,1,1,13,Lainnya,Baik,2196755199,SYNTHETIC_DEMO_ONLY
+906,Kalimantan Tengah,Palangka Raya,Pusat Kota,Rumah Minimalis,340,395,6,4,2,10,SHM,Baik,13288804445,SYNTHETIC_DEMO_ONLY
+907,Papua Barat,Manokwari,Kawasan Bisnis,Rumah Tapak,340,365,6,4,2,12,SHGB,Baru,13757096838,SYNTHETIC_DEMO_ONLY
+908,Riau,Pekanbaru,Pusat Kota,Rumah Tapak,115,80,2,1,1,14,Lainnya,Baru,3089294752,SYNTHETIC_DEMO_ONLY
+909,DI Yogyakarta,Yogyakarta,Pinggiran Kota,Rumah 2 Lantai,345,340,6,5,2,31,Lainnya,Baik,10636596745,SYNTHETIC_DEMO_ONLY
+910,Papua Tengah,Nabire,Kawasan Bisnis,Rumah Minimalis,280,160,5,2,1,22,SHGB,Perlu Renovasi,4378640449,SYNTHETIC_DEMO_ONLY
+911,Maluku,Ambon,Kawasan Bisnis,Rumah Tapak,115,85,3,2,1,8,Lainnya,Baik,3572975943,SYNTHETIC_DEMO_ONLY
+912,Banten,Serang,Kawasan Bisnis,Townhouse,185,140,4,2,1,27,SHGB,Sangat Baik,6551181059,SYNTHETIC_DEMO_ONLY
+913,Jawa Tengah,Surakarta,Area Berkembang,Rumah 2 Lantai,265,175,5,3,2,12,Lainnya,Sangat Baik,6049262192,SYNTHETIC_DEMO_ONLY
+914,Kalimantan Tengah,Palangka Raya,Kawasan Perumahan,Townhouse,350,220,6,4,1,11,Lainnya,Baik,7973636042,SYNTHETIC_DEMO_ONLY
+915,Jawa Barat,Bandung,Kawasan Bisnis,Rumah 2 Lantai,115,85,3,2,2,14,SHM,Sangat Baik,6185375981,SYNTHETIC_DEMO_ONLY
+916,Papua Tengah,Nabire,Pusat Kota,Rumah Minimalis,170,215,6,4,3,11,SHGB,Baru,6863512282,SYNTHETIC_DEMO_ONLY
+917,Sumatera Barat,Padang,Kawasan Perumahan,Townhouse,95,80,2,1,1,11,Lainnya,Baik,2410626224,SYNTHETIC_DEMO_ONLY
+918,Jawa Timur,Malang,Kawasan Bisnis,Rumah Tapak,105,105,3,2,3,8,SHM,Perlu Renovasi,4362487455,SYNTHETIC_DEMO_ONLY
+919,Kalimantan Selatan,Banjarmasin,Area Berkembang,Townhouse,200,110,3,2,1,8,SHM,Sangat Baik,4950440979,SYNTHETIC_DEMO_ONLY
+920,Aceh,Banda Aceh,Pinggiran Kota,Townhouse,235,205,6,5,1,31,Lainnya,Baik,3915917243,SYNTHETIC_DEMO_ONLY
+921,DKI Jakarta,Jakarta Timur,Pusat Kota,Rumah Minimalis,90,70,3,1,1,11,SHM,Sangat Baik,5980309082,SYNTHETIC_DEMO_ONLY
+922,Kalimantan Barat,Pontianak,Area Berkembang,Rumah Minimalis,160,90,4,3,1,18,SHM,Perlu Renovasi,2689545820,SYNTHETIC_DEMO_ONLY
+923,Jawa Tengah,Surakarta,Kawasan Perumahan,Townhouse,290,220,6,3,1,6,SHM,Sangat Baik,9069662928,SYNTHETIC_DEMO_ONLY
+924,Bengkulu,Bengkulu,Kawasan Bisnis,Rumah Minimalis,115,60,3,2,1,8,SHGB,Perlu Renovasi,1774113776,SYNTHETIC_DEMO_ONLY
+925,Kalimantan Barat,Pontianak,Kawasan Bisnis,Rumah 2 Lantai,100,110,4,2,2,9,Lainnya,Perlu Renovasi,3303004887,SYNTHETIC_DEMO_ONLY
+926,DKI Jakarta,Jakarta Selatan,Kawasan Bisnis,Rumah Tapak,340,210,6,4,1,4,SHGB,Sangat Baik,24608269729,SYNTHETIC_DEMO_ONLY
+927,Sumatera Utara,Medan,Area Berkembang,Rumah Minimalis,270,195,6,3,3,14,Lainnya,Sangat Baik,6441113254,SYNTHETIC_DEMO_ONLY
+928,Gorontalo,Gorontalo,Pinggiran Kota,Rumah 2 Lantai,195,150,4,3,2,32,Lainnya,Perlu Renovasi,2477386960,SYNTHETIC_DEMO_ONLY
+929,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Rumah 2 Lantai,175,155,4,2,2,15,SHGB,Baru,4233645796,SYNTHETIC_DEMO_ONLY
+930,Sulawesi Utara,Manado,Kawasan Bisnis,Rumah 2 Lantai,150,160,5,2,2,5,Lainnya,Baru,6522072473,SYNTHETIC_DEMO_ONLY
+931,Sulawesi Selatan,Makassar,Kawasan Perumahan,Rumah Minimalis,270,180,6,4,1,31,SHM,Baru,9836248900,SYNTHETIC_DEMO_ONLY
+932,Sumatera Utara,Medan,Pinggiran Kota,Rumah 2 Lantai,355,250,6,4,2,2,SHM,Baik,8470239655,SYNTHETIC_DEMO_ONLY
+933,Jawa Timur,Surabaya,Pusat Kota,Rumah Tapak,160,80,3,2,1,2,SHGB,Baik,7123638926,SYNTHETIC_DEMO_ONLY
+934,Jawa Timur,Surabaya,Pusat Kota,Townhouse,245,145,5,3,1,10,SHM,Perlu Renovasi,9625991946,SYNTHETIC_DEMO_ONLY
+935,DKI Jakarta,Jakarta Timur,Pusat Kota,Rumah 2 Lantai,115,110,3,2,2,20,SHGB,Perlu Renovasi,6404233223,SYNTHETIC_DEMO_ONLY
+936,Papua Barat,Manokwari,Kawasan Bisnis,Rumah 2 Lantai,100,110,4,3,2,20,SHGB,Sangat Baik,3551222742,SYNTHETIC_DEMO_ONLY
+937,Kalimantan Selatan,Banjarmasin,Pusat Kota,Rumah 2 Lantai,125,90,4,2,2,4,Lainnya,Sangat Baik,4349814873,SYNTHETIC_DEMO_ONLY
+938,Sumatera Barat,Padang,Kawasan Bisnis,Rumah 2 Lantai,85,55,2,1,2,22,SHGB,Baru,2390173487,SYNTHETIC_DEMO_ONLY
+939,Sumatera Barat,Padang,Kawasan Perumahan,Rumah 2 Lantai,225,280,6,3,2,15,SHM,Perlu Renovasi,6627556583,SYNTHETIC_DEMO_ONLY
+940,Jawa Tengah,Surakarta,Pusat Kota,Townhouse,120,70,2,1,1,3,SHGB,Baik,3446818190,SYNTHETIC_DEMO_ONLY
+941,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Rumah Minimalis,65,50,2,1,2,16,SHM,Sangat Baik,4065268361,SYNTHETIC_DEMO_ONLY
+942,Jawa Barat,Bekasi,Area Berkembang,Rumah Tapak,265,225,6,4,1,15,SHGB,Perlu Renovasi,8949259735,SYNTHETIC_DEMO_ONLY
+943,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Tapak,290,250,6,5,1,17,Lainnya,Perlu Renovasi,8709432515,SYNTHETIC_DEMO_ONLY
+944,Jawa Tengah,Semarang,Kawasan Bisnis,Rumah 2 Lantai,85,75,3,1,2,3,SHM,Baik,4348546692,SYNTHETIC_DEMO_ONLY
+945,Gorontalo,Gorontalo,Kawasan Perumahan,Rumah Minimalis,345,260,6,3,1,13,SHGB,Sangat Baik,8392792725,SYNTHETIC_DEMO_ONLY
+946,Riau,Pekanbaru,Pusat Kota,Rumah 2 Lantai,210,150,5,4,2,21,Lainnya,Perlu Renovasi,4249817064,SYNTHETIC_DEMO_ONLY
+947,Kepulauan Bangka Belitung,Pangkalpinang,Pusat Kota,Rumah Tapak,300,285,6,3,3,16,SHM,Perlu Renovasi,7523013699,SYNTHETIC_DEMO_ONLY
+948,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah 2 Lantai,220,230,6,4,2,10,SHM,Baru,16794022547,SYNTHETIC_DEMO_ONLY
+949,Maluku Utara,Ternate,Kawasan Bisnis,Townhouse,155,125,5,4,1,31,Lainnya,Sangat Baik,4218943894,SYNTHETIC_DEMO_ONLY
+950,Sulawesi Selatan,Makassar,Kawasan Bisnis,Townhouse,235,160,5,2,1,13,Lainnya,Baru,8370448388,SYNTHETIC_DEMO_ONLY
+951,Bengkulu,Bengkulu,Pinggiran Kota,Rumah Tapak,310,245,6,3,1,22,SHM,Baru,5788560346,SYNTHETIC_DEMO_ONLY
+952,Maluku Utara,Ternate,Pinggiran Kota,Rumah Minimalis,90,105,4,3,2,15,SHGB,Perlu Renovasi,2774098163,SYNTHETIC_DEMO_ONLY
+953,Jawa Timur,Malang,Area Berkembang,Rumah Minimalis,100,65,2,1,1,22,SHM,Sangat Baik,3240626760,SYNTHETIC_DEMO_ONLY
+954,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah Tapak,110,75,3,2,1,29,SHGB,Sangat Baik,3788534795,SYNTHETIC_DEMO_ONLY
+955,Papua Tengah,Nabire,Pinggiran Kota,Rumah Tapak,210,180,6,4,2,30,SHGB,Perlu Renovasi,3296543529,SYNTHETIC_DEMO_ONLY
+956,Jawa Barat,Depok,Pusat Kota,Rumah Tapak,295,275,6,4,2,2,SHGB,Perlu Renovasi,15260935750,SYNTHETIC_DEMO_ONLY
+957,Papua Barat,Manokwari,Area Berkembang,Rumah Tapak,330,255,6,4,1,22,SHGB,Baik,8017003066,SYNTHETIC_DEMO_ONLY
+958,Maluku,Ambon,Area Berkembang,Townhouse,340,360,6,4,2,18,SHGB,Baru,12551390693,SYNTHETIC_DEMO_ONLY
+959,Jawa Tengah,Surakarta,Area Berkembang,Rumah Minimalis,80,60,2,1,1,17,SHM,Perlu Renovasi,1914674562,SYNTHETIC_DEMO_ONLY
+960,Banten,Serang,Area Berkembang,Rumah 2 Lantai,315,310,6,3,2,3,SHGB,Perlu Renovasi,9640980474,SYNTHETIC_DEMO_ONLY
+961,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Bisnis,Rumah Minimalis,180,235,6,4,2,8,SHGB,Baru,7150418475,SYNTHETIC_DEMO_ONLY
+962,Jawa Barat,Depok,Kawasan Bisnis,Rumah Tapak,325,175,5,4,1,30,SHGB,Sangat Baik,13064444471,SYNTHETIC_DEMO_ONLY
+963,Papua Selatan,Merauke,Pusat Kota,Rumah Tapak,180,105,4,2,1,11,Lainnya,Perlu Renovasi,3928595753,SYNTHETIC_DEMO_ONLY
+964,Kalimantan Tengah,Palangka Raya,Pusat Kota,Townhouse,220,170,6,5,1,31,SHM,Baru,6488021836,SYNTHETIC_DEMO_ONLY
+965,Jawa Tengah,Surakarta,Area Berkembang,Rumah Minimalis,340,255,6,5,1,19,SHM,Baru,9450709789,SYNTHETIC_DEMO_ONLY
+966,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah 2 Lantai,270,330,6,4,2,27,SHM,Sangat Baik,16832619795,SYNTHETIC_DEMO_ONLY
+967,Sulawesi Tengah,Palu,Pinggiran Kota,Rumah Minimalis,160,90,4,2,1,16,SHM,Baru,3353758553,SYNTHETIC_DEMO_ONLY
+968,Sumatera Utara,Medan,Kawasan Bisnis,Townhouse,65,45,2,2,1,22,Lainnya,Perlu Renovasi,1312808634,SYNTHETIC_DEMO_ONLY
+969,Papua Selatan,Merauke,Pusat Kota,Rumah Tapak,215,140,5,4,1,17,SHM,Baru,7692962398,SYNTHETIC_DEMO_ONLY
+970,Jawa Tengah,Semarang,Pinggiran Kota,Rumah 2 Lantai,235,195,5,4,2,1,SHGB,Perlu Renovasi,6217485389,SYNTHETIC_DEMO_ONLY
+971,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Rumah 2 Lantai,110,150,5,3,2,13,Lainnya,Baru,3523543393,SYNTHETIC_DEMO_ONLY
+972,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah Tapak,190,110,4,3,1,19,SHGB,Baik,7632541314,SYNTHETIC_DEMO_ONLY
+973,Papua Barat,Manokwari,Kawasan Bisnis,Rumah 2 Lantai,325,340,6,4,2,4,Lainnya,Baru,12845227792,SYNTHETIC_DEMO_ONLY
+974,Gorontalo,Gorontalo,Pinggiran Kota,Rumah 2 Lantai,210,170,5,4,2,31,Lainnya,Baik,3085914115,SYNTHETIC_DEMO_ONLY
+975,Papua,Jayapura,Area Berkembang,Rumah Minimalis,260,185,6,5,1,21,Lainnya,Baru,8633159292,SYNTHETIC_DEMO_ONLY
+976,Jawa Tengah,Surakarta,Kawasan Perumahan,Rumah Tapak,285,210,6,3,1,24,SHGB,Baik,7256957652,SYNTHETIC_DEMO_ONLY
+977,Kepulauan Riau,Batam,Area Berkembang,Rumah Tapak,175,100,3,2,1,30,SHM,Sangat Baik,4573017136,SYNTHETIC_DEMO_ONLY
+978,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah 2 Lantai,80,75,3,2,2,8,SHGB,Baik,1988471170,SYNTHETIC_DEMO_ONLY
+979,Jawa Tengah,Surakarta,Pinggiran Kota,Rumah Minimalis,90,85,3,2,2,32,Lainnya,Perlu Renovasi,1852736189,SYNTHETIC_DEMO_ONLY
+980,Jawa Timur,Surabaya,Kawasan Perumahan,Rumah 2 Lantai,260,240,6,5,2,6,SHM,Baik,15061654551,SYNTHETIC_DEMO_ONLY
+981,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Rumah Tapak,105,80,2,1,1,6,SHM,Baru,2332954162,SYNTHETIC_DEMO_ONLY
+982,Jawa Barat,Bandung,Pusat Kota,Rumah Tapak,160,125,4,3,1,14,Lainnya,Perlu Renovasi,6849303089,SYNTHETIC_DEMO_ONLY
+983,Gorontalo,Gorontalo,Kawasan Perumahan,Rumah Tapak,355,215,6,3,1,7,SHM,Baik,7581607013,SYNTHETIC_DEMO_ONLY
+984,Jawa Tengah,Semarang,Kawasan Perumahan,Rumah 2 Lantai,140,125,3,2,2,26,SHM,Baik,4988653981,SYNTHETIC_DEMO_ONLY
+985,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Tapak,315,155,5,4,1,1,Lainnya,Baru,9959743901,SYNTHETIC_DEMO_ONLY
+986,Jawa Barat,Depok,Pusat Kota,Rumah 2 Lantai,325,435,6,5,2,3,Lainnya,Sangat Baik,23207639209,SYNTHETIC_DEMO_ONLY
+987,Sulawesi Barat,Mamuju,Pusat Kota,Rumah Tapak,330,190,5,3,1,11,SHM,Perlu Renovasi,6134074590,SYNTHETIC_DEMO_ONLY
+988,Jawa Barat,Bogor,Area Berkembang,Rumah 2 Lantai,315,290,6,5,2,1,SHGB,Baru,14330379643,SYNTHETIC_DEMO_ONLY
+989,Riau,Pekanbaru,Pusat Kota,Rumah Minimalis,200,135,4,2,1,10,Lainnya,Baik,5469692341,SYNTHETIC_DEMO_ONLY
+990,Papua Pegunungan,Wamena,Kawasan Bisnis,Rumah Minimalis,225,125,4,3,1,18,Lainnya,Baik,4353221023,SYNTHETIC_DEMO_ONLY
+991,Jawa Barat,Bekasi,Kawasan Perumahan,Rumah Tapak,265,150,4,3,1,17,SHM,Baik,9131194555,SYNTHETIC_DEMO_ONLY
+992,Sulawesi Selatan,Makassar,Pinggiran Kota,Rumah Tapak,295,225,6,5,1,28,SHM,Baik,7656995483,SYNTHETIC_DEMO_ONLY
+993,DI Yogyakarta,Yogyakarta,Pusat Kota,Rumah 2 Lantai,265,295,6,3,2,9,Lainnya,Perlu Renovasi,12438979554,SYNTHETIC_DEMO_ONLY
+994,Kepulauan Riau,Batam,Pusat Kota,Rumah 2 Lantai,305,345,6,4,2,21,SHM,Baru,15413904712,SYNTHETIC_DEMO_ONLY
+995,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah Minimalis,155,95,3,2,1,4,SHGB,Baru,7118615023,SYNTHETIC_DEMO_ONLY
+996,Sumatera Selatan,Palembang,Pinggiran Kota,Rumah 2 Lantai,330,265,6,4,2,29,SHM,Sangat Baik,7748726955,SYNTHETIC_DEMO_ONLY
+997,Sumatera Selatan,Palembang,Kawasan Bisnis,Townhouse,260,275,6,4,2,21,SHGB,Sangat Baik,8093228771,SYNTHETIC_DEMO_ONLY
+998,Kalimantan Tengah,Palangka Raya,Pusat Kota,Rumah Tapak,235,150,5,3,1,3,Lainnya,Baru,7188303527,SYNTHETIC_DEMO_ONLY
+999,Bali,Denpasar,Area Berkembang,Rumah 2 Lantai,140,90,3,2,2,22,SHM,Perlu Renovasi,4609085631,SYNTHETIC_DEMO_ONLY
+1000,DKI Jakarta,Jakarta Timur,Area Berkembang,Rumah 2 Lantai,325,305,6,3,2,4,SHGB,Baik,17101757980,SYNTHETIC_DEMO_ONLY
+1001,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah Tapak,185,155,4,3,1,0,SHM,Sangat Baik,8970913154,SYNTHETIC_DEMO_ONLY
+1002,Bengkulu,Bengkulu,Area Berkembang,Rumah Minimalis,155,110,4,3,1,18,SHM,Sangat Baik,3205798158,SYNTHETIC_DEMO_ONLY
+1003,Jawa Barat,Bekasi,Area Berkembang,Rumah Minimalis,355,180,5,3,1,0,SHM,Sangat Baik,12254510672,SYNTHETIC_DEMO_ONLY
+1004,Sumatera Utara,Medan,Kawasan Perumahan,Rumah Minimalis,240,240,6,3,3,13,SHM,Perlu Renovasi,6900862933,SYNTHETIC_DEMO_ONLY
+1005,Jawa Tengah,Surakarta,Pinggiran Kota,Rumah Tapak,245,265,6,5,2,13,SHGB,Baru,8178723107,SYNTHETIC_DEMO_ONLY
+1006,Aceh,Banda Aceh,Area Berkembang,Rumah Minimalis,210,180,5,4,3,16,SHM,Sangat Baik,5273884956,SYNTHETIC_DEMO_ONLY
+1007,Kalimantan Barat,Pontianak,Pusat Kota,Townhouse,165,195,6,5,3,28,Lainnya,Sangat Baik,6283504842,SYNTHETIC_DEMO_ONLY
+1008,Papua Tengah,Nabire,Pinggiran Kota,Rumah 2 Lantai,310,415,6,5,2,29,Lainnya,Perlu Renovasi,6471119686,SYNTHETIC_DEMO_ONLY
+1009,Sulawesi Tenggara,Kendari,Kawasan Perumahan,Rumah Minimalis,265,130,4,2,1,18,Lainnya,Sangat Baik,5117997704,SYNTHETIC_DEMO_ONLY
+1010,Papua Selatan,Merauke,Pinggiran Kota,Rumah Minimalis,250,140,4,2,1,2,SHGB,Baik,5284284541,SYNTHETIC_DEMO_ONLY
+1011,Gorontalo,Gorontalo,Area Berkembang,Rumah Tapak,140,75,3,2,1,29,SHGB,Sangat Baik,2265467096,SYNTHETIC_DEMO_ONLY
+1012,Jawa Barat,Bandung,Kawasan Perumahan,Townhouse,170,125,3,2,1,15,SHGB,Perlu Renovasi,5340896390,SYNTHETIC_DEMO_ONLY
+1013,Jambi,Jambi,Kawasan Perumahan,Rumah 2 Lantai,220,180,6,4,2,7,SHM,Baru,6240271489,SYNTHETIC_DEMO_ONLY
+1014,Jawa Timur,Surabaya,Kawasan Perumahan,Rumah Minimalis,310,215,6,4,1,7,Lainnya,Baru,16254263824,SYNTHETIC_DEMO_ONLY
+1015,Jawa Barat,Depok,Pinggiran Kota,Townhouse,345,275,6,4,3,12,Lainnya,Baru,13674308569,SYNTHETIC_DEMO_ONLY
+1016,Sulawesi Tengah,Palu,Kawasan Perumahan,Rumah 2 Lantai,200,145,4,2,2,22,SHGB,Perlu Renovasi,3767492469,SYNTHETIC_DEMO_ONLY
+1017,Nusa Tenggara Barat,Mataram,Pusat Kota,Townhouse,180,190,5,4,2,17,SHM,Sangat Baik,8958077845,SYNTHETIC_DEMO_ONLY
+1018,Papua Selatan,Merauke,Area Berkembang,Rumah Minimalis,180,115,4,3,1,9,SHM,Perlu Renovasi,3137951584,SYNTHETIC_DEMO_ONLY
+1019,Sulawesi Selatan,Makassar,Pusat Kota,Rumah 2 Lantai,335,395,6,4,2,16,SHM,Baru,22509372010,SYNTHETIC_DEMO_ONLY
+1020,Kalimantan Barat,Pontianak,Pusat Kota,Rumah 2 Lantai,195,215,6,4,2,14,SHGB,Sangat Baik,8598930811,SYNTHETIC_DEMO_ONLY
+1021,Sulawesi Selatan,Makassar,Kawasan Bisnis,Townhouse,120,100,3,2,1,7,SHGB,Perlu Renovasi,3787436849,SYNTHETIC_DEMO_ONLY
+1022,DKI Jakarta,Jakarta Selatan,Kawasan Perumahan,Rumah 2 Lantai,320,365,6,3,2,26,SHGB,Perlu Renovasi,19664225901,SYNTHETIC_DEMO_ONLY
+1023,Kepulauan Riau,Batam,Pinggiran Kota,Rumah 2 Lantai,125,135,5,4,2,11,SHM,Baik,4806617213,SYNTHETIC_DEMO_ONLY
+1024,Kalimantan Utara,Tarakan,Kawasan Bisnis,Rumah 2 Lantai,130,120,4,3,2,25,SHGB,Baik,3884684522,SYNTHETIC_DEMO_ONLY
+1025,Kalimantan Utara,Tarakan,Kawasan Perumahan,Rumah Tapak,225,195,6,5,2,8,SHGB,Baru,7041295302,SYNTHETIC_DEMO_ONLY
+1026,Riau,Pekanbaru,Kawasan Perumahan,Rumah Tapak,270,150,5,3,1,29,Lainnya,Sangat Baik,4728878343,SYNTHETIC_DEMO_ONLY
+1027,Bali,Denpasar,Kawasan Bisnis,Rumah Tapak,65,55,3,2,1,22,Lainnya,Baru,4146978784,SYNTHETIC_DEMO_ONLY
+1028,Jawa Barat,Bandung,Kawasan Bisnis,Rumah Minimalis,150,90,3,2,1,17,SHM,Baru,6606123387,SYNTHETIC_DEMO_ONLY
+1029,Papua Tengah,Nabire,Kawasan Perumahan,Rumah Minimalis,105,65,3,2,1,25,Lainnya,Baik,2213785632,SYNTHETIC_DEMO_ONLY
+1030,Jawa Barat,Depok,Pinggiran Kota,Rumah 2 Lantai,140,135,4,3,2,21,Lainnya,Sangat Baik,6178477192,SYNTHETIC_DEMO_ONLY
+1031,Sulawesi Tenggara,Kendari,Pusat Kota,Rumah 2 Lantai,105,80,3,2,2,8,Lainnya,Baik,3120219336,SYNTHETIC_DEMO_ONLY
+1032,Jawa Timur,Surabaya,Area Berkembang,Rumah 2 Lantai,175,165,5,4,2,8,SHGB,Baru,9621190628,SYNTHETIC_DEMO_ONLY
+1033,Papua Barat,Manokwari,Kawasan Perumahan,Rumah Minimalis,140,95,3,2,1,22,Lainnya,Perlu Renovasi,2522072089,SYNTHETIC_DEMO_ONLY
+1034,Jawa Barat,Bandung,Area Berkembang,Rumah Tapak,230,190,5,4,2,1,Lainnya,Sangat Baik,9947537529,SYNTHETIC_DEMO_ONLY
+1035,Jawa Barat,Bogor,Pusat Kota,Townhouse,330,165,5,3,1,6,SHM,Sangat Baik,15025204111,SYNTHETIC_DEMO_ONLY
+1036,Papua Barat,Manokwari,Kawasan Perumahan,Rumah Tapak,285,145,5,2,1,8,SHM,Sangat Baik,7311768338,SYNTHETIC_DEMO_ONLY
+1037,Sulawesi Tenggara,Kendari,Kawasan Perumahan,Rumah 2 Lantai,350,305,6,5,2,30,SHGB,Baru,9649876973,SYNTHETIC_DEMO_ONLY
+1038,Jawa Barat,Bekasi,Kawasan Perumahan,Townhouse,155,125,4,2,1,8,Lainnya,Perlu Renovasi,5245080187,SYNTHETIC_DEMO_ONLY
+1039,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Rumah Minimalis,340,165,5,4,1,24,SHGB,Perlu Renovasi,3857658613,SYNTHETIC_DEMO_ONLY
+1040,Kalimantan Utara,Tarakan,Kawasan Bisnis,Rumah 2 Lantai,250,210,6,3,2,16,SHGB,Baik,8242189077,SYNTHETIC_DEMO_ONLY
+1041,Sumatera Barat,Padang,Pinggiran Kota,Rumah Tapak,215,285,6,3,2,20,SHGB,Perlu Renovasi,5225261838,SYNTHETIC_DEMO_ONLY
+1042,Sumatera Barat,Padang,Kawasan Perumahan,Rumah Minimalis,125,110,4,2,1,12,Lainnya,Baru,3310923870,SYNTHETIC_DEMO_ONLY
+1043,Papua Selatan,Merauke,Area Berkembang,Rumah 2 Lantai,200,140,4,3,2,4,Lainnya,Perlu Renovasi,3733141595,SYNTHETIC_DEMO_ONLY
+1044,Banten,Serang,Area Berkembang,Rumah 2 Lantai,65,50,2,1,2,30,Lainnya,Baru,1677889881,SYNTHETIC_DEMO_ONLY
+1045,Sumatera Utara,Medan,Pinggiran Kota,Rumah Minimalis,195,145,4,3,3,5,Lainnya,Baru,5049834557,SYNTHETIC_DEMO_ONLY
+1046,Sulawesi Barat,Mamuju,Kawasan Perumahan,Rumah 2 Lantai,250,280,6,5,2,20,SHM,Baik,6983482003,SYNTHETIC_DEMO_ONLY
+1047,Papua Selatan,Merauke,Pinggiran Kota,Rumah Tapak,340,275,6,5,1,10,SHM,Perlu Renovasi,7399095469,SYNTHETIC_DEMO_ONLY
+1048,Nusa Tenggara Timur,Kupang,Pusat Kota,Rumah 2 Lantai,135,170,5,4,2,2,SHGB,Baru,6057523807,SYNTHETIC_DEMO_ONLY
+1049,Kalimantan Timur,Balikpapan,Kawasan Bisnis,Rumah Minimalis,140,90,3,2,1,9,Lainnya,Perlu Renovasi,4286403903,SYNTHETIC_DEMO_ONLY
+1050,Sulawesi Tengah,Palu,Kawasan Perumahan,Rumah Minimalis,215,185,6,5,1,23,SHGB,Perlu Renovasi,4206758249,SYNTHETIC_DEMO_ONLY
+1051,Papua Selatan,Merauke,Pinggiran Kota,Rumah 2 Lantai,150,195,6,5,2,18,SHM,Perlu Renovasi,3812001584,SYNTHETIC_DEMO_ONLY
+1052,Maluku,Ambon,Kawasan Perumahan,Rumah Minimalis,255,145,5,4,1,12,Lainnya,Baik,5273974752,SYNTHETIC_DEMO_ONLY
+1053,Jawa Barat,Bandung,Pinggiran Kota,Rumah Minimalis,250,125,3,2,1,23,Lainnya,Perlu Renovasi,5135595059,SYNTHETIC_DEMO_ONLY
+1054,Kalimantan Selatan,Banjarmasin,Area Berkembang,Rumah Minimalis,190,120,4,3,1,22,SHM,Sangat Baik,4524249749,SYNTHETIC_DEMO_ONLY
+1055,Banten,Serang,Pusat Kota,Rumah 2 Lantai,90,110,4,2,2,31,SHGB,Perlu Renovasi,3559771247,SYNTHETIC_DEMO_ONLY
+1056,Maluku Utara,Ternate,Kawasan Perumahan,Rumah Tapak,340,275,6,4,1,17,SHGB,Baik,9828087029,SYNTHETIC_DEMO_ONLY
+1057,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Rumah Tapak,330,270,6,4,3,11,Lainnya,Sangat Baik,6724680683,SYNTHETIC_DEMO_ONLY
+1058,Banten,Serang,Kawasan Perumahan,Townhouse,65,40,1,1,1,18,SHGB,Perlu Renovasi,1524075975,SYNTHETIC_DEMO_ONLY
+1059,DKI Jakarta,Jakarta Timur,Area Berkembang,Townhouse,360,380,6,5,2,22,Lainnya,Sangat Baik,16402410062,SYNTHETIC_DEMO_ONLY
+1060,Kalimantan Tengah,Palangka Raya,Pusat Kota,Townhouse,305,210,6,4,1,28,SHGB,Sangat Baik,7231712376,SYNTHETIC_DEMO_ONLY
+1061,Kalimantan Utara,Tarakan,Pusat Kota,Rumah 2 Lantai,340,315,6,4,2,20,SHGB,Perlu Renovasi,10798929247,SYNTHETIC_DEMO_ONLY
+1062,Sumatera Barat,Padang,Kawasan Perumahan,Rumah Tapak,310,190,6,3,1,29,SHM,Baru,6170228460,SYNTHETIC_DEMO_ONLY
+1063,Papua Barat Daya,Sorong,Area Berkembang,Rumah 2 Lantai,235,265,6,5,2,15,Lainnya,Sangat Baik,8804048950,SYNTHETIC_DEMO_ONLY
+1064,DI Yogyakarta,Yogyakarta,Area Berkembang,Townhouse,330,180,6,3,1,11,SHM,Baru,10952716368,SYNTHETIC_DEMO_ONLY
+1065,Sumatera Utara,Medan,Area Berkembang,Townhouse,120,95,4,3,1,17,SHM,Sangat Baik,3326114097,SYNTHETIC_DEMO_ONLY
+1066,Nusa Tenggara Barat,Mataram,Pinggiran Kota,Townhouse,155,95,3,1,1,9,SHGB,Sangat Baik,3406844148,SYNTHETIC_DEMO_ONLY
+1067,Riau,Pekanbaru,Pusat Kota,Townhouse,300,195,6,4,1,1,SHM,Baru,10983628915,SYNTHETIC_DEMO_ONLY
+1068,Jawa Barat,Bandung,Kawasan Bisnis,Townhouse,80,95,3,2,3,20,SHM,Sangat Baik,5096091505,SYNTHETIC_DEMO_ONLY
+1069,Sumatera Barat,Padang,Area Berkembang,Rumah Minimalis,115,85,3,2,1,21,SHM,Perlu Renovasi,2293734458,SYNTHETIC_DEMO_ONLY
+1070,Banten,Serang,Pusat Kota,Rumah Tapak,270,365,6,4,3,29,SHGB,Sangat Baik,14963393940,SYNTHETIC_DEMO_ONLY
+1071,Papua Barat Daya,Sorong,Pinggiran Kota,Rumah Minimalis,115,65,2,2,1,10,SHGB,Sangat Baik,2458255908,SYNTHETIC_DEMO_ONLY
+1072,Maluku,Ambon,Kawasan Perumahan,Rumah Tapak,175,195,6,3,3,24,SHGB,Baru,6533469915,SYNTHETIC_DEMO_ONLY
+1073,Lampung,Bandar Lampung,Pusat Kota,Townhouse,220,120,3,2,1,3,SHGB,Baik,4732894181,SYNTHETIC_DEMO_ONLY
+1074,Sulawesi Tengah,Palu,Kawasan Bisnis,Rumah Tapak,165,115,4,3,2,22,SHGB,Baik,3795588242,SYNTHETIC_DEMO_ONLY
+1075,Nusa Tenggara Barat,Mataram,Pinggiran Kota,Rumah Tapak,270,180,5,3,1,26,SHM,Baru,6452424961,SYNTHETIC_DEMO_ONLY
+1076,DKI Jakarta,Jakarta Selatan,Kawasan Bisnis,Townhouse,290,160,4,3,1,30,SHGB,Baru,18879893198,SYNTHETIC_DEMO_ONLY
+1077,Jawa Timur,Malang,Pinggiran Kota,Rumah Minimalis,325,265,6,4,2,29,Lainnya,Baru,7956161357,SYNTHETIC_DEMO_ONLY
+1078,Maluku Utara,Ternate,Pinggiran Kota,Rumah 2 Lantai,235,235,6,5,2,20,SHGB,Baru,6543861243,SYNTHETIC_DEMO_ONLY
+1079,Gorontalo,Gorontalo,Pinggiran Kota,Rumah 2 Lantai,115,85,4,2,2,16,SHGB,Baru,2191342530,SYNTHETIC_DEMO_ONLY
+1080,Jambi,Jambi,Kawasan Perumahan,Rumah Tapak,225,305,6,4,2,0,Lainnya,Perlu Renovasi,5198685014,SYNTHETIC_DEMO_ONLY
+1081,Papua,Jayapura,Kawasan Bisnis,Rumah Minimalis,115,60,2,1,1,20,Lainnya,Sangat Baik,3514731233,SYNTHETIC_DEMO_ONLY
+1082,Sumatera Utara,Medan,Pinggiran Kota,Townhouse,180,115,4,2,1,12,Lainnya,Baru,4143046805,SYNTHETIC_DEMO_ONLY
+1083,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Perumahan,Townhouse,70,40,2,1,1,14,SHM,Perlu Renovasi,1316591464,SYNTHETIC_DEMO_ONLY
+1084,Papua Barat,Manokwari,Pusat Kota,Rumah Minimalis,305,200,6,3,1,23,Lainnya,Baru,7606070087,SYNTHETIC_DEMO_ONLY
+1085,Banten,Serang,Kawasan Bisnis,Townhouse,300,165,5,4,1,20,SHM,Baik,9879399172,SYNTHETIC_DEMO_ONLY
+1086,Jawa Tengah,Semarang,Pusat Kota,Rumah Tapak,185,130,4,2,3,30,SHGB,Sangat Baik,7310379230,SYNTHETIC_DEMO_ONLY
+1087,Jawa Tengah,Semarang,Kawasan Bisnis,Rumah Minimalis,285,175,5,4,1,7,SHM,Perlu Renovasi,7607192428,SYNTHETIC_DEMO_ONLY
+1088,Papua,Jayapura,Kawasan Bisnis,Townhouse,360,365,6,4,3,23,Lainnya,Sangat Baik,15107538174,SYNTHETIC_DEMO_ONLY
+1089,Jawa Timur,Surabaya,Kawasan Bisnis,Townhouse,305,265,6,4,2,21,SHGB,Baru,18497383678,SYNTHETIC_DEMO_ONLY
+1090,Riau,Pekanbaru,Area Berkembang,Townhouse,105,55,3,2,1,23,SHGB,Perlu Renovasi,1722251287,SYNTHETIC_DEMO_ONLY
+1091,Maluku Utara,Ternate,Area Berkembang,Rumah Tapak,325,280,6,4,1,5,SHGB,Baru,10518527727,SYNTHETIC_DEMO_ONLY
+1092,Papua Selatan,Merauke,Kawasan Perumahan,Rumah 2 Lantai,65,60,2,1,2,23,SHGB,Perlu Renovasi,1390440527,SYNTHETIC_DEMO_ONLY
+1093,Sulawesi Barat,Mamuju,Kawasan Bisnis,Rumah Tapak,285,280,6,5,3,31,SHGB,Perlu Renovasi,5232437984,SYNTHETIC_DEMO_ONLY
+1094,Kalimantan Utara,Tarakan,Pinggiran Kota,Rumah Minimalis,130,125,4,3,2,16,SHGB,Baik,3515710261,SYNTHETIC_DEMO_ONLY
+1095,Sulawesi Barat,Mamuju,Kawasan Perumahan,Rumah Tapak,165,155,6,4,3,31,Lainnya,Baik,3541428082,SYNTHETIC_DEMO_ONLY
+1096,DKI Jakarta,Jakarta Timur,Pinggiran Kota,Rumah 2 Lantai,165,120,3,3,2,17,Lainnya,Baru,7299926090,SYNTHETIC_DEMO_ONLY
+1097,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Townhouse,275,170,5,4,1,19,Lainnya,Sangat Baik,4576668120,SYNTHETIC_DEMO_ONLY
+1098,Papua Barat Daya,Sorong,Pusat Kota,Townhouse,110,135,4,2,2,32,SHM,Baik,5396500352,SYNTHETIC_DEMO_ONLY
+1099,DKI Jakarta,Jakarta Timur,Area Berkembang,Townhouse,155,100,4,2,1,17,SHM,Perlu Renovasi,5672455003,SYNTHETIC_DEMO_ONLY
+1100,Banten,Serang,Pusat Kota,Rumah 2 Lantai,175,195,5,3,2,7,SHM,Sangat Baik,9994665797,SYNTHETIC_DEMO_ONLY
+1101,Papua Pegunungan,Wamena,Kawasan Perumahan,Townhouse,120,115,3,2,2,18,Lainnya,Perlu Renovasi,2509032877,SYNTHETIC_DEMO_ONLY
+1102,Papua Selatan,Merauke,Pinggiran Kota,Townhouse,150,75,2,1,1,30,Lainnya,Sangat Baik,2361654247,SYNTHETIC_DEMO_ONLY
+1103,Papua Barat Daya,Sorong,Pusat Kota,Townhouse,75,75,2,1,2,29,SHM,Baru,3259886338,SYNTHETIC_DEMO_ONLY
+1104,DKI Jakarta,Jakarta Selatan,Kawasan Bisnis,Rumah Tapak,255,190,6,3,3,1,Lainnya,Sangat Baik,19421934300,SYNTHETIC_DEMO_ONLY
+1105,Jawa Barat,Bandung,Pusat Kota,Rumah 2 Lantai,310,260,6,4,2,22,SHGB,Perlu Renovasi,12896722849,SYNTHETIC_DEMO_ONLY
+1106,Papua Tengah,Nabire,Pinggiran Kota,Townhouse,80,50,2,1,1,3,SHGB,Baik,1759049168,SYNTHETIC_DEMO_ONLY
+1107,Banten,Serang,Kawasan Perumahan,Rumah Minimalis,125,105,3,2,2,9,Lainnya,Perlu Renovasi,3391274032,SYNTHETIC_DEMO_ONLY
+1108,Papua Barat,Manokwari,Kawasan Bisnis,Townhouse,140,155,6,3,3,6,SHGB,Sangat Baik,5748827986,SYNTHETIC_DEMO_ONLY
+1109,Lampung,Bandar Lampung,Pusat Kota,Rumah 2 Lantai,230,180,6,4,2,9,SHM,Sangat Baik,8114496429,SYNTHETIC_DEMO_ONLY
+1110,Sumatera Utara,Medan,Kawasan Perumahan,Rumah Tapak,250,220,6,5,2,15,SHGB,Perlu Renovasi,5266659373,SYNTHETIC_DEMO_ONLY
+1111,Kepulauan Riau,Batam,Kawasan Bisnis,Townhouse,255,250,6,4,3,32,Lainnya,Baik,10045057630,SYNTHETIC_DEMO_ONLY
+1112,Sumatera Selatan,Palembang,Pusat Kota,Rumah Minimalis,140,90,3,2,1,27,SHGB,Baik,3159905950,SYNTHETIC_DEMO_ONLY
+1113,Kepulauan Riau,Batam,Kawasan Bisnis,Rumah 2 Lantai,180,195,6,5,2,2,SHGB,Sangat Baik,9314524399,SYNTHETIC_DEMO_ONLY
+1114,Papua Pegunungan,Wamena,Area Berkembang,Rumah Minimalis,320,305,6,5,2,19,SHM,Baru,9386946486,SYNTHETIC_DEMO_ONLY
+1115,Sumatera Selatan,Palembang,Pinggiran Kota,Rumah 2 Lantai,225,230,6,3,2,8,SHGB,Perlu Renovasi,4402791294,SYNTHETIC_DEMO_ONLY
+1116,Jawa Barat,Bogor,Area Berkembang,Rumah Minimalis,85,40,2,2,1,1,Lainnya,Perlu Renovasi,2013102051,SYNTHETIC_DEMO_ONLY
+1117,Sulawesi Utara,Manado,Kawasan Bisnis,Townhouse,165,110,4,2,1,27,SHM,Sangat Baik,5528831827,SYNTHETIC_DEMO_ONLY
+1118,Sumatera Barat,Padang,Area Berkembang,Rumah Tapak,90,110,3,2,3,8,SHM,Baik,2797285245,SYNTHETIC_DEMO_ONLY
+1119,Jawa Timur,Surabaya,Kawasan Bisnis,Rumah Tapak,125,65,3,2,1,11,Lainnya,Sangat Baik,5586611798,SYNTHETIC_DEMO_ONLY
+1120,Kalimantan Tengah,Palangka Raya,Kawasan Perumahan,Townhouse,155,135,4,2,1,24,SHM,Baru,5044235116,SYNTHETIC_DEMO_ONLY
+1121,Lampung,Bandar Lampung,Pusat Kota,Townhouse,300,185,6,3,1,5,SHM,Perlu Renovasi,6531186954,SYNTHETIC_DEMO_ONLY
+1122,Kepulauan Bangka Belitung,Pangkalpinang,Pinggiran Kota,Rumah Minimalis,135,165,5,3,3,13,SHM,Baik,4137133483,SYNTHETIC_DEMO_ONLY
+1123,Jawa Barat,Bandung,Kawasan Perumahan,Rumah Tapak,80,50,2,1,1,31,SHM,Perlu Renovasi,2588178792,SYNTHETIC_DEMO_ONLY
+1124,Jawa Tengah,Surakarta,Pusat Kota,Townhouse,155,95,4,2,1,3,SHM,Perlu Renovasi,4557903151,SYNTHETIC_DEMO_ONLY
+1125,Kalimantan Utara,Tarakan,Kawasan Bisnis,Rumah Tapak,215,165,5,3,1,15,Lainnya,Baru,5980502800,SYNTHETIC_DEMO_ONLY
+1126,Papua Selatan,Merauke,Kawasan Bisnis,Rumah 2 Lantai,315,370,6,5,2,28,SHGB,Baik,11735703543,SYNTHETIC_DEMO_ONLY
+1127,Papua Barat Daya,Sorong,Area Berkembang,Rumah 2 Lantai,115,105,3,2,2,4,SHM,Baik,4295103736,SYNTHETIC_DEMO_ONLY
+1128,Papua Barat,Manokwari,Area Berkembang,Rumah Tapak,325,175,6,4,1,0,Lainnya,Baik,6310058548,SYNTHETIC_DEMO_ONLY
+1129,Kalimantan Barat,Pontianak,Pinggiran Kota,Rumah Minimalis,180,215,6,3,2,20,Lainnya,Perlu Renovasi,4412505192,SYNTHETIC_DEMO_ONLY
+1130,Papua Tengah,Nabire,Pusat Kota,Rumah 2 Lantai,100,70,2,1,2,9,SHGB,Baru,3169938317,SYNTHETIC_DEMO_ONLY
+1131,Sulawesi Utara,Manado,Pusat Kota,Rumah 2 Lantai,270,270,6,4,2,7,Lainnya,Sangat Baik,10654395595,SYNTHETIC_DEMO_ONLY
+1132,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Townhouse,220,180,6,5,2,4,Lainnya,Sangat Baik,11821747972,SYNTHETIC_DEMO_ONLY
+1133,Jawa Tengah,Semarang,Pinggiran Kota,Rumah 2 Lantai,355,445,6,3,2,22,Lainnya,Sangat Baik,12581943725,SYNTHETIC_DEMO_ONLY
+1134,Papua Pegunungan,Wamena,Kawasan Bisnis,Rumah Tapak,70,50,1,1,2,25,SHGB,Perlu Renovasi,1148225861,SYNTHETIC_DEMO_ONLY
+1135,Papua Selatan,Merauke,Area Berkembang,Rumah Tapak,85,105,3,2,2,6,Lainnya,Baru,2981937475,SYNTHETIC_DEMO_ONLY
+1136,Jawa Barat,Bandung,Pinggiran Kota,Townhouse,220,125,4,2,1,19,SHGB,Perlu Renovasi,5700789340,SYNTHETIC_DEMO_ONLY
+1137,Papua Selatan,Merauke,Area Berkembang,Townhouse,235,150,5,4,1,9,Lainnya,Baru,5394803452,SYNTHETIC_DEMO_ONLY
+1138,Lampung,Bandar Lampung,Pusat Kota,Townhouse,255,170,6,3,1,6,SHM,Baik,7033611780,SYNTHETIC_DEMO_ONLY
+1139,Sulawesi Selatan,Makassar,Kawasan Bisnis,Townhouse,260,370,6,4,3,29,Lainnya,Perlu Renovasi,11137542042,SYNTHETIC_DEMO_ONLY
+1140,Banten,Serang,Pusat Kota,Rumah Tapak,115,115,4,2,2,10,SHGB,Baru,6529213200,SYNTHETIC_DEMO_ONLY
+1141,Maluku Utara,Ternate,Pinggiran Kota,Rumah Tapak,280,225,6,5,1,10,SHM,Perlu Renovasi,6111957573,SYNTHETIC_DEMO_ONLY
+1142,Papua Pegunungan,Wamena,Pusat Kota,Rumah Minimalis,185,150,4,3,1,18,Lainnya,Sangat Baik,4604625840,SYNTHETIC_DEMO_ONLY
+1143,Jawa Barat,Bandung,Pusat Kota,Rumah Tapak,170,110,4,2,1,25,Lainnya,Baik,6926910775,SYNTHETIC_DEMO_ONLY
+1144,Jawa Barat,Bogor,Kawasan Perumahan,Rumah Minimalis,125,70,3,2,1,22,SHM,Sangat Baik,4297049282,SYNTHETIC_DEMO_ONLY
+1145,DI Yogyakarta,Yogyakarta,Kawasan Bisnis,Rumah 2 Lantai,165,165,5,4,2,22,Lainnya,Baru,6979718101,SYNTHETIC_DEMO_ONLY
+1146,Sumatera Utara,Medan,Pusat Kota,Rumah Minimalis,355,270,6,3,3,13,SHM,Sangat Baik,12553422629,SYNTHETIC_DEMO_ONLY
+1147,Sulawesi Utara,Manado,Area Berkembang,Rumah Tapak,125,110,4,2,1,5,SHM,Baik,5015540682,SYNTHETIC_DEMO_ONLY
+1148,Jambi,Jambi,Kawasan Bisnis,Rumah 2 Lantai,170,130,4,3,2,8,Lainnya,Perlu Renovasi,3025101304,SYNTHETIC_DEMO_ONLY
+1149,Sumatera Barat,Padang,Area Berkembang,Rumah Tapak,85,70,2,2,1,11,SHM,Perlu Renovasi,1772270334,SYNTHETIC_DEMO_ONLY
+1150,Sumatera Selatan,Palembang,Pusat Kota,Rumah Tapak,205,140,5,4,1,27,SHM,Sangat Baik,6407235610,SYNTHETIC_DEMO_ONLY
+1151,Kalimantan Selatan,Banjarmasin,Pinggiran Kota,Rumah 2 Lantai,255,225,6,4,2,18,SHGB,Perlu Renovasi,5132932233,SYNTHETIC_DEMO_ONLY
+1152,Papua Tengah,Nabire,Area Berkembang,Rumah Tapak,205,165,6,5,1,11,SHM,Baik,5083480070,SYNTHETIC_DEMO_ONLY
+1153,Sumatera Utara,Medan,Kawasan Perumahan,Rumah Minimalis,125,85,4,2,1,29,Lainnya,Baru,3275108328,SYNTHETIC_DEMO_ONLY
+1154,Kalimantan Tengah,Palangka Raya,Area Berkembang,Rumah Tapak,185,195,6,3,2,12,SHGB,Baik,5857996843,SYNTHETIC_DEMO_ONLY
+1155,Sulawesi Utara,Manado,Pinggiran Kota,Rumah 2 Lantai,160,175,6,5,2,19,SHGB,Baik,5141807351,SYNTHETIC_DEMO_ONLY
+1156,Papua Barat Daya,Sorong,Kawasan Bisnis,Townhouse,90,95,4,3,2,14,SHM,Sangat Baik,4811279151,SYNTHETIC_DEMO_ONLY
+1157,Sulawesi Tenggara,Kendari,Pinggiran Kota,Rumah Tapak,60,70,3,2,3,6,SHM,Perlu Renovasi,1713688963,SYNTHETIC_DEMO_ONLY
+1158,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Townhouse,360,300,6,3,1,9,Lainnya,Baru,14853212688,SYNTHETIC_DEMO_ONLY
+1159,Jawa Timur,Malang,Kawasan Perumahan,Townhouse,350,445,6,3,2,15,SHGB,Perlu Renovasi,12574894265,SYNTHETIC_DEMO_ONLY
+1160,Papua Tengah,Nabire,Pinggiran Kota,Rumah Minimalis,335,310,6,5,3,21,Lainnya,Perlu Renovasi,5581188229,SYNTHETIC_DEMO_ONLY
+1161,Papua Selatan,Merauke,Kawasan Bisnis,Rumah Minimalis,160,95,4,2,1,1,SHGB,Perlu Renovasi,3939389643,SYNTHETIC_DEMO_ONLY
+1162,Jawa Barat,Depok,Pusat Kota,Rumah Minimalis,145,115,4,3,1,8,SHGB,Baik,7332800588,SYNTHETIC_DEMO_ONLY
+1163,Papua Barat Daya,Sorong,Kawasan Bisnis,Townhouse,355,345,6,3,2,19,Lainnya,Baru,13941629854,SYNTHETIC_DEMO_ONLY
+1164,Riau,Pekanbaru,Pinggiran Kota,Rumah 2 Lantai,170,120,3,2,2,26,Lainnya,Baru,3293765267,SYNTHETIC_DEMO_ONLY
+1165,Papua Selatan,Merauke,Area Berkembang,Townhouse,275,140,5,3,1,26,SHM,Baik,4545412273,SYNTHETIC_DEMO_ONLY
+1166,Papua Barat,Manokwari,Pusat Kota,Rumah Tapak,60,60,2,1,3,30,Lainnya,Baik,2057144489,SYNTHETIC_DEMO_ONLY
+1167,Papua Selatan,Merauke,Pusat Kota,Rumah 2 Lantai,155,140,4,2,2,15,Lainnya,Perlu Renovasi,4220124394,SYNTHETIC_DEMO_ONLY
+1168,Papua Selatan,Merauke,Kawasan Perumahan,Rumah Tapak,75,50,2,1,1,19,SHM,Baik,1795400634,SYNTHETIC_DEMO_ONLY
+1169,Maluku Utara,Ternate,Kawasan Perumahan,Rumah Minimalis,335,280,6,4,2,32,SHGB,Baru,10802579340,SYNTHETIC_DEMO_ONLY
+1170,DKI Jakarta,Jakarta Timur,Area Berkembang,Rumah Minimalis,265,165,5,3,1,28,SHM,Sangat Baik,10687786568,SYNTHETIC_DEMO_ONLY
+1171,Sulawesi Selatan,Makassar,Pusat Kota,Townhouse,240,270,6,3,2,17,SHGB,Baik,12432200369,SYNTHETIC_DEMO_ONLY
+1172,Banten,Serang,Pusat Kota,Rumah Tapak,230,110,3,2,1,16,SHGB,Sangat Baik,6437511628,SYNTHETIC_DEMO_ONLY
+1173,Jawa Tengah,Surakarta,Pusat Kota,Rumah 2 Lantai,160,145,5,3,2,14,Lainnya,Baru,6667689599,SYNTHETIC_DEMO_ONLY
+1174,Jawa Barat,Bandung,Pinggiran Kota,Rumah 2 Lantai,290,260,6,4,2,23,SHGB,Perlu Renovasi,8157015871,SYNTHETIC_DEMO_ONLY
+1175,Kalimantan Utara,Tarakan,Area Berkembang,Rumah Minimalis,260,160,5,3,1,8,Lainnya,Baik,6168857156,SYNTHETIC_DEMO_ONLY
+1176,Aceh,Banda Aceh,Pusat Kota,Rumah Tapak,135,75,3,2,1,7,SHM,Baru,3046749967,SYNTHETIC_DEMO_ONLY
+1177,Papua Selatan,Merauke,Kawasan Bisnis,Rumah 2 Lantai,325,265,6,4,2,5,Lainnya,Perlu Renovasi,7173926996,SYNTHETIC_DEMO_ONLY
+1178,Papua Tengah,Nabire,Kawasan Perumahan,Rumah 2 Lantai,210,230,6,4,2,23,SHM,Baru,7363545799,SYNTHETIC_DEMO_ONLY
+1179,Jawa Barat,Bandung,Pusat Kota,Rumah 2 Lantai,305,335,6,3,2,0,SHM,Perlu Renovasi,20356661668,SYNTHETIC_DEMO_ONLY
+1180,Nusa Tenggara Barat,Mataram,Kawasan Perumahan,Rumah 2 Lantai,340,290,6,4,2,8,SHGB,Perlu Renovasi,9368758705,SYNTHETIC_DEMO_ONLY
+1181,Kalimantan Timur,Balikpapan,Pusat Kota,Rumah Minimalis,95,60,2,1,1,13,SHM,Baru,5422693828,SYNTHETIC_DEMO_ONLY
+1182,Papua Selatan,Merauke,Area Berkembang,Townhouse,310,190,6,5,1,3,SHM,Baru,7339840410,SYNTHETIC_DEMO_ONLY
+1183,Jawa Tengah,Semarang,Kawasan Perumahan,Rumah 2 Lantai,75,75,2,1,2,5,SHM,Baru,4070084624,SYNTHETIC_DEMO_ONLY
+1184,Jawa Barat,Depok,Pusat Kota,Rumah 2 Lantai,255,250,6,5,2,16,SHGB,Sangat Baik,16146450394,SYNTHETIC_DEMO_ONLY
+1185,Kalimantan Tengah,Palangka Raya,Pinggiran Kota,Townhouse,315,190,6,4,1,12,SHGB,Sangat Baik,6393278285,SYNTHETIC_DEMO_ONLY
+1186,Jawa Timur,Malang,Pusat Kota,Rumah 2 Lantai,270,315,6,4,2,13,Lainnya,Sangat Baik,12139921469,SYNTHETIC_DEMO_ONLY
+1187,Nusa Tenggara Timur,Kupang,Kawasan Bisnis,Townhouse,330,440,6,4,3,9,SHM,Baik,12121913686,SYNTHETIC_DEMO_ONLY
+1188,Papua,Jayapura,Pusat Kota,Rumah Minimalis,235,150,5,3,1,28,Lainnya,Baik,7238905910,SYNTHETIC_DEMO_ONLY
+1189,Maluku,Ambon,Kawasan Bisnis,Townhouse,165,135,4,2,1,15,SHGB,Baru,5924741807,SYNTHETIC_DEMO_ONLY
+1190,Bengkulu,Bengkulu,Kawasan Bisnis,Rumah Minimalis,325,260,6,4,1,2,SHM,Baru,9926148718,SYNTHETIC_DEMO_ONLY
+1191,Sumatera Selatan,Palembang,Pusat Kota,Rumah 2 Lantai,265,215,6,5,2,26,Lainnya,Perlu Renovasi,5642065698,SYNTHETIC_DEMO_ONLY
+1192,Jawa Barat,Bogor,Area Berkembang,Townhouse,165,105,4,3,1,14,SHGB,Baru,5550313529,SYNTHETIC_DEMO_ONLY
+1193,Kalimantan Tengah,Palangka Raya,Area Berkembang,Rumah 2 Lantai,325,345,6,4,2,10,SHGB,Baru,11173906020,SYNTHETIC_DEMO_ONLY
+1194,DKI Jakarta,Jakarta Selatan,Pusat Kota,Rumah 2 Lantai,235,210,6,5,2,11,SHM,Sangat Baik,20243335355,SYNTHETIC_DEMO_ONLY
+1195,Kepulauan Riau,Batam,Kawasan Bisnis,Rumah Tapak,80,65,3,2,2,28,SHM,Sangat Baik,3481316088,SYNTHETIC_DEMO_ONLY
+1196,Gorontalo,Gorontalo,Pusat Kota,Rumah Tapak,95,80,3,2,1,5,SHM,Sangat Baik,3144470691,SYNTHETIC_DEMO_ONLY
+1197,Nusa Tenggara Barat,Mataram,Kawasan Bisnis,Rumah 2 Lantai,350,385,6,4,2,27,SHM,Perlu Renovasi,10711774414,SYNTHETIC_DEMO_ONLY
+1198,Kalimantan Utara,Tarakan,Pinggiran Kota,Rumah Tapak,355,250,6,3,1,19,Lainnya,Perlu Renovasi,5443376960,SYNTHETIC_DEMO_ONLY
+1199,Sumatera Utara,Medan,Area Berkembang,Rumah Tapak,190,145,4,2,3,6,SHM,Baru,6371965161,SYNTHETIC_DEMO_ONLY
+1200,Nusa Tenggara Barat,Mataram,Pinggiran Kota,Rumah Tapak,165,130,5,4,1,27,Lainnya,Baru,3942387245,SYNTHETIC_DEMO_ONLY
+1201,Papua Tengah,Nabire,Kawasan Bisnis,Rumah Minimalis,325,190,5,3,1,3,SHGB,Baru,9169507192,SYNTHETIC_DEMO_ONLY
+1202,Banten,Serang,Pinggiran Kota,Rumah Minimalis,340,200,5,3,1,10,SHM,Baik,8907017085,SYNTHETIC_DEMO_ONLY
+1203,Banten,Serang,Kawasan Perumahan,Townhouse,305,235,6,5,1,27,SHM,Baik,9557203192,SYNTHETIC_DEMO_ONLY
+1204,Sulawesi Tenggara,Kendari,Area Berkembang,Rumah 2 Lantai,70,60,3,2,2,10,SHGB,Baik,1991394612,SYNTHETIC_DEMO_ONLY
+1205,DKI Jakarta,Jakarta Timur,Pusat Kota,Rumah Minimalis,220,165,5,3,1,23,Lainnya,Baru,13147624535,SYNTHETIC_DEMO_ONLY
+1206,Jawa Barat,Bogor,Pinggiran Kota,Rumah 2 Lantai,285,205,6,3,2,24,SHGB,Perlu Renovasi,6523336599,SYNTHETIC_DEMO_ONLY
+1207,Jawa Barat,Bandung,Kawasan Bisnis,Rumah 2 Lantai,345,425,6,4,2,29,SHM,Baru,24723009380,SYNTHETIC_DEMO_ONLY
+1208,Sulawesi Tengah,Palu,Area Berkembang,Rumah 2 Lantai,165,180,5,2,2,29,SHGB,Sangat Baik,4055764058,SYNTHETIC_DEMO_ONLY
+1209,Kepulauan Riau,Batam,Pinggiran Kota,Rumah Tapak,95,55,3,1,1,5,SHGB,Baru,2736064390,SYNTHETIC_DEMO_ONLY
+1210,Papua Selatan,Merauke,Pusat Kota,Rumah 2 Lantai,130,140,5,3,2,17,SHGB,Baik,4470956675,SYNTHETIC_DEMO_ONLY
+1211,Sulawesi Utara,Manado,Kawasan Perumahan,Townhouse,90,75,3,3,1,26,SHM,Baru,3771806451,SYNTHETIC_DEMO_ONLY
+1212,Kalimantan Timur,Balikpapan,Kawasan Perumahan,Rumah Tapak,65,55,2,1,1,7,SHGB,Perlu Renovasi,2774145521,SYNTHETIC_DEMO_ONLY
+1213,Sulawesi Tenggara,Kendari,Kawasan Perumahan,Townhouse,215,260,6,3,2,3,Lainnya,Sangat Baik,8068017026,SYNTHETIC_DEMO_ONLY
+1214,Nusa Tenggara Barat,Mataram,Kawasan Bisnis,Rumah Minimalis,245,300,6,5,3,25,SHM,Baru,10449374562,SYNTHETIC_DEMO_ONLY
+1215,Banten,Serang,Kawasan Bisnis,Rumah 2 Lantai,325,360,6,4,2,22,SHGB,Perlu Renovasi,11949478215,SYNTHETIC_DEMO_ONLY
+1216,Kalimantan Utara,Tarakan,Kawasan Perumahan,Rumah 2 Lantai,280,265,6,3,2,32,SHM,Perlu Renovasi,6496027444,SYNTHETIC_DEMO_ONLY
+1217,Nusa Tenggara Barat,Mataram,Kawasan Bisnis,Townhouse,255,170,5,4,1,12,SHM,Perlu Renovasi,6580361862,SYNTHETIC_DEMO_ONLY
+1218,Kalimantan Tengah,Palangka Raya,Pusat Kota,Rumah Minimalis,200,195,5,3,2,22,Lainnya,Baik,6037863947,SYNTHETIC_DEMO_ONLY
+1219,Jawa Tengah,Surakarta,Pusat Kota,Rumah 2 Lantai,120,140,4,2,2,23,SHGB,Sangat Baik,5059465122,SYNTHETIC_DEMO_ONLY
+1220,Nusa Tenggara Barat,Mataram,Pinggiran Kota,Rumah Tapak,105,70,2,2,1,30,SHM,Perlu Renovasi,1715253279,SYNTHETIC_DEMO_ONLY
+1221,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Rumah Minimalis,170,115,3,2,1,25,SHM,Baik,3223260099,SYNTHETIC_DEMO_ONLY
+1222,Jawa Barat,Bandung,Kawasan Bisnis,Townhouse,300,160,5,3,1,12,SHM,Perlu Renovasi,10654540545,SYNTHETIC_DEMO_ONLY
+1223,Papua Barat Daya,Sorong,Kawasan Bisnis,Townhouse,90,60,2,1,1,17,Lainnya,Perlu Renovasi,2243415233,SYNTHETIC_DEMO_ONLY
+1224,Jawa Barat,Bekasi,Kawasan Perumahan,Rumah Minimalis,210,225,6,3,3,11,SHM,Baik,11859266593,SYNTHETIC_DEMO_ONLY
+1225,Bengkulu,Bengkulu,Pusat Kota,Rumah 2 Lantai,355,315,6,3,2,4,Lainnya,Perlu Renovasi,7694813843,SYNTHETIC_DEMO_ONLY
+1226,Nusa Tenggara Timur,Kupang,Kawasan Bisnis,Rumah Tapak,150,200,6,3,2,28,Lainnya,Baik,4757695224,SYNTHETIC_DEMO_ONLY
+1227,Jawa Timur,Surabaya,Pusat Kota,Rumah Tapak,245,275,6,4,2,26,SHGB,Baru,18919264555,SYNTHETIC_DEMO_ONLY
+1228,Sulawesi Selatan,Makassar,Kawasan Perumahan,Rumah Tapak,160,85,2,1,1,29,SHM,Baik,3810806143,SYNTHETIC_DEMO_ONLY
+1229,Papua Selatan,Merauke,Kawasan Perumahan,Rumah Tapak,260,135,5,4,1,21,Lainnya,Sangat Baik,4619822126,SYNTHETIC_DEMO_ONLY
+1230,Sulawesi Tengah,Palu,Kawasan Bisnis,Rumah Minimalis,325,175,5,3,1,6,SHGB,Baik,7562496089,SYNTHETIC_DEMO_ONLY
+1231,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Townhouse,65,50,3,2,3,13,SHGB,Sangat Baik,1273202724,SYNTHETIC_DEMO_ONLY
+1232,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Rumah 2 Lantai,270,320,6,3,2,4,SHGB,Baru,15828851856,SYNTHETIC_DEMO_ONLY
+1233,Sumatera Utara,Medan,Pinggiran Kota,Rumah Minimalis,305,255,6,4,1,11,Lainnya,Baru,7609988559,SYNTHETIC_DEMO_ONLY
+1234,Lampung,Bandar Lampung,Area Berkembang,Rumah Minimalis,320,160,6,3,1,30,SHGB,Sangat Baik,4574792109,SYNTHETIC_DEMO_ONLY
+1235,Sulawesi Tengah,Palu,Pusat Kota,Rumah 2 Lantai,80,70,2,1,2,30,SHGB,Sangat Baik,2086536673,SYNTHETIC_DEMO_ONLY
+1236,Jawa Tengah,Surakarta,Pinggiran Kota,Rumah Tapak,185,130,4,2,3,12,Lainnya,Sangat Baik,4016986789,SYNTHETIC_DEMO_ONLY
+1237,Jawa Tengah,Surakarta,Pusat Kota,Rumah Minimalis,105,70,3,2,1,11,Lainnya,Perlu Renovasi,2837088245,SYNTHETIC_DEMO_ONLY
+1238,Sumatera Utara,Medan,Pusat Kota,Rumah 2 Lantai,135,135,5,4,2,22,SHM,Sangat Baik,5169106415,SYNTHETIC_DEMO_ONLY
+1239,Maluku Utara,Ternate,Kawasan Perumahan,Rumah 2 Lantai,245,300,6,4,2,4,SHM,Baik,10888449756,SYNTHETIC_DEMO_ONLY
+1240,Jawa Barat,Depok,Pinggiran Kota,Rumah 2 Lantai,220,245,6,4,2,24,Lainnya,Perlu Renovasi,6939760751,SYNTHETIC_DEMO_ONLY
+1241,Gorontalo,Gorontalo,Pusat Kota,Rumah 2 Lantai,185,250,6,3,2,16,SHM,Baru,7247966051,SYNTHETIC_DEMO_ONLY
+1242,Lampung,Bandar Lampung,Area Berkembang,Rumah Tapak,220,205,6,4,2,15,Lainnya,Sangat Baik,5122834454,SYNTHETIC_DEMO_ONLY
+1243,Sulawesi Tenggara,Kendari,Pusat Kota,Rumah Minimalis,150,155,5,3,2,24,SHGB,Perlu Renovasi,4543678296,SYNTHETIC_DEMO_ONLY
+1244,Kalimantan Utara,Tarakan,Kawasan Perumahan,Rumah Tapak,270,305,6,5,3,2,SHM,Baik,10189277660,SYNTHETIC_DEMO_ONLY
+1245,Bali,Denpasar,Kawasan Perumahan,Rumah 2 Lantai,325,345,6,4,2,25,Lainnya,Perlu Renovasi,15846042673,SYNTHETIC_DEMO_ONLY
+1246,Papua Selatan,Merauke,Kawasan Bisnis,Rumah Minimalis,200,140,4,3,1,20,Lainnya,Sangat Baik,4863137093,SYNTHETIC_DEMO_ONLY
+1247,Lampung,Bandar Lampung,Area Berkembang,Rumah Minimalis,265,130,4,3,1,20,SHGB,Perlu Renovasi,3461561105,SYNTHETIC_DEMO_ONLY
+1248,Papua Barat Daya,Sorong,Area Berkembang,Townhouse,225,210,6,4,3,18,SHM,Perlu Renovasi,5429130242,SYNTHETIC_DEMO_ONLY
+1249,Jawa Barat,Bogor,Pusat Kota,Rumah 2 Lantai,150,135,5,4,2,23,SHM,Perlu Renovasi,6296096389,SYNTHETIC_DEMO_ONLY
+1250,Jawa Timur,Surabaya,Kawasan Perumahan,Rumah Tapak,130,140,5,3,3,3,Lainnya,Perlu Renovasi,6972866805,SYNTHETIC_DEMO_ONLY
+1251,Kalimantan Utara,Tarakan,Area Berkembang,Rumah Minimalis,305,255,6,4,1,14,SHM,Baru,9069904225,SYNTHETIC_DEMO_ONLY
+1252,Aceh,Banda Aceh,Area Berkembang,Rumah 2 Lantai,345,290,6,3,2,23,SHGB,Baru,6957606632,SYNTHETIC_DEMO_ONLY
+1253,Jawa Barat,Depok,Kawasan Perumahan,Rumah Tapak,110,70,3,2,2,8,SHGB,Sangat Baik,5035313803,SYNTHETIC_DEMO_ONLY
+1254,Jawa Barat,Depok,Kawasan Perumahan,Rumah Minimalis,140,125,4,3,1,13,SHGB,Perlu Renovasi,5944532089,SYNTHETIC_DEMO_ONLY
+1255,Nusa Tenggara Barat,Mataram,Kawasan Bisnis,Rumah Tapak,90,75,3,2,1,29,Lainnya,Baik,2763594166,SYNTHETIC_DEMO_ONLY
+1256,Papua,Jayapura,Pinggiran Kota,Rumah Tapak,310,290,6,4,3,28,SHM,Baik,11846334808,SYNTHETIC_DEMO_ONLY
+1257,Bengkulu,Bengkulu,Kawasan Bisnis,Rumah Minimalis,220,160,5,3,1,22,Lainnya,Baru,4888301450,SYNTHETIC_DEMO_ONLY
+1258,DKI Jakarta,Jakarta Selatan,Kawasan Bisnis,Rumah 2 Lantai,205,230,6,3,2,3,SHGB,Perlu Renovasi,15035212606,SYNTHETIC_DEMO_ONLY
+1259,Jawa Timur,Surabaya,Pusat Kota,Rumah Minimalis,250,255,6,4,3,19,SHGB,Sangat Baik,18618900023,SYNTHETIC_DEMO_ONLY
+1260,Papua Tengah,Nabire,Kawasan Perumahan,Rumah Minimalis,250,185,5,3,1,13,Lainnya,Baik,5126357668,SYNTHETIC_DEMO_ONLY
+1261,DI Yogyakarta,Yogyakarta,Pinggiran Kota,Townhouse,295,185,6,5,1,4,SHGB,Baru,10138118665,SYNTHETIC_DEMO_ONLY
+1262,Jawa Timur,Surabaya,Kawasan Perumahan,Rumah Minimalis,295,190,6,4,1,11,SHGB,Baik,12934808944,SYNTHETIC_DEMO_ONLY
+1263,Jawa Barat,Bogor,Area Berkembang,Rumah Minimalis,235,155,5,4,1,26,SHGB,Sangat Baik,7659104492,SYNTHETIC_DEMO_ONLY
+1264,Nusa Tenggara Barat,Mataram,Kawasan Perumahan,Rumah 2 Lantai,340,415,6,4,2,32,Lainnya,Baru,10343459218,SYNTHETIC_DEMO_ONLY
+1265,Nusa Tenggara Barat,Mataram,Kawasan Perumahan,Townhouse,285,195,6,3,1,17,Lainnya,Sangat Baik,7853663192,SYNTHETIC_DEMO_ONLY
+1266,Jambi,Jambi,Kawasan Bisnis,Townhouse,240,115,3,2,1,23,SHM,Sangat Baik,3991489956,SYNTHETIC_DEMO_ONLY
+1267,Papua Tengah,Nabire,Kawasan Bisnis,Townhouse,205,140,4,2,3,7,Lainnya,Baru,5445192200,SYNTHETIC_DEMO_ONLY
+1268,DKI Jakarta,Jakarta Timur,Area Berkembang,Rumah Minimalis,100,85,3,1,1,17,SHM,Baru,4989588425,SYNTHETIC_DEMO_ONLY
+1269,DI Yogyakarta,Yogyakarta,Kawasan Bisnis,Rumah Tapak,90,50,2,1,1,12,SHM,Baru,3888858378,SYNTHETIC_DEMO_ONLY
+1270,Jawa Barat,Bandung,Area Berkembang,Rumah 2 Lantai,290,365,6,3,2,27,SHM,Baik,14640379494,SYNTHETIC_DEMO_ONLY
+1271,Sumatera Utara,Medan,Pusat Kota,Rumah Tapak,180,210,6,4,3,28,SHM,Sangat Baik,7261177354,SYNTHETIC_DEMO_ONLY
+1272,Lampung,Bandar Lampung,Kawasan Bisnis,Rumah Tapak,155,125,4,3,1,24,SHGB,Sangat Baik,4165720476,SYNTHETIC_DEMO_ONLY
+1273,Sumatera Selatan,Palembang,Pinggiran Kota,Rumah Minimalis,90,50,2,1,1,15,SHM,Baik,1588665383,SYNTHETIC_DEMO_ONLY
+1274,Nusa Tenggara Barat,Mataram,Kawasan Perumahan,Rumah 2 Lantai,240,240,6,5,2,17,SHGB,Baru,9707027787,SYNTHETIC_DEMO_ONLY
+1275,Papua,Jayapura,Kawasan Bisnis,Rumah Tapak,115,75,2,2,1,9,SHM,Baik,4874801239,SYNTHETIC_DEMO_ONLY
+1276,Kalimantan Barat,Pontianak,Pusat Kota,Rumah 2 Lantai,215,265,6,4,2,9,SHM,Baik,10572750356,SYNTHETIC_DEMO_ONLY
+1277,Maluku,Ambon,Pusat Kota,Rumah Minimalis,175,95,3,2,1,4,SHGB,Baru,5615676977,SYNTHETIC_DEMO_ONLY
+1278,DKI Jakarta,Jakarta Selatan,Kawasan Perumahan,Rumah Minimalis,360,245,6,3,1,6,Lainnya,Sangat Baik,20154941786,SYNTHETIC_DEMO_ONLY
+1279,Papua Selatan,Merauke,Kawasan Bisnis,Rumah 2 Lantai,170,225,6,3,2,15,SHGB,Baik,6904264686,SYNTHETIC_DEMO_ONLY
+1280,Bengkulu,Bengkulu,Kawasan Bisnis,Townhouse,145,100,3,2,1,1,Lainnya,Perlu Renovasi,2405209621,SYNTHETIC_DEMO_ONLY
+1281,Sulawesi Barat,Mamuju,Kawasan Perumahan,Rumah 2 Lantai,330,375,6,4,2,31,Lainnya,Perlu Renovasi,5047099683,SYNTHETIC_DEMO_ONLY
+1282,DKI Jakarta,Jakarta Timur,Kawasan Perumahan,Townhouse,225,135,4,3,1,9,SHGB,Baik,9457756202,SYNTHETIC_DEMO_ONLY
+1283,Papua Barat Daya,Sorong,Area Berkembang,Rumah Tapak,85,60,3,2,1,15,Lainnya,Sangat Baik,2261047149,SYNTHETIC_DEMO_ONLY
+1284,Jawa Timur,Malang,Pusat Kota,Rumah 2 Lantai,185,185,6,3,2,11,Lainnya,Baik,9034573849,SYNTHETIC_DEMO_ONLY
+1285,Nusa Tenggara Timur,Kupang,Kawasan Perumahan,Townhouse,150,115,4,3,1,10,SHGB,Baru,3750415141,SYNTHETIC_DEMO_ONLY
+1286,Papua Barat,Manokwari,Kawasan Bisnis,Rumah Tapak,185,155,4,3,1,28,SHM,Sangat Baik,5426724598,SYNTHETIC_DEMO_ONLY
+1287,Bali,Denpasar,Area Berkembang,Rumah Tapak,155,190,5,2,2,12,SHM,Baru,13059059430,SYNTHETIC_DEMO_ONLY
+1288,Papua Tengah,Nabire,Area Berkembang,Townhouse,115,75,3,2,1,7,Lainnya,Sangat Baik,2161108071,SYNTHETIC_DEMO_ONLY
+1289,Kepulauan Riau,Batam,Area Berkembang,Rumah 2 Lantai,315,285,6,5,2,15,SHM,Perlu Renovasi,8801904906,SYNTHETIC_DEMO_ONLY
+1290,Jawa Tengah,Surakarta,Pusat Kota,Rumah 2 Lantai,265,225,6,4,2,25,SHGB,Sangat Baik,10060141877,SYNTHETIC_DEMO_ONLY
+1291,Sulawesi Utara,Manado,Pusat Kota,Rumah Minimalis,180,145,4,2,1,14,Lainnya,Baik,5991793955,SYNTHETIC_DEMO_ONLY
+1292,Maluku,Ambon,Kawasan Bisnis,Rumah Tapak,200,120,3,2,1,19,Lainnya,Sangat Baik,4520676645,SYNTHETIC_DEMO_ONLY
+1293,Bali,Denpasar,Area Berkembang,Townhouse,110,80,3,3,2,4,SHM,Baik,6076355053,SYNTHETIC_DEMO_ONLY
+1294,DKI Jakarta,Jakarta Selatan,Area Berkembang,Townhouse,60,35,1,1,1,11,SHGB,Sangat Baik,3335288183,SYNTHETIC_DEMO_ONLY
+1295,Sumatera Utara,Medan,Pusat Kota,Rumah 2 Lantai,70,55,2,1,2,16,SHGB,Sangat Baik,2590995370,SYNTHETIC_DEMO_ONLY
+1296,Aceh,Banda Aceh,Kawasan Bisnis,Townhouse,185,105,4,2,1,12,SHM,Baru,3834174257,SYNTHETIC_DEMO_ONLY
+1297,Sulawesi Utara,Manado,Area Berkembang,Rumah Tapak,175,140,4,3,1,12,SHM,Perlu Renovasi,5094793091,SYNTHETIC_DEMO_ONLY
+1298,Kalimantan Barat,Pontianak,Pusat Kota,Rumah Minimalis,285,225,6,5,1,31,SHM,Perlu Renovasi,7708101348,SYNTHETIC_DEMO_ONLY
+1299,Jawa Barat,Depok,Pinggiran Kota,Rumah Tapak,95,75,3,2,2,20,SHM,Baru,4244350446,SYNTHETIC_DEMO_ONLY
+1300,Maluku Utara,Ternate,Kawasan Perumahan,Rumah 2 Lantai,290,230,6,4,2,30,SHM,Baru,8819957566,SYNTHETIC_DEMO_ONLY
+1301,Papua Barat,Manokwari,Pinggiran Kota,Townhouse,115,75,3,2,2,22,SHM,Baik,2405284079,SYNTHETIC_DEMO_ONLY
+1302,Gorontalo,Gorontalo,Kawasan Perumahan,Rumah 2 Lantai,145,170,5,4,2,9,Lainnya,Sangat Baik,4407178867,SYNTHETIC_DEMO_ONLY
+1303,Sulawesi Tenggara,Kendari,Kawasan Perumahan,Rumah Tapak,290,345,6,3,2,14,SHM,Sangat Baik,12379537583,SYNTHETIC_DEMO_ONLY
+1304,Sumatera Selatan,Palembang,Pinggiran Kota,Rumah 2 Lantai,200,165,5,2,2,20,SHM,Perlu Renovasi,3735695323,SYNTHETIC_DEMO_ONLY
+1305,Maluku Utara,Ternate,Pinggiran Kota,Rumah Tapak,250,270,6,5,3,20,SHGB,Sangat Baik,8304521436,SYNTHETIC_DEMO_ONLY
+1306,Aceh,Banda Aceh,Pusat Kota,Townhouse,85,50,1,1,1,15,SHGB,Sangat Baik,1735909922,SYNTHETIC_DEMO_ONLY
+1307,Maluku Utara,Ternate,Pinggiran Kota,Rumah Minimalis,230,130,4,2,1,25,Lainnya,Sangat Baik,4568722617,SYNTHETIC_DEMO_ONLY
+1308,Jambi,Jambi,Pinggiran Kota,Rumah Minimalis,70,40,1,1,1,7,SHGB,Baik,1205583372,SYNTHETIC_DEMO_ONLY
+1309,Lampung,Bandar Lampung,Area Berkembang,Rumah Tapak,145,95,3,1,1,0,SHGB,Sangat Baik,3121912817,SYNTHETIC_DEMO_ONLY
+1310,Nusa Tenggara Barat,Mataram,Pusat Kota,Townhouse,170,130,4,2,3,6,Lainnya,Perlu Renovasi,4354999895,SYNTHETIC_DEMO_ONLY
+1311,Jawa Tengah,Surakarta,Kawasan Perumahan,Rumah Tapak,355,450,6,3,2,15,SHGB,Sangat Baik,15435696931,SYNTHETIC_DEMO_ONLY
+1312,Sulawesi Tengah,Palu,Pusat Kota,Rumah Tapak,315,255,6,4,1,26,SHGB,Baru,9753980429,SYNTHETIC_DEMO_ONLY
+1313,Banten,Serang,Pusat Kota,Rumah Minimalis,225,210,6,4,3,17,SHGB,Baru,10490111629,SYNTHETIC_DEMO_ONLY
+1314,Sumatera Utara,Medan,Area Berkembang,Rumah Tapak,165,135,5,3,1,24,SHM,Baik,4515782948,SYNTHETIC_DEMO_ONLY
+1315,Jawa Timur,Malang,Kawasan Perumahan,Townhouse,245,215,6,5,1,23,Lainnya,Perlu Renovasi,6977949816,SYNTHETIC_DEMO_ONLY
+1316,DKI Jakarta,Jakarta Timur,Kawasan Perumahan,Rumah Minimalis,140,70,3,1,1,7,SHGB,Baru,6391316801,SYNTHETIC_DEMO_ONLY
+1317,Jawa Tengah,Surakarta,Pinggiran Kota,Rumah Tapak,170,115,3,1,1,23,Lainnya,Sangat Baik,3163182155,SYNTHETIC_DEMO_ONLY
+1318,Banten,Serang,Kawasan Perumahan,Townhouse,225,155,5,4,1,1,SHM,Baru,8908909146,SYNTHETIC_DEMO_ONLY
+1319,Banten,Serang,Kawasan Perumahan,Townhouse,240,300,6,3,3,26,Lainnya,Perlu Renovasi,7997869545,SYNTHETIC_DEMO_ONLY
+1320,Aceh,Banda Aceh,Kawasan Perumahan,Rumah Minimalis,145,110,4,3,1,9,Lainnya,Sangat Baik,3249730835,SYNTHETIC_DEMO_ONLY
+1321,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Rumah Minimalis,155,105,3,1,1,25,SHGB,Baru,4463660904,SYNTHETIC_DEMO_ONLY
+1322,Papua,Jayapura,Pusat Kota,Rumah Tapak,260,245,6,3,2,31,SHM,Baik,13579361689,SYNTHETIC_DEMO_ONLY
+1323,Sulawesi Tenggara,Kendari,Pusat Kota,Rumah Tapak,245,165,5,2,1,26,SHGB,Sangat Baik,7082177924,SYNTHETIC_DEMO_ONLY
+1324,Papua,Jayapura,Area Berkembang,Townhouse,225,205,6,4,3,28,SHGB,Sangat Baik,9174369384,SYNTHETIC_DEMO_ONLY
+1325,Bali,Denpasar,Area Berkembang,Rumah Minimalis,70,65,2,1,2,9,Lainnya,Perlu Renovasi,2845743338,SYNTHETIC_DEMO_ONLY
+1326,Papua,Jayapura,Kawasan Perumahan,Townhouse,350,315,6,5,3,8,Lainnya,Perlu Renovasi,11485894908,SYNTHETIC_DEMO_ONLY
+1327,Papua Barat,Manokwari,Kawasan Perumahan,Rumah Tapak,125,105,3,2,2,30,Lainnya,Perlu Renovasi,2598105296,SYNTHETIC_DEMO_ONLY
+1328,Jambi,Jambi,Area Berkembang,Rumah Tapak,285,145,5,2,1,25,SHGB,Baru,4380265309,SYNTHETIC_DEMO_ONLY
+1329,Jawa Barat,Depok,Kawasan Bisnis,Rumah Minimalis,190,150,5,4,1,20,Lainnya,Baik,8357027523,SYNTHETIC_DEMO_ONLY
+1330,Nusa Tenggara Barat,Mataram,Pusat Kota,Rumah 2 Lantai,260,260,6,4,2,29,SHGB,Sangat Baik,8822031901,SYNTHETIC_DEMO_ONLY
+1331,Sumatera Utara,Medan,Pusat Kota,Rumah 2 Lantai,205,245,6,3,2,6,SHGB,Perlu Renovasi,7468246079,SYNTHETIC_DEMO_ONLY
+1332,Jambi,Jambi,Kawasan Perumahan,Rumah Minimalis,145,75,2,1,1,22,SHM,Baik,2665363607,SYNTHETIC_DEMO_ONLY
+1333,Sumatera Barat,Padang,Pusat Kota,Rumah Minimalis,355,310,6,4,2,8,SHM,Baru,12467297047,SYNTHETIC_DEMO_ONLY
+1334,Lampung,Bandar Lampung,Kawasan Bisnis,Rumah 2 Lantai,320,345,6,5,2,21,SHGB,Baru,11178245035,SYNTHETIC_DEMO_ONLY
+1335,DKI Jakarta,Jakarta Timur,Pinggiran Kota,Rumah Tapak,115,90,3,2,1,2,Lainnya,Baru,5134757517,SYNTHETIC_DEMO_ONLY
+1336,Kalimantan Selatan,Banjarmasin,Kawasan Perumahan,Rumah Minimalis,250,165,5,4,1,11,SHGB,Baik,7319771461,SYNTHETIC_DEMO_ONLY
+1337,DKI Jakarta,Jakarta Selatan,Kawasan Perumahan,Rumah 2 Lantai,70,65,2,1,2,14,Lainnya,Baru,5542863670,SYNTHETIC_DEMO_ONLY
+1338,Papua Selatan,Merauke,Area Berkembang,Rumah Tapak,180,145,5,4,1,0,SHGB,Perlu Renovasi,3699233549,SYNTHETIC_DEMO_ONLY
+1339,Sulawesi Barat,Mamuju,Pusat Kota,Rumah Minimalis,190,105,4,2,1,2,Lainnya,Sangat Baik,3998819112,SYNTHETIC_DEMO_ONLY
+1340,Kepulauan Riau,Batam,Pinggiran Kota,Rumah Minimalis,165,150,5,2,3,25,SHM,Perlu Renovasi,4648345216,SYNTHETIC_DEMO_ONLY
+1341,Sulawesi Utara,Manado,Kawasan Bisnis,Rumah Tapak,120,105,4,2,1,18,Lainnya,Baik,3933651325,SYNTHETIC_DEMO_ONLY
+1342,Aceh,Banda Aceh,Pinggiran Kota,Rumah Tapak,340,275,6,5,1,8,Lainnya,Baik,5275431289,SYNTHETIC_DEMO_ONLY
+1343,Papua Pegunungan,Wamena,Pusat Kota,Rumah 2 Lantai,170,190,6,4,2,7,SHGB,Perlu Renovasi,5080226578,SYNTHETIC_DEMO_ONLY
+1344,Maluku Utara,Ternate,Kawasan Perumahan,Townhouse,260,165,6,3,1,0,SHGB,Baru,7777866913,SYNTHETIC_DEMO_ONLY
+1345,Bengkulu,Bengkulu,Kawasan Bisnis,Rumah 2 Lantai,130,180,6,3,2,3,Lainnya,Baru,5215292635,SYNTHETIC_DEMO_ONLY
+1346,Kepulauan Riau,Batam,Kawasan Perumahan,Townhouse,65,50,2,1,3,31,SHM,Baru,2507685443,SYNTHETIC_DEMO_ONLY
+1347,Sulawesi Tenggara,Kendari,Area Berkembang,Rumah 2 Lantai,85,65,3,2,2,27,Lainnya,Baru,1852998749,SYNTHETIC_DEMO_ONLY
+1348,Bengkulu,Bengkulu,Pinggiran Kota,Rumah Minimalis,210,160,5,3,1,11,SHM,Perlu Renovasi,3533789274,SYNTHETIC_DEMO_ONLY
+1349,Gorontalo,Gorontalo,Pusat Kota,Rumah Minimalis,70,50,1,1,1,3,Lainnya,Sangat Baik,1509614345,SYNTHETIC_DEMO_ONLY
+1350,Sulawesi Barat,Mamuju,Pusat Kota,Townhouse,270,220,6,3,1,0,SHM,Perlu Renovasi,5911832260,SYNTHETIC_DEMO_ONLY
+1351,Banten,Serang,Kawasan Perumahan,Rumah Tapak,280,275,6,5,2,28,SHM,Baik,9347554374,SYNTHETIC_DEMO_ONLY
+1352,Maluku Utara,Ternate,Pinggiran Kota,Townhouse,265,225,6,5,1,14,Lainnya,Perlu Renovasi,4721825194,SYNTHETIC_DEMO_ONLY
+1353,Papua Selatan,Merauke,Pusat Kota,Rumah Tapak,85,65,3,2,1,9,SHGB,Baru,2816533245,SYNTHETIC_DEMO_ONLY
+1354,Sumatera Selatan,Palembang,Kawasan Bisnis,Rumah Tapak,120,145,4,2,2,21,Lainnya,Perlu Renovasi,3563116654,SYNTHETIC_DEMO_ONLY
+1355,Gorontalo,Gorontalo,Pinggiran Kota,Rumah Minimalis,135,150,5,3,2,11,SHGB,Perlu Renovasi,3023776792,SYNTHETIC_DEMO_ONLY
+1356,Sulawesi Tenggara,Kendari,Pusat Kota,Rumah 2 Lantai,90,110,3,2,2,24,Lainnya,Baru,3783730167,SYNTHETIC_DEMO_ONLY
+1357,Jawa Barat,Bogor,Kawasan Bisnis,Townhouse,175,125,4,2,1,19,SHM,Sangat Baik,7060225517,SYNTHETIC_DEMO_ONLY
+1358,Maluku Utara,Ternate,Kawasan Bisnis,Rumah Tapak,130,75,2,1,1,1,SHM,Baik,4135895010,SYNTHETIC_DEMO_ONLY
+1359,Papua Tengah,Nabire,Pusat Kota,Townhouse,250,190,6,3,1,29,SHM,Baru,8374301265,SYNTHETIC_DEMO_ONLY
+1360,DKI Jakarta,Jakarta Timur,Kawasan Bisnis,Rumah 2 Lantai,85,95,4,2,2,22,Lainnya,Baik,5339191045,SYNTHETIC_DEMO_ONLY
+1361,Sulawesi Barat,Mamuju,Area Berkembang,Rumah Minimalis,305,205,6,4,1,7,Lainnya,Baru,5232030951,SYNTHETIC_DEMO_ONLY
+1362,Jawa Barat,Depok,Area Berkembang,Rumah Minimalis,70,45,3,2,1,19,SHGB,Perlu Renovasi,2009028003,SYNTHETIC_DEMO_ONLY
+1363,Jawa Barat,Bekasi,Pusat Kota,Rumah Tapak,240,250,6,5,2,29,SHGB,Baik,12015580044,SYNTHETIC_DEMO_ONLY
+1364,DI Yogyakarta,Yogyakarta,Pinggiran Kota,Rumah Tapak,225,165,5,3,1,31,SHGB,Baru,6565116071,SYNTHETIC_DEMO_ONLY
+1365,Jawa Timur,Malang,Kawasan Bisnis,Townhouse,320,350,6,3,3,7,SHM,Sangat Baik,15231503824,SYNTHETIC_DEMO_ONLY
+1366,Kepulauan Riau,Batam,Area Berkembang,Rumah Tapak,210,165,5,4,3,18,SHM,Baru,8004989032,SYNTHETIC_DEMO_ONLY
+1367,DKI Jakarta,Jakarta Selatan,Kawasan Bisnis,Rumah Minimalis,120,80,2,1,2,30,Lainnya,Perlu Renovasi,4766723361,SYNTHETIC_DEMO_ONLY
+1368,Kalimantan Timur,Balikpapan,Pinggiran Kota,Townhouse,305,175,5,3,1,28,Lainnya,Perlu Renovasi,6741451704,SYNTHETIC_DEMO_ONLY
+1369,Jawa Barat,Bekasi,Kawasan Bisnis,Rumah Tapak,175,120,4,2,1,26,SHM,Baru,9041567947,SYNTHETIC_DEMO_ONLY
+1370,Kalimantan Utara,Tarakan,Pinggiran Kota,Rumah 2 Lantai,70,45,2,2,2,12,SHM,Baru,1709293175,SYNTHETIC_DEMO_ONLY
+1371,Bengkulu,Bengkulu,Kawasan Bisnis,Townhouse,235,115,3,2,1,20,SHM,Baru,4861288295,SYNTHETIC_DEMO_ONLY
+1372,Jawa Tengah,Surakarta,Area Berkembang,Rumah 2 Lantai,310,355,6,4,2,22,SHGB,Baru,10616362576,SYNTHETIC_DEMO_ONLY
+1373,Maluku Utara,Ternate,Pinggiran Kota,Townhouse,305,170,5,4,1,8,SHM,Baru,7720735033,SYNTHETIC_DEMO_ONLY
+1374,Maluku Utara,Ternate,Pusat Kota,Rumah Tapak,240,135,5,3,1,25,SHM,Perlu Renovasi,5403679385,SYNTHETIC_DEMO_ONLY
+1375,Kepulauan Riau,Batam,Area Berkembang,Rumah Minimalis,130,85,2,1,1,23,SHM,Baru,3749092839,SYNTHETIC_DEMO_ONLY
+1376,Jawa Timur,Surabaya,Kawasan Bisnis,Rumah Minimalis,240,165,5,4,1,21,SHM,Baik,12396825572,SYNTHETIC_DEMO_ONLY
+1377,Sumatera Barat,Padang,Area Berkembang,Rumah Minimalis,290,295,6,3,2,5,Lainnya,Baik,6700918227,SYNTHETIC_DEMO_ONLY
+1378,Bali,Denpasar,Pinggiran Kota,Townhouse,310,235,6,4,1,12,SHGB,Baru,15095902065,SYNTHETIC_DEMO_ONLY
+1379,Papua Barat Daya,Sorong,Pusat Kota,Rumah 2 Lantai,185,145,4,2,2,26,SHGB,Baik,6665498643,SYNTHETIC_DEMO_ONLY
+1380,Nusa Tenggara Timur,Kupang,Pinggiran Kota,Rumah Minimalis,170,80,3,2,1,10,SHM,Baik,2995467161,SYNTHETIC_DEMO_ONLY
+1381,Papua Selatan,Merauke,Kawasan Perumahan,Townhouse,330,235,6,5,1,32,Lainnya,Perlu Renovasi,5579220397,SYNTHETIC_DEMO_ONLY
+1382,Papua Barat,Manokwari,Kawasan Bisnis,Rumah Tapak,260,210,6,3,3,24,Lainnya,Baik,6529937621,SYNTHETIC_DEMO_ONLY
+1383,Jawa Tengah,Semarang,Area Berkembang,Rumah 2 Lantai,325,365,6,4,2,29,SHM,Perlu Renovasi,10959782427,SYNTHETIC_DEMO_ONLY
+1384,Lampung,Bandar Lampung,Area Berkembang,Rumah 2 Lantai,340,290,6,3,2,29,Lainnya,Sangat Baik,7034399146,SYNTHETIC_DEMO_ONLY
+1385,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Bisnis,Rumah Minimalis,265,165,4,3,1,25,Lainnya,Baik,5107863164,SYNTHETIC_DEMO_ONLY
+1386,Kepulauan Bangka Belitung,Pangkalpinang,Area Berkembang,Townhouse,315,210,6,5,1,25,Lainnya,Baru,5794313099,SYNTHETIC_DEMO_ONLY
+1387,Jawa Barat,Bekasi,Area Berkembang,Townhouse,155,110,4,3,1,21,SHGB,Perlu Renovasi,4425948705,SYNTHETIC_DEMO_ONLY
+1388,Papua Barat,Manokwari,Pusat Kota,Rumah Tapak,155,115,4,3,1,21,SHGB,Perlu Renovasi,3505759358,SYNTHETIC_DEMO_ONLY
+1389,Gorontalo,Gorontalo,Kawasan Perumahan,Rumah 2 Lantai,325,375,6,5,2,22,SHGB,Sangat Baik,8004269927,SYNTHETIC_DEMO_ONLY
+1390,Papua Barat Daya,Sorong,Pinggiran Kota,Rumah Minimalis,355,305,6,4,1,7,SHM,Perlu Renovasi,9476818478,SYNTHETIC_DEMO_ONLY
+1391,Kepulauan Bangka Belitung,Pangkalpinang,Pusat Kota,Townhouse,210,145,5,3,1,21,SHGB,Perlu Renovasi,4311305363,SYNTHETIC_DEMO_ONLY
+1392,Jawa Tengah,Semarang,Area Berkembang,Rumah Tapak,230,155,5,3,1,12,Lainnya,Sangat Baik,7036971871,SYNTHETIC_DEMO_ONLY
+1393,Kalimantan Utara,Tarakan,Area Berkembang,Townhouse,290,285,6,3,3,28,Lainnya,Baik,7877576620,SYNTHETIC_DEMO_ONLY
+1394,Papua Barat Daya,Sorong,Pinggiran Kota,Rumah 2 Lantai,60,80,3,3,2,11,Lainnya,Perlu Renovasi,1979581642,SYNTHETIC_DEMO_ONLY
+1395,Bali,Denpasar,Kawasan Bisnis,Rumah 2 Lantai,195,205,6,3,2,14,SHM,Baru,15983307383,SYNTHETIC_DEMO_ONLY
+1396,Jawa Tengah,Semarang,Pusat Kota,Townhouse,210,160,5,4,1,10,SHGB,Sangat Baik,8132510718,SYNTHETIC_DEMO_ONLY
+1397,Jawa Barat,Depok,Kawasan Perumahan,Rumah Tapak,65,85,3,2,3,15,Lainnya,Baik,4329748520,SYNTHETIC_DEMO_ONLY
+1398,Papua Selatan,Merauke,Pusat Kota,Rumah Tapak,210,160,5,4,2,25,Lainnya,Baik,5613739664,SYNTHETIC_DEMO_ONLY
+1399,Kepulauan Bangka Belitung,Pangkalpinang,Kawasan Perumahan,Rumah 2 Lantai,95,110,4,3,2,22,Lainnya,Baru,3092490642,SYNTHETIC_DEMO_ONLY
+1400,Jawa Barat,Bogor,Kawasan Perumahan,Rumah Tapak,190,125,5,3,1,7,SHGB,Perlu Renovasi,5545115083,SYNTHETIC_DEMO_ONLY
+1401,Lampung,Bandar Lampung,Kawasan Perumahan,Rumah 2 Lantai,335,325,6,3,2,21,SHM,Baik,8342049584,SYNTHETIC_DEMO_ONLY
+1402,Nusa Tenggara Barat,Mataram,Pusat Kota,Rumah Tapak,70,60,3,1,3,22,SHM,Baru,3030236296,SYNTHETIC_DEMO_ONLY
+1403,Sumatera Utara,Medan,Pinggiran Kota,Rumah Minimalis,185,235,6,4,3,27,Lainnya,Perlu Renovasi,4093760831,SYNTHETIC_DEMO_ONLY
+1404,Nusa Tenggara Timur,Kupang,Kawasan Bisnis,Rumah Minimalis,265,220,6,4,1,26,SHGB,Perlu Renovasi,5217503436,SYNTHETIC_DEMO_ONLY
+1405,DKI Jakarta,Jakarta Timur,Pinggiran Kota,Rumah Tapak,240,120,4,3,1,0,SHM,Baru,10867472834,SYNTHETIC_DEMO_ONLY
+1406,Bengkulu,Bengkulu,Pusat Kota,Rumah 2 Lantai,240,270,6,3,2,17,SHM,Baru,7980337329,SYNTHETIC_DEMO_ONLY
+1407,Maluku Utara,Ternate,Kawasan Bisnis,Rumah Tapak,305,175,5,3,1,14,SHM,Baik,9362163073,SYNTHETIC_DEMO_ONLY
+1408,Kalimantan Timur,Balikpapan,Kawasan Bisnis,Rumah 2 Lantai,240,235,6,3,2,17,SHM,Baik,13224095643,SYNTHETIC_DEMO_ONLY
+1409,Kalimantan Utara,Tarakan,Kawasan Bisnis,Rumah 2 Lantai,100,90,3,2,2,1,Lainnya,Baru,3551670733,SYNTHETIC_DEMO_ONLY
+1410,Kalimantan Tengah,Palangka Raya,Kawasan Perumahan,Rumah Minimalis,260,220,6,4,1,28,SHGB,Baik,5545882162,SYNTHETIC_DEMO_ONLY
+1411,Jawa Barat,Depok,Area Berkembang,Townhouse,305,265,6,4,1,31,SHGB,Sangat Baik,13050879102,SYNTHETIC_DEMO_ONLY
+1412,Jambi,Jambi,Kawasan Perumahan,Rumah 2 Lantai,335,275,6,4,2,26,SHM,Sangat Baik,7104479219,SYNTHETIC_DEMO_ONLY
+1413,Papua,Jayapura,Area Berkembang,Rumah 2 Lantai,100,80,3,1,2,11,SHGB,Baik,3328533894,SYNTHETIC_DEMO_ONLY
+1414,Bali,Denpasar,Kawasan Bisnis,Rumah 2 Lantai,205,145,5,3,2,14,Lainnya,Baru,12039147683,SYNTHETIC_DEMO_ONLY
+1415,Papua Tengah,Nabire,Kawasan Perumahan,Rumah 2 Lantai,235,295,6,3,2,29,SHM,Perlu Renovasi,5610194350,SYNTHETIC_DEMO_ONLY
+1416,Papua Barat Daya,Sorong,Kawasan Perumahan,Rumah Tapak,60,65,3,2,3,21,SHM,Baru,2529041443,SYNTHETIC_DEMO_ONLY
+1417,Papua Tengah,Nabire,Kawasan Perumahan,Townhouse,115,75,3,2,1,22,Lainnya,Baik,2126767143,SYNTHETIC_DEMO_ONLY
+1418,Kalimantan Barat,Pontianak,Kawasan Perumahan,Rumah 2 Lantai,165,120,4,3,2,1,SHGB,Perlu Renovasi,4020200156,SYNTHETIC_DEMO_ONLY
+1419,Jawa Timur,Malang,Pusat Kota,Rumah Minimalis,200,270,6,3,3,32,Lainnya,Baik,8490407708,SYNTHETIC_DEMO_ONLY
+1420,Sumatera Selatan,Palembang,Kawasan Perumahan,Rumah Tapak,285,180,6,3,1,9,SHGB,Baru,6481892999,SYNTHETIC_DEMO_ONLY
+1421,Sumatera Selatan,Palembang,Kawasan Perumahan,Rumah Minimalis,265,205,5,3,1,13,Lainnya,Perlu Renovasi,5204621946,SYNTHETIC_DEMO_ONLY
+1422,Papua Barat Daya,Sorong,Pusat Kota,Rumah 2 Lantai,225,210,6,4,2,16,Lainnya,Baik,7857427824,SYNTHETIC_DEMO_ONLY
+1423,Banten,Serang,Pusat Kota,Rumah Tapak,325,360,6,4,2,13,Lainnya,Baik,13948571156,SYNTHETIC_DEMO_ONLY
+1424,Jawa Barat,Depok,Area Berkembang,Townhouse,135,100,4,2,1,15,Lainnya,Sangat Baik,5220135468,SYNTHETIC_DEMO_ONLY
+1425,Jawa Barat,Bogor,Kawasan Perumahan,Rumah Tapak,85,75,3,2,2,13,SHM,Perlu Renovasi,3570700333,SYNTHETIC_DEMO_ONLY
+1426,Bengkulu,Bengkulu,Kawasan Perumahan,Rumah Tapak,240,180,6,4,1,30,SHGB,Perlu Renovasi,3923563564,SYNTHETIC_DEMO_ONLY
+1427,Lampung,Bandar Lampung,Pinggiran Kota,Rumah Minimalis,130,80,3,2,1,1,Lainnya,Baik,2113450003,SYNTHETIC_DEMO_ONLY
+1428,Bengkulu,Bengkulu,Pinggiran Kota,Rumah 2 Lantai,135,90,3,2,2,7,Lainnya,Baru,2184974012,SYNTHETIC_DEMO_ONLY
+1429,Jawa Tengah,Semarang,Kawasan Perumahan,Rumah Minimalis,315,310,6,3,3,17,SHGB,Sangat Baik,12060110268,SYNTHETIC_DEMO_ONLY
+1430,Jawa Timur,Malang,Kawasan Bisnis,Rumah Minimalis,155,115,4,3,1,2,Lainnya,Baru,6301517987,SYNTHETIC_DEMO_ONLY
+1431,Papua,Jayapura,Pusat Kota,Rumah Tapak,180,115,4,3,1,25,Lainnya,Perlu Renovasi,5125728464,SYNTHETIC_DEMO_ONLY
+1432,Sumatera Barat,Padang,Pinggiran Kota,Rumah Minimalis,70,55,3,3,1,16,SHM,Perlu Renovasi,1453863887,SYNTHETIC_DEMO_ONLY
+1433,Sumatera Utara,Medan,Kawasan Bisnis,Rumah Tapak,160,130,4,2,1,15,SHM,Baru,5461403411,SYNTHETIC_DEMO_ONLY
+1434,Kalimantan Barat,Pontianak,Kawasan Bisnis,Rumah Minimalis,325,405,6,5,3,10,SHGB,Perlu Renovasi,11793401720,SYNTHETIC_DEMO_ONLY
+1435,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Rumah Minimalis,245,265,6,4,2,23,Lainnya,Sangat Baik,8533178735,SYNTHETIC_DEMO_ONLY
+1436,Jawa Timur,Surabaya,Pusat Kota,Townhouse,360,280,6,3,1,19,SHM,Perlu Renovasi,16285257768,SYNTHETIC_DEMO_ONLY
+1437,Kalimantan Barat,Pontianak,Kawasan Perumahan,Rumah 2 Lantai,100,130,4,3,2,26,Lainnya,Perlu Renovasi,2623564318,SYNTHETIC_DEMO_ONLY
+1438,Sumatera Selatan,Palembang,Area Berkembang,Rumah Tapak,75,60,3,2,1,8,SHM,Baik,1973285241,SYNTHETIC_DEMO_ONLY
+1439,Gorontalo,Gorontalo,Pinggiran Kota,Rumah Tapak,200,115,3,2,1,2,SHGB,Perlu Renovasi,2458639590,SYNTHETIC_DEMO_ONLY
+1440,Kalimantan Tengah,Palangka Raya,Kawasan Bisnis,Townhouse,155,130,4,2,1,3,SHM,Baik,4651050595,SYNTHETIC_DEMO_ONLY
+1441,DKI Jakarta,Jakarta Timur,Kawasan Perumahan,Rumah Minimalis,115,120,4,2,2,19,Lainnya,Baru,7012773193,SYNTHETIC_DEMO_ONLY
+1442,Jambi,Jambi,Kawasan Perumahan,Rumah Tapak,180,130,3,2,1,32,SHM,Baik,3717433822,SYNTHETIC_DEMO_ONLY
+1443,Jawa Barat,Bekasi,Kawasan Bisnis,Rumah Tapak,300,170,6,4,1,32,Lainnya,Perlu Renovasi,7530814000,SYNTHETIC_DEMO_ONLY
+1444,Kepulauan Riau,Batam,Area Berkembang,Townhouse,270,320,6,5,2,16,SHM,Perlu Renovasi,10363337838,SYNTHETIC_DEMO_ONLY
+1445,Papua Selatan,Merauke,Pinggiran Kota,Townhouse,85,70,3,2,2,0,SHGB,Baru,2642759464,SYNTHETIC_DEMO_ONLY
+1446,Jawa Barat,Bekasi,Area Berkembang,Rumah 2 Lantai,130,165,5,4,2,25,SHM,Sangat Baik,7502143133,SYNTHETIC_DEMO_ONLY
+1447,Sulawesi Tengah,Palu,Kawasan Bisnis,Rumah Tapak,315,225,6,3,1,5,Lainnya,Baik,8764665396,SYNTHETIC_DEMO_ONLY
+1448,Sulawesi Tenggara,Kendari,Pusat Kota,Rumah Tapak,355,210,6,4,1,18,SHGB,Baik,8479603954,SYNTHETIC_DEMO_ONLY
+1449,Jawa Barat,Depok,Area Berkembang,Rumah 2 Lantai,280,275,6,4,2,28,SHGB,Baru,12548668717,SYNTHETIC_DEMO_ONLY
+1450,Papua Barat,Manokwari,Kawasan Bisnis,Townhouse,290,185,5,3,1,24,SHM,Baik,7476081823,SYNTHETIC_DEMO_ONLY
+1451,Kalimantan Selatan,Banjarmasin,Kawasan Bisnis,Rumah 2 Lantai,135,145,5,3,2,9,SHM,Baik,5722933249,SYNTHETIC_DEMO_ONLY
+1452,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Tapak,135,75,3,2,1,14,SHGB,Perlu Renovasi,3498739134,SYNTHETIC_DEMO_ONLY
+1453,Papua Barat Daya,Sorong,Kawasan Bisnis,Rumah Minimalis,300,240,6,4,1,2,SHGB,Perlu Renovasi,8888347432,SYNTHETIC_DEMO_ONLY
+1454,Riau,Pekanbaru,Kawasan Bisnis,Rumah 2 Lantai,140,115,4,2,2,18,Lainnya,Baik,3802529576,SYNTHETIC_DEMO_ONLY
+1455,Jawa Tengah,Surakarta,Pinggiran Kota,Rumah 2 Lantai,325,325,6,5,2,5,SHGB,Sangat Baik,11127924023,SYNTHETIC_DEMO_ONLY
+1456,Maluku,Ambon,Pinggiran Kota,Rumah Minimalis,245,205,6,4,1,21,SHM,Perlu Renovasi,4714235886,SYNTHETIC_DEMO_ONLY
+1457,Kalimantan Timur,Balikpapan,Kawasan Bisnis,Rumah Tapak,280,230,6,5,1,13,SHM,Sangat Baik,16021262446,SYNTHETIC_DEMO_ONLY
+1458,Nusa Tenggara Barat,Mataram,Pusat Kota,Townhouse,115,80,3,2,1,2,SHM,Sangat Baik,3904109432,SYNTHETIC_DEMO_ONLY
+1459,Papua Tengah,Nabire,Pinggiran Kota,Rumah Minimalis,330,250,6,5,1,25,SHM,Sangat Baik,6967628674,SYNTHETIC_DEMO_ONLY
+1460,Papua Barat,Manokwari,Kawasan Perumahan,Rumah Tapak,85,60,2,1,1,27,SHGB,Sangat Baik,2018980888,SYNTHETIC_DEMO_ONLY
+1461,Sulawesi Selatan,Makassar,Pinggiran Kota,Rumah Minimalis,240,115,3,2,1,14,Lainnya,Baru,4995948229,SYNTHETIC_DEMO_ONLY
+1462,Riau,Pekanbaru,Kawasan Bisnis,Townhouse,130,90,3,2,1,18,Lainnya,Perlu Renovasi,2486050544,SYNTHETIC_DEMO_ONLY
+1463,Sulawesi Tenggara,Kendari,Pusat Kota,Townhouse,195,225,6,5,3,15,SHM,Baik,8622891190,SYNTHETIC_DEMO_ONLY
+1464,Nusa Tenggara Barat,Mataram,Area Berkembang,Townhouse,130,80,3,2,1,32,SHM,Perlu Renovasi,2242207933,SYNTHETIC_DEMO_ONLY
+1465,Jawa Barat,Depok,Area Berkembang,Rumah Minimalis,60,35,2,1,1,29,SHGB,Baru,2072286753,SYNTHETIC_DEMO_ONLY
+1466,Jawa Barat,Bekasi,Kawasan Bisnis,Townhouse,60,35,2,1,1,20,SHGB,Perlu Renovasi,1939229812,SYNTHETIC_DEMO_ONLY
+1467,Kepulauan Bangka Belitung,Pangkalpinang,Pusat Kota,Rumah Tapak,235,315,6,5,3,24,SHGB,Sangat Baik,8814906569,SYNTHETIC_DEMO_ONLY
+1468,Sulawesi Utara,Manado,Pinggiran Kota,Rumah Tapak,105,60,3,2,1,6,SHM,Baik,2720539441,SYNTHETIC_DEMO_ONLY
+1469,Nusa Tenggara Timur,Kupang,Area Berkembang,Rumah Tapak,140,75,3,2,1,29,SHM,Baik,2394824412,SYNTHETIC_DEMO_ONLY
+1470,DI Yogyakarta,Yogyakarta,Area Berkembang,Rumah Tapak,355,255,6,4,1,15,Lainnya,Baru,11532388183,SYNTHETIC_DEMO_ONLY
+1471,Papua Barat Daya,Sorong,Pusat Kota,Rumah 2 Lantai,310,320,6,5,2,13,SHGB,Sangat Baik,15103377435,SYNTHETIC_DEMO_ONLY
+1472,Jawa Barat,Bekasi,Kawasan Bisnis,Rumah Tapak,110,75,3,2,1,32,Lainnya,Sangat Baik,4387806915,SYNTHETIC_DEMO_ONLY
+1473,Kalimantan Timur,Balikpapan,Kawasan Perumahan,Rumah 2 Lantai,100,125,4,3,2,10,SHM,Perlu Renovasi,5003314434,SYNTHETIC_DEMO_ONLY
+1474,DI Yogyakarta,Yogyakarta,Pinggiran Kota,Rumah Tapak,135,100,4,3,1,3,Lainnya,Baru,4360139467,SYNTHETIC_DEMO_ONLY
+1475,Jawa Timur,Surabaya,Pinggiran Kota,Rumah Tapak,180,155,4,3,1,14,Lainnya,Baik,7002077483,SYNTHETIC_DEMO_ONLY
+1476,Maluku Utara,Ternate,Pusat Kota,Rumah 2 Lantai,150,115,4,2,2,10,SHM,Perlu Renovasi,5068884956,SYNTHETIC_DEMO_ONLY
+1477,Jawa Barat,Bekasi,Kawasan Perumahan,Townhouse,95,70,3,2,1,17,SHM,Perlu Renovasi,3130671234,SYNTHETIC_DEMO_ONLY
+1478,Sumatera Selatan,Palembang,Kawasan Perumahan,Rumah Minimalis,275,250,6,4,2,21,SHM,Perlu Renovasi,6689418968,SYNTHETIC_DEMO_ONLY
+1479,Lampung,Bandar Lampung,Pusat Kota,Rumah Tapak,115,125,4,3,3,32,Lainnya,Sangat Baik,3438605099,SYNTHETIC_DEMO_ONLY
+1480,DKI Jakarta,Jakarta Selatan,Pinggiran Kota,Rumah Minimalis,160,135,4,3,1,32,Lainnya,Perlu Renovasi,6653811416,SYNTHETIC_DEMO_ONLY
+1481,Papua Selatan,Merauke,Kawasan Perumahan,Rumah Tapak,155,130,4,3,1,31,SHGB,Perlu Renovasi,3395225821,SYNTHETIC_DEMO_ONLY
+1482,Sulawesi Tenggara,Kendari,Kawasan Bisnis,Rumah 2 Lantai,80,105,4,2,2,7,Lainnya,Baik,3625595922,SYNTHETIC_DEMO_ONLY
+1483,Jawa Timur,Malang,Pinggiran Kota,Townhouse,115,100,4,3,1,28,SHGB,Sangat Baik,3189408222,SYNTHETIC_DEMO_ONLY
+1484,Papua Barat Daya,Sorong,Kawasan Perumahan,Rumah Minimalis,245,130,5,3,1,27,Lainnya,Perlu Renovasi,4236027688,SYNTHETIC_DEMO_ONLY
+1485,Jawa Barat,Bandung,Pinggiran Kota,Rumah 2 Lantai,285,255,6,5,2,13,SHM,Sangat Baik,13048055409,SYNTHETIC_DEMO_ONLY
+1486,Jawa Timur,Malang,Area Berkembang,Rumah Minimalis,290,185,5,3,1,9,SHM,Perlu Renovasi,6508992905,SYNTHETIC_DEMO_ONLY
+1487,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Townhouse,160,80,2,1,1,14,SHGB,Baru,5571945062,SYNTHETIC_DEMO_ONLY
+1488,Papua Barat,Manokwari,Area Berkembang,Rumah Minimalis,70,55,2,1,1,1,SHGB,Baru,1953081802,SYNTHETIC_DEMO_ONLY
+1489,Bengkulu,Bengkulu,Pinggiran Kota,Townhouse,120,70,3,2,1,20,Lainnya,Perlu Renovasi,1410932725,SYNTHETIC_DEMO_ONLY
+1490,Nusa Tenggara Timur,Kupang,Kawasan Bisnis,Rumah Tapak,110,115,4,2,2,26,SHM,Perlu Renovasi,3029103316,SYNTHETIC_DEMO_ONLY
+1491,DI Yogyakarta,Yogyakarta,Kawasan Perumahan,Townhouse,85,60,2,1,1,28,Lainnya,Baru,2784545215,SYNTHETIC_DEMO_ONLY
+1492,Maluku Utara,Ternate,Kawasan Bisnis,Rumah Tapak,175,110,3,2,1,3,Lainnya,Baik,4305864130,SYNTHETIC_DEMO_ONLY
+1493,Jawa Tengah,Surakarta,Kawasan Perumahan,Rumah 2 Lantai,85,85,3,2,2,24,SHGB,Baru,2944252912,SYNTHETIC_DEMO_ONLY
+1494,Aceh,Banda Aceh,Area Berkembang,Rumah Tapak,350,245,6,5,1,31,SHM,Baik,5442156744,SYNTHETIC_DEMO_ONLY
+1495,Papua,Jayapura,Pinggiran Kota,Rumah Tapak,95,80,2,1,3,16,SHGB,Baik,3397178347,SYNTHETIC_DEMO_ONLY
+1496,Jawa Tengah,Surakarta,Area Berkembang,Rumah Tapak,70,55,2,1,1,26,Lainnya,Baru,1701491359,SYNTHETIC_DEMO_ONLY
+1497,DKI Jakarta,Jakarta Selatan,Area Berkembang,Rumah Minimalis,80,55,2,1,1,19,SHM,Baru,5542410776,SYNTHETIC_DEMO_ONLY
+1498,Bali,Denpasar,Area Berkembang,Rumah Minimalis,285,140,5,2,1,29,SHM,Sangat Baik,11277972093,SYNTHETIC_DEMO_ONLY
+1499,DKI Jakarta,Jakarta Selatan,Kawasan Bisnis,Rumah Minimalis,230,160,5,3,1,17,SHGB,Sangat Baik,15102501987,SYNTHETIC_DEMO_ONLY
+1500,Sulawesi Utara,Manado,Kawasan Bisnis,Townhouse,215,140,5,4,3,21,SHM,Baik,8053330317,SYNTHETIC_DEMO_ONLY
