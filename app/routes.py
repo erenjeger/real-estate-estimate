@@ -1,10 +1,10 @@
 from decimal import Decimal
 
-from flask import Blueprint, flash, redirect, render_template, url_for
-from sqlalchemy import func, desc
+from flask import Blueprint, render_template, request
+from sqlalchemy import desc, func
 
 from .extensions import db
-from .models import Prediction, ModelMetric
+from .models import ModelMetric, Prediction
 
 main = Blueprint("main", __name__)
 
@@ -33,7 +33,7 @@ def dashboard():
     )
 
 
-@main.route("/predict", methods=["GET"])
+@main.get("/predict")
 def predict():
     # The feature schema will be finalized after the dataset audit.
     return render_template("predict.html")
@@ -41,7 +41,8 @@ def predict():
 
 @main.get("/history")
 def history():
-    page = max(1, int(__import__("flask").request.args.get("page", 1)))
+    page = request.args.get("page", 1, type=int) or 1
+    page = max(1, page)
     pagination = Prediction.query.order_by(
         desc(Prediction.created_at)
     ).paginate(page=page, per_page=20, error_out=False)
