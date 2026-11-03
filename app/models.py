@@ -1,5 +1,7 @@
 from datetime import datetime, timezone
 
+from sqlalchemy import BigInteger, Integer
+
 from .extensions import db
 
 
@@ -7,10 +9,14 @@ def utcnow():
     return datetime.now(timezone.utc)
 
 
+# Keep 64-bit identifiers on PostgreSQL while retaining SQLite test compatibility.
+ID_TYPE = BigInteger().with_variant(Integer, "sqlite")
+
+
 class Prediction(db.Model):
     __tablename__ = "predictions"
 
-    id = db.Column(db.BigInteger, primary_key=True)
+    id = db.Column(ID_TYPE, primary_key=True)
     province = db.Column(db.String(100), nullable=False, index=True)
     city_regency = db.Column(db.String(120), nullable=False, index=True)
     land_area_m2 = db.Column(db.Numeric(12, 2), nullable=False)
@@ -31,7 +37,7 @@ class Prediction(db.Model):
 class ModelMetric(db.Model):
     __tablename__ = "model_metrics"
 
-    id = db.Column(db.BigInteger, primary_key=True)
+    id = db.Column(ID_TYPE, primary_key=True)
     model_version = db.Column(db.String(50), nullable=False, unique=True)
     mae_idr = db.Column(db.Numeric(20, 4), nullable=True)
     rmse_idr = db.Column(db.Numeric(20, 4), nullable=True)
@@ -46,7 +52,7 @@ class ModelMetric(db.Model):
 class DatasetSource(db.Model):
     __tablename__ = "dataset_sources"
 
-    id = db.Column(db.BigInteger, primary_key=True)
+    id = db.Column(ID_TYPE, primary_key=True)
     source_name = db.Column(db.String(200), nullable=False)
     source_url = db.Column(db.Text, nullable=True)
     license_name = db.Column(db.String(120), nullable=True)
