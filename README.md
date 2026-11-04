@@ -1,127 +1,98 @@
 # Real Estate Estimate
 
-A web application foundation for estimating Indonesian residential property prices using Multiple Linear Regression.
+Flask + PostgreSQL application for a HomePrice Prediction System. It includes a clearly labelled synthetic demo ML pipeline.
 
 ## Stack
+- Python 3.12, Flask
+- PostgreSQL 16, SQLAlchemy, Flask-Migrate
+- Bootstrap 5
+- pandas, NumPy, scikit-learn, joblib
 
-- **Backend:** Python 3.12, Flask
-- **Database:** PostgreSQL 16
-- **ORM and migrations:** Flask-SQLAlchemy, Flask-Migrate
-- **Frontend:** HTML, Bootstrap 5
-- **Machine learning:** pandas, NumPy, scikit-learn, joblib
-- **Application server:** Gunicorn
+## Synthetic demo mode
 
-## Current status
+The repository includes `data/raw/home_price_demo_synthetic.csv` with 1,500 generated records. It is **synthetic demonstration data**, not actual listing, appraisal, or transaction data. Metrics from this dataset must not be reported as real-world accuracy or used for property decisions.
 
-This repository contains the initial Flask/PostgreSQL foundation:
+### Train the demo model
 
-- Dashboard summary
-- Prediction page placeholder
-- Prediction history page
-- SQLAlchemy models for predictions, model metrics, and dataset sources
-- PostgreSQL Docker Compose service
-- Basic smoke tests
+After installing requirements:
 
-**Prediction is intentionally not enabled yet.** The dataset audit must determine the final feature schema, target definition, geographic coverage, and validation strategy before a trained model is integrated. No model accuracy or national market coverage is claimed at this stage.
+```bash
+python -m training.train_model
+```
+
+This creates:
+- `artifacts/home_price_model.joblib`
+- `artifacts/model_metrics.json`
+
+The training script refuses datasets not marked `SYNTHETIC_DEMO_ONLY` so this demo workflow cannot silently be used as the real research pipeline.
+
+### Enable demo prediction
+
+1. Ensure PostgreSQL is running and `.env` is configured.
+2. Create/update the database schema. For a fresh local database:
+
+   ```bash
+   flask --app app init-db
+   ```
+
+   If you have an existing database created from an earlier version of this project, back it up and recreate the local development database, or create and apply a Flask-Migrate migration for the changed `predictions` table. `create_all` does not alter existing tables.
+
+3. Start Flask:
+
+   ```bash
+   flask --app app run --debug
+   ```
+
+4. Open http://127.0.0.1:5000, then visit the prediction page.
+
+The prediction form stores each demo result in PostgreSQL and shows it in the history page. The UI displays a synthetic-data disclaimer.
 
 ## Local setup
-
-### 1. Clone and configure
 
 ```bash
 git clone https://github.com/erenjeger/real-estate-estimate.git
 cd real-estate-estimate
 cp .env.example .env
-```
-
-Edit `.env` and replace `SECRET_KEY` with a long random secret before using the app beyond local development.
-
-### 2. Start PostgreSQL
-
-```bash
 docker compose up -d db
-```
-
-PostgreSQL is exposed at `localhost:5432`. The default credentials in `.env.example` are for local development only.
-
-### 3. Install Python dependencies
-
-```bash
 python -m venv .venv
-# Windows PowerShell:
-# .venv\\Scripts\\Activate.ps1
+# Windows PowerShell: .venv\\Scripts\\Activate.ps1
 # macOS/Linux:
 source .venv/bin/activate
 pip install -r requirements.txt
-```
-
-### 4. Create database tables
-
-```bash
 flask --app app init-db
-```
-
-For subsequent schema changes, use Flask-Migrate:
-
-```bash
-flask --app app db init
-flask --app app db migrate -m "describe schema change"
-flask --app app db upgrade
-```
-
-Commit generated migration scripts so other environments can reproduce schema changes.
-
-### 5. Run the app
-
-```bash
+python -m training.train_model
 flask --app app run --debug
 ```
 
 Open http://127.0.0.1:5000.
 
-### Run tests
-
-```bash
-pytest
-```
-
-Tests use an in-memory SQLite database and do not require PostgreSQL. The application defaults to PostgreSQL.
-
 ## Docker
 
-The `web` container connects to the database using the Compose service hostname `db`. For a fully containerized run, set this value in `.env`:
+For the web container, set `DATABASE_URL` in `.env` to use hostname `db`:
 
 ```text
 DATABASE_URL=postgresql+psycopg://homeprice:homeprice_dev@db:5432/homeprice
 ```
 
-Then initialize the schema and start the services:
+Then:
 
 ```bash
 docker compose run --rm web flask --app app init-db
+docker compose run --rm web python -m training.train_model
 docker compose up --build
 ```
 
-The web service will be available at http://127.0.0.1:8000.
-
 ## Database tables
+- `predictions`: submitted features and prediction results
+- `model_metrics`: evaluation metric schema
+- `dataset_sources`: data source provenance
 
-- `predictions`: submitted property characteristics and resulting estimates.
-- `model_metrics`: evaluation metrics and metadata for model versions.
-- `dataset_sources`: source provenance, license, collection time, and notes.
+## Research warning
 
-## Project phases
+A model trained on synthetic formula-generated data mainly learns that formula. It is useful for UI and integration demos only. For research conclusions about Indonesian housing prices, replace the synthetic data with documented, licensed real data, audit geographic coverage and price definitions, and evaluate with leakage-resistant splits (for example, grouped by housing project where appropriate).
 
-1. Dataset audit and selection.
-2. Data cleaning and exploratory analysis.
-3. Multiple Linear Regression experiments and evaluation.
-4. Flask prediction workflow.
-5. Dashboard and prediction history enhancements.
-6. Testing and deployment hardening.
+## Tests
 
-## Security notes
-
-- Keep `.env` out of version control.
-- Use a unique production `SECRET_KEY` and strong PostgreSQL credentials.
-- Do not expose database ports publicly in production.
-- Add authentication and authorization before exposing admin or dataset-management functions.
+```bash
+pytest -q
+```
