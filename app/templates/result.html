@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Hasil Prediksi · Real Estate Estimate{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <div class="content-card">
+      <p class="eyebrow">SYNTHETIC DEMO RESULT</p>
+      <h1 class="h3">Estimasi harga rumah</h1>
+      <div class="display-6 fw-bold text-primary my-3">Rp {{ "{:,.0f}".format(prediction.predicted_price_idr) }}</div>
+      <div class="alert alert-warning">Angka ini berasal dari model yang dilatih menggunakan data sintetis. Bukan harga pasar aktual.</div>
+      <p class="mb-1"><strong>Lokasi:</strong> {{ prediction.city_regency }}, {{ prediction.province }}</p>
+      <p class="mb-1"><strong>Luas tanah:</strong> {{ prediction.land_area_m2 }} m²</p>
+      <p class="mb-1"><strong>Luas bangunan:</strong> {{ prediction.building_area_m2 }} m²</p>
+      <p class="mb-1"><strong>Kamar tidur / mandi:</strong> {{ prediction.bedrooms }} / {{ prediction.bathrooms }}</p>
+      <p class="mb-1"><strong>Model:</strong> {{ prediction.model_version }}</p>
+      <a class="btn btn-primary mt-3" href="{{ url_for('main.predict') }}">Prediksi lagi</a>
+      <a class="btn btn-outline-secondary mt-3" href="{{ url_for('main.history') }}">Lihat riwayat</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
