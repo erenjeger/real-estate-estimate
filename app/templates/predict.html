@@ -2,19 +2,43 @@
 {% block title %}Prediksi · Real Estate Estimate{% endblock %}
 {% block content %}
 <div class="row justify-content-center">
-  <div class="col-lg-8">
-    <p class="eyebrow mb-1">PRICE ESTIMATION</p>
+  <div class="col-lg-9">
+    <p class="eyebrow mb-1">SYNTHETIC DEMO MODE</p>
     <h1 class="h2">Prediksi harga rumah</h1>
-    <p class="text-secondary">Form prediksi akan diaktifkan setelah audit dataset menetapkan fitur dan kategori lokasi yang benar-benar didukung model.</p>
-    <div class="content-card mt-4">
-      <div class="d-flex gap-3">
-        <div class="status-icon">i</div>
-        <div>
-          <h2 class="h5">Model belum tersedia</h2>
-          <p class="text-secondary mb-0">Kami belum mengaktifkan estimasi agar aplikasi tidak memberikan angka yang tidak didukung oleh model terlatih dan data tervalidasi. Setelah proses audit dan training selesai, form ini akan terhubung ke model Multiple Linear Regression.</p>
+    <div class="alert alert-warning">Mode demo menggunakan data sintetis. Hasil bukan estimasi harga pasar aktual dan tidak boleh digunakan untuk keputusan transaksi.</div>
+    <form method="post" class="content-card">
+      <div class="row g-3">
+        {% set categories = [
+          ('province','Provinsi','DKI Jakarta'),
+          ('city_regency','Kota/Kabupaten','Jakarta Selatan'),
+          ('district_area','Tipe kawasan','Kawasan Perumahan'),
+          ('property_type','Jenis rumah','Rumah Tapak'),
+          ('certificate_type','Sertifikat','SHM'),
+          ('property_condition','Kondisi rumah','Baik')
+        ] %}
+        {% for name,label,placeholder in categories %}
+        <div class="col-md-6">
+          <label class="form-label" for="{{ name }}">{{ label }}</label>
+          <input class="form-control" id="{{ name }}" name="{{ name }}" placeholder="{{ placeholder }}" required>
         </div>
+        {% endfor %}
+        {% set numbers = [
+          ('land_area_m2','Luas tanah (m²)',120,1),
+          ('building_area_m2','Luas bangunan (m²)',90,1),
+          ('bedrooms','Kamar tidur',3,1),
+          ('bathrooms','Kamar mandi',2,1),
+          ('floors','Jumlah lantai',1,1),
+          ('building_age_years','Usia bangunan (tahun)',5,0)
+        ] %}
+        {% for name,label,value,minval in numbers %}
+        <div class="col-md-4">
+          <label class="form-label" for="{{ name }}">{{ label }}</label>
+          <input class="form-control" type="number" step="any" min="{{ minval }}" id="{{ name }}" name="{{ name }}" value="{{ value }}" required>
+        </div>
+        {% endfor %}
       </div>
-    </div>
+      <button class="btn btn-primary mt-4" type="submit">Hitung estimasi demo</button>
+    </form>
   </div>
 </div>
 {% endblock %}
