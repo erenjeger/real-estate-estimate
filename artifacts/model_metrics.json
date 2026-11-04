@@ -1,0 +1,29 @@
+{
+  "model_version": "demo-synthetic-v1",
+  "data_origin": "SYNTHETIC_DEMO_ONLY",
+  "is_real_market_model": false,
+  "rows_total": 1500,
+  "rows_train": 1200,
+  "rows_test": 300,
+  "mae_idr": 996112611.2893217,
+  "rmse_idr": 1460285193.140414,
+  "r2": 0.8647268410485982,
+  "trained_at": "2026-11-04T17:56:50.227156+00:00",
+  "features": [
+    "province",
+    "city_regency",
+    "district_area",
+    "property_type",
+    "certificate_type",
+    "property_condition",
+    "land_area_m2",
+    "building_area_m2",
+    "bedrooms",
+    "bathrooms",
+    "floors",
+    "building_age_years"
+  ],
+  "target": "price_idr",
+  "split": "random 80/20, random_state=42",
+  "warning": "Synthetic demo metrics only; not evidence of real Indonesian market performance."
+}

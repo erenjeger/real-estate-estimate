@@ -3,42 +3,137 @@
 {% block content %}
 <div class="row justify-content-center">
   <div class="col-lg-9">
-    <p class="eyebrow mb-1">SYNTHETIC DEMO MODE</p>
     <h1 class="h2">Prediksi harga rumah</h1>
-    <div class="alert alert-warning">Mode demo menggunakan data sintetis. Hasil bukan estimasi harga pasar aktual dan tidak boleh digunakan untuk keputusan transaksi.</div>
-    <form method="post" class="content-card">
+    <div class="alert alert-warning d-flex align-items-start gap-2">
+      <i class="bi bi-exclamation-triangle mt-1" aria-hidden="true"></i>
+      <span>Mode demo menggunakan data sintetis. Hasil bukan estimasi harga pasar aktual dan tidak boleh digunakan untuk keputusan transaksi.</span>
+    </div>
+    <form method="post" class="content-card" id="predictForm" data-province-cities="{{ regions | tojson }}">
       <div class="row g-3">
-        {% set categories = [
-          ('province','Provinsi','DKI Jakarta'),
-          ('city_regency','Kota/Kabupaten','Jakarta Selatan'),
-          ('district_area','Tipe kawasan','Kawasan Perumahan'),
-          ('property_type','Jenis rumah','Rumah Tapak'),
-          ('certificate_type','Sertifikat','SHM'),
-          ('property_condition','Kondisi rumah','Baik')
-        ] %}
-        {% for name,label,placeholder in categories %}
         <div class="col-md-6">
-          <label class="form-label" for="{{ name }}">{{ label }}</label>
-          <input class="form-control" id="{{ name }}" name="{{ name }}" placeholder="{{ placeholder }}" required>
+          <label class="form-label" for="province">Provinsi</label>
+          <select class="form-select" id="province" name="province" required>
+            {% for province in regions.keys() | sort %}
+            <option value="{{ province }}" {{ 'selected' if province == 'DKI Jakarta' }}>{{ province }}</option>
+            {% endfor %}
+          </select>
         </div>
-        {% endfor %}
+        <div class="col-md-6">
+          <label class="form-label" for="city_regency">Kota/Kabupaten</label>
+          <select class="form-select" id="city_regency" name="city_regency" required>
+            {% for city in regions['DKI Jakarta'] %}
+            <option value="{{ city }}" {{ 'selected' if city == 'Jakarta Selatan' }}>{{ city }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label" for="district_area">Tipe kawasan</label>
+          <select class="form-select" id="district_area" name="district_area" required>
+            {% for area in districts %}
+            <option value="{{ area }}" {{ 'selected' if area == 'Kawasan Perumahan' }}>{{ area }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label" for="property_type">Jenis rumah</label>
+          <select class="form-select" id="property_type" name="property_type" required>
+            {% for ptype in property_types %}
+            <option value="{{ ptype }}" {{ 'selected' if ptype == 'Rumah Tapak' }}>{{ ptype }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label" for="certificate_type">Sertifikat</label>
+          <select class="form-select" id="certificate_type" name="certificate_type" required>
+            {% for cert in certificate_types %}
+            <option value="{{ cert }}" {{ 'selected' if cert == 'SHM' }}>{{ cert }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label" for="property_condition">Kondisi rumah</label>
+          <select class="form-select" id="property_condition" name="property_condition" required>
+            {% for cond in property_conditions %}
+            <option value="{{ cond }}" {{ 'selected' if cond == 'Baik' }}>{{ cond }}</option>
+            {% endfor %}
+          </select>
+        </div>
         {% set numbers = [
-          ('land_area_m2','Luas tanah (m²)',120,1),
-          ('building_area_m2','Luas bangunan (m²)',90,1),
-          ('bedrooms','Kamar tidur',3,1),
-          ('bathrooms','Kamar mandi',2,1),
-          ('floors','Jumlah lantai',1,1),
-          ('building_age_years','Usia bangunan (tahun)',5,0)
+          ('land_area_m2','Luas tanah (m²)',120,1,'Angka dengan pengaruh terbesar — satu digit terbalik bisa menggeser estimasi jutaan rupiah.'),
+          ('building_area_m2','Luas bangunan (m²)',90,1,'Dicocokkan otomatis dengan luas tanah (maksimal 2×).'),
+          ('bedrooms','Kamar tidur',3,1,''),
+          ('bathrooms','Kamar mandi',2,1,''),
+          ('floors','Jumlah lantai',1,1,''),
+          ('building_age_years','Usia bangunan (tahun)',5,0,'0 berarti bangunan baru.')
         ] %}
-        {% for name,label,value,minval in numbers %}
+        {% for name,label,value,minval,hint in numbers %}
         <div class="col-md-4">
           <label class="form-label" for="{{ name }}">{{ label }}</label>
           <input class="form-control" type="number" step="any" min="{{ minval }}" id="{{ name }}" name="{{ name }}" value="{{ value }}" required>
+          {% if hint %}<div class="form-text">{{ hint }}</div>{% endif %}
+          <div class="invalid-feedback">{{ 'Nilai tidak valid.' if minval == 0 else 'Minimal ' ~ minval ~ ' dan lebih dari 0.' }}</div>
         </div>
         {% endfor %}
       </div>
-      <button class="btn btn-primary mt-4" type="submit">Hitung estimasi demo</button>
+      <div class="d-flex align-items-center gap-3 mt-4">
+        <button class="btn btn-primary btn-lg" type="submit" id="predictBtn">
+          <span class="spinner-border spinner-border-sm d-none" aria-hidden="true"></span>
+          <span class="btn-label">Hitung estimasi demo</span>
+        </button>
+        <span class="text-secondary small">Periksa sekali lagi sebelum hitung — estimasi hanya seakurat angka yang Anda masukkan.</span>
+      </div>
     </form>
   </div>
 </div>
+<script>
+(function () {
+  var form = document.getElementById("predictForm");
+  if (!form) return;
+  var mapping = JSON.parse(form.dataset.provinceCities);
+  var provinceSelect = document.getElementById("province");
+  var citySelect = document.getElementById("city_regency");
+
+  function syncCities(selected) {
+    var cities = mapping[provinceSelect.value] || [];
+    citySelect.innerHTML = "";
+    cities.forEach(function (city) {
+      var option = document.createElement("option");
+      option.value = city;
+      option.textContent = city;
+      if (city === selected) option.selected = true;
+      citySelect.appendChild(option);
+    });
+  }
+
+  provinceSelect.addEventListener("change", function () {
+    var currentCity = citySelect.value;
+    syncCities((mapping[provinceSelect.value] || []).includes(currentCity) ? currentCity : null);
+  });
+  syncCities(citySelect.value);
+  if (!citySelect.querySelector("option[selected]")) {
+    var first = citySelect.querySelector("option");
+    if (first) first.selected = true;
+  }
+
+  form.addEventListener("submit", function (event) {
+    var land = parseFloat(document.getElementById("land_area_m2").value);
+    var building = parseFloat(document.getElementById("building_area_m2").value);
+    if (!isNaN(land) && !isNaN(building) && building > land * 2) {
+      event.preventDefault();
+      var input = document.getElementById("building_area_m2");
+      input.setCustomValidity("Luas bangunan maksimal 2× luas tanah.");
+      input.reportValidity();
+    } else {
+      var button = document.getElementById("predictBtn");
+      button.disabled = true;
+      button.querySelector(".spinner-border").classList.remove("d-none");
+      button.querySelector(".btn-label").textContent = "Menghitung...";
+      button.setAttribute("aria-busy", "true");
+    }
+  });
+  document.getElementById("building_area_m2").addEventListener("input", function () {
+    this.setCustomValidity("");
+  });
+})();
+</script>
 {% endblock %}

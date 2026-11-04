@@ -2,14 +2,52 @@
 {% block title %}Riwayat · Real Estate Estimate{% endblock %}
 {% block content %}
 <div class="mb-4">
-  <p class="eyebrow mb-1">PREDICTION LOG</p>
   <h1 class="h2">Riwayat prediksi</h1>
   <p class="text-secondary mb-0">Daftar hasil estimasi yang tersimpan di PostgreSQL.</p>
 </div>
+<section class="content-card mb-3">
+  <form method="get" action="{{ url_for('main.history') }}" class="row g-2 align-items-end" novalidate>
+    <div class="col-sm-6 col-lg-4">
+      <label class="form-label" for="q">Cari lokasi</label>
+      <input class="form-control" type="search" id="q" name="q" value="{{ search }}" placeholder="Kota atau provinsi...">
+    </div>
+    <div class="col-sm-3 col-lg-3">
+      <label class="form-label" for="province">Provinsi</label>
+      <select class="form-select" id="province" name="province">
+        <option value="">Semua provinsi</option>
+        {% for name in provinces %}
+        <option value="{{ name }}" {{ 'selected' if name == province }}>{{ name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="col-sm-3 col-lg-3">
+      <label class="form-label" for="sort">Urutkan</label>
+      <select class="form-select" id="sort" name="sort">
+        <option value="newest" {{ 'selected' if sort == 'newest' }}>Terbaru</option>
+        <option value="oldest" {{ 'selected' if sort == 'oldest' }}>Terlama</option>
+        <option value="price_desc" {{ 'selected' if sort == 'price_desc' }}>Harga tertinggi</option>
+        <option value="price_asc" {{ 'selected' if sort == 'price_asc' }}>Harga terendah</option>
+      </select>
+    </div>
+    <div class="col-sm-12 col-lg-2">
+      <button class="btn btn-primary w-100" type="submit">Terapkan</button>
+    </div>
+  </form>
+</section>
 <section class="content-card">
+  <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <span class="small text-secondary">
+      {{ "{:,}".format(pagination.total) }} hasil — halaman {{ pagination.page }} dari {{ pagination.pages or 1 }}
+    </span>
+    {% if search or province or sort != 'newest' %}
+    <a class="badge rounded-pill text-bg-light text-decoration-none" href="{{ url_for('main.history') }}">
+      Reset filter &times;
+    </a>
+    {% endif %}
+  </div>
   <div class="table-responsive">
     <table class="table align-middle">
-      <thead><tr><th>ID</th><th>Tanggal</th><th>Lokasi</th><th>Luas tanah</th><th>Luas bangunan</th><th>Harga prediksi</th><th>Model</th></tr></thead>
+      <thead><tr><th>ID</th><th>Tanggal</th><th>Lokasi</th><th>Luas tanah</th><th>Luas bangunan</th><th>Harga prediksi</th><th class="text-end">Model / Detail</th></tr></thead>
       <tbody>
       {% for item in pagination.items %}
         <tr>
@@ -18,21 +56,34 @@
           <td>{{ item.city_regency }}, {{ item.province }}</td>
           <td>{{ item.land_area_m2 }} m²</td>
           <td>{{ item.building_area_m2 }} m²</td>
-          <td class="fw-semibold">Rp {{ "{:,.0f}".format(item.predicted_price_idr) }}</td>
-          <td>{{ item.model_version or "—" }}</td>
+          <td class="amount">{{ item.predicted_price_idr | idr }}</td>
+          <td class="text-end">
+            <span class="text-secondary small me-2">{{ item.model_version or "—" }}</span>
+            <a class="btn btn-sm btn-outline-primary" href="{{ url_for('main.result', prediction_id=item.id) }}">Lihat</a>
+          </td>
         </tr>
       {% else %}
-        <tr><td colspan="7" class="text-center text-secondary py-4">Belum ada prediksi tersimpan.</td></tr>
+        <tr><td colspan="7" class="text-center text-secondary py-4">
+          {% if search or province %}
+            Tidak ada prediksi yang cocok dengan filter.
+          {% else %}
+            Belum ada prediksi tersimpan.
+          {% endif %}
+        </td></tr>
       {% endfor %}
       </tbody>
     </table>
   </div>
   {% if pagination.pages > 1 %}
-  <nav aria-label="Navigasi riwayat">
-    <ul class="pagination mb-0">
-      {% if pagination.has_prev %}<li class="page-item"><a class="page-link" href="{{ url_for('main.history', page=pagination.prev_num) }}">Sebelumnya</a></li>{% endif %}
+  <nav aria-label="Navigasi riwayat" class="mt-3">
+    <ul class="pagination mb-0 justify-content-center">
+      <li class="page-item {{ 'disabled' if not pagination.has_prev }}">
+        <a class="page-link" href="{{ url_for('main.history', page=pagination.prev_num, **filters) }}" aria-label="Sebelumnya">Sebelumnya</a>
+      </li>
       <li class="page-item disabled"><span class="page-link">{{ pagination.page }} / {{ pagination.pages }}</span></li>
-      {% if pagination.has_next %}<li class="page-item"><a class="page-link" href="{{ url_for('main.history', page=pagination.next_num) }}">Berikutnya</a></li>{% endif %}
+      <li class="page-item {{ 'disabled' if not pagination.has_next }}">
+        <a class="page-link" href="{{ url_for('main.history', page=pagination.next_num, **filters) }}" aria-label="Berikutnya">Berikutnya</a>
+      </li>
     </ul>
   </nav>
   {% endif %}

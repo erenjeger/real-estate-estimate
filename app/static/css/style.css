@@ -1,25 +1,261 @@
 :root {
-  --ink: #192638;
-  --muted: #687789;
+  /* Light theme tokens */
+  --ink: #1b2434;
+  --muted: #64748b;
   --surface: #ffffff;
-  --canvas: #f4f7fb;
-  --line: #e7ecf2;
+  --canvas: #f5f7fb;
+  --line: #e8edf5;
+
+  --brand: #2456c8;
+  --brand-strong: #1c46a8;
+
+  --money: #0b8f72;
+  --money-soft: #e5f6f1;
+
+  --attention: #8a5a12;
+  --attention-soft: #fdf6e7;
+  --attention-line: #f2ddaf;
+
+  --danger-text: #9c2323;
+  --danger-soft: #fdeeee;
+  --danger-line: #f6cdcd;
+
+  --brand-1: #14203d;
+  --brand-2: #1d3a6d;
+
+  --radius: .8rem;
+  --shadow-soft: 0 6px 20px rgba(23, 42, 76, .05);
+  --shadow-lift: 0 12px 30px rgba(23, 42, 76, .10);
+  --row-hover: #f7fafd;
+  --focus-border: #7fa5e3;
+  --focus-ring: rgba(36, 86, 200, .13);
+
+  --record-bg: #eef2f8;
 }
-body { background: var(--canvas); color: var(--ink); }
-.app-navbar { background: #152b46; }
-.navbar .nav-link { color: rgba(255,255,255,.78); }
-.navbar .nav-link:hover { color: #fff; }
-.eyebrow { color: #56799c; font-size: .72rem; letter-spacing: .13em; font-weight: 700; }
-.stat-card, .content-card {
-  background: var(--surface); border: 1px solid var(--line);
-  border-radius: 1rem; padding: 1.25rem;
-  box-shadow: 0 8px 24px rgba(28, 48, 74, .04);
+
+[data-bs-theme="dark"] {
+  /* Dark theme: not inverted — every token re-chooses with luminance in mind.
+     Warm cream surfaces feel calmer in the dark than pure black. */
+  --ink: #e6ecf7;
+  --muted: #93a7c4;
+  --surface: #171f31;
+  --canvas: #0e1420;
+  --line: #27334f;
+
+  --brand: #4d7ff0;
+  --brand-strong: #6693f4;
+
+  --money: #34c396;
+  --money-soft: #14352b;
+
+  --attention: #f0c374;
+  --attention-soft: #2a2313;
+  --attention-line: #4d3d17;
+
+  --danger-text: #f5a3a3;
+  --danger-soft: #301a1d;
+  --danger-line: #552228;
+
+  --brand-1: #10182b;
+  --brand-2: #172745;
+
+  --shadow-soft: 0 6px 20px rgba(0, 0, 0, .35);
+  --shadow-lift: 0 12px 30px rgba(0, 0, 0, .45);
+  --row-hover: #1b2438;
+  --focus-border: #5f7fb8;
+  --focus-ring: rgba(110, 155, 245, .22);
+
+  --record-bg: #1d2639;
 }
-.stat-value { font-size: clamp(1.25rem, 2vw, 1.85rem); font-weight: 700; margin-top: .35rem; }
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: .95rem;
+}
+main { flex: 1 0 auto; }
+
+/* Navbar: deep navy frames content, pushing attention inwards and giving
+   the page a stable "grounded" top edge */
+.app-navbar {
+  background: linear-gradient(100deg, var(--brand-1), var(--brand-2));
+  box-shadow: 0 2px 14px rgba(8, 14, 28, .35);
+}
+.app-navbar .navbar-brand { letter-spacing: -.01em; }
+.navbar .nav-link {
+  color: rgba(255, 255, 255, .78);
+  border-radius: .55rem;
+  padding-inline: .85rem;
+  font-weight: 500;
+  transition: color .15s, background-color .15s;
+}
+.navbar .nav-link:hover { color: #fff; background: rgba(255, 255, 255, .08); }
+.navbar .nav-link.active { color: #fff; background: rgba(255, 255, 255, .14); }
+
+/* Theme toggle */
+.theme-toggle { border: 1px solid rgba(255, 255, 255, .25); color: rgba(255, 255, 255, .85); border-radius: .55rem; }
+.theme-toggle:hover { color: #fff; border-color: rgba(255, 255, 255, .5); }
+[data-bs-theme="dark"] .icon-sun { display: none; }
+[data-bs-theme="light"] .icon-moon { display: none; }
+
+/* Typography */
+h1, h2, h3 { letter-spacing: -.015em; }
+.text-secondary { color: var(--muted) !important; }
+
+/* Cards */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  box-shadow: var(--shadow-soft);
+  transition: box-shadow .2s ease, background-color .2s ease;
+}
+.content-card:hover {
+  box-shadow: var(--shadow-lift);
+}
+
+/* Summary strip: three key figures in one calm row — closer to how a
+   spreadsheet or paper report presents numbers than a marketing page */
+.summary-strip {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  padding: 1rem 1.25rem;
+}
+.summary-label { font-size: .78rem; font-weight: 600; letter-spacing: .02em; color: var(--muted); }
+.summary-value {
+  font-size: 1.3rem;
+  font-weight: 750;
+  margin-top: .15rem;
+  font-variant-numeric: tabular-nums;
+}
+@media (min-width: 768px) {
+  .summary-strip .col-6 + .col-6,
+  .summary-strip .col-12 + .col-12 { border-left: 1px solid var(--line); }
+}
+
+/* Price hero: a solid, quiet number — the single largest type on the page
+   already carries attention, decoration would undercut credibility */
+.result-card .price-hero {
+  font-size: clamp(2rem, 4.5vw, 3.1rem);
+  font-weight: 800;
+  letter-spacing: -.02em;
+  color: var(--money);
+  padding-bottom: .5rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Buttons: primary CTA = trust blue (safe to press); secondary stays quiet */
+.btn { border-radius: .6rem; font-weight: 600; }
+.btn-primary {
+  --bs-btn-bg: var(--brand);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-bg: var(--brand-strong);
+  --bs-btn-hover-border-color: var(--brand-strong);
+  --bs-btn-active-bg: var(--brand-strong);
+  --bs-btn-active-border-color: var(--brand-strong);
+  box-shadow: 0 4px 12px rgba(36, 86, 200, .22);
+}
+.btn-outline-primary {
+  --bs-btn-color: var(--brand);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-bg: var(--brand);
+  --bs-btn-hover-border-color: var(--brand);
+  --bs-btn-active-bg: var(--brand);
+  --bs-btn-active-border-color: var(--brand);
+}
+a { text-decoration-thickness: from-font; }
+.link-primary { color: var(--brand) !important; }
+
+/* Alerts: softer warm tones — amber warning keeps hum of caution without
+   triggering the alarm response of red; error feels fixable, not punishing */
+.alert-warning {
+  --bs-alert-color: var(--attention);
+  --bs-alert-bg: var(--attention-soft);
+  --bs-alert-border-color: var(--attention-line);
+}
+.alert-danger {
+  --bs-alert-color: var(--danger-text);
+  --bs-alert-bg: var(--danger-soft);
+  --bs-alert-border-color: var(--danger-line);
+}
+.alert-success {
+  --bs-alert-color: var(--money);
+  --bs-alert-bg: var(--money-soft);
+  --bs-alert-border-color: var(--money-soft);
+}
+.alert { border-radius: .7rem; }
+
+/* Forms */
+.form-label { font-weight: 600; font-size: .88rem; color: var(--ink); }
+.form-text { color: var(--muted); font-size: .8rem; }
+.form-control:focus, .form-select:focus {
+  border-color: var(--focus-border);
+  box-shadow: 0 0 0 .22rem var(--focus-ring);
+}
+.form-control[aria-invalid] { border-color: var(--bs-danger); }
+
+/* Tables */
 .table { --bs-table-bg: transparent; }
-.table thead th { color: var(--muted); font-size: .78rem; font-weight: 600; border-bottom-color: var(--line); white-space: nowrap; }
-.table td { font-size: .9rem; }
-.status-icon {
-  width: 2rem; height: 2rem; display: grid; place-items: center;
-  flex: 0 0 2rem; border-radius: 50%; background: #e9f2ff; color: #245b9b; font-weight: 700;
+.table thead th {
+  color: var(--muted);
+  font-size: .74rem;
+  font-weight: 650;
+  border-bottom-color: var(--line);
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.table td { font-size: .9rem; vertical-align: middle; }
+.table tbody tr { transition: background-color .12s ease; }
+.table tbody tr:hover { background: var(--row-hover); }
+.table tbody tr:first-child td { border-top: 0; }
+
+/* Badges */
+.badge { border-radius: 2rem; font-weight: 600; padding: .35em .7em; }
+
+/* Monetary values: teal-green + tabular digits so price columns align and
+   the money cue stays consistent wherever an amount appears */
+.amount {
+  color: var(--money);
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+
+/* Status model card */
+.sparkline { color: var(--brand); }
+
+/* Skeleton loading states: neutral, quiet shimmer — communicates "fetching"
+   instead of "broken" without demanding attention */
+.skeleton {
+  display: block;
+  height: .8rem;
+  border-radius: .3rem;
+  min-width: 3rem;
+  background: linear-gradient(90deg, var(--record-bg) 25%, var(--row-hover) 50%, var(--record-bg) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s infinite linear;
+}
+.skeleton-narrow { width: 4.5rem; }
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -50% 0; }
+}
+
+/* Footer: quiet, recedes so legal tone doesn't compete with data */
+footer { box-shadow: 0 -1px 0 var(--line); background: transparent; }
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton { animation: none; }
+  *, *::before, *::after {
+    transition: none !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }

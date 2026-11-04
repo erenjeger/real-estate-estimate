@@ -3,56 +3,132 @@
 {% block content %}
 <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-4">
   <div>
-    <p class="eyebrow mb-1">HOME PRICE INTELLIGENCE</p>
     <h1 class="h2 mb-1">Dashboard</h1>
     <p class="text-secondary mb-0">Ringkasan aktivitas prediksi harga rumah.</p>
   </div>
   <a class="btn btn-primary" href="{{ url_for('main.predict') }}">Mulai prediksi</a>
 </div>
-<div class="row g-3 mb-4">
-  <div class="col-md-4"><div class="stat-card h-100"><div class="text-secondary small">Total prediksi</div><div class="stat-value">{{ "{:,}".format(total_predictions) }}</div></div></div>
-  <div class="col-md-4"><div class="stat-card h-100"><div class="text-secondary small">Rata-rata estimasi</div><div class="stat-value">Rp {{ "{:,.0f}".format(average_price) }}</div></div></div>
-  <div class="col-md-4"><div class="stat-card h-100"><div class="text-secondary small">Estimasi tertinggi</div><div class="stat-value">Rp {{ "{:,.0f}".format(highest_price) }}</div></div></div>
-</div>
+
+<section class="summary-strip mb-4">
+  <div class="row">
+    <div class="col-6 col-md-4">
+      <div class="summary-label">Total prediksi</div>
+      <div class="summary-value">{{ "{:,}".format(total_predictions) }}</div>
+    </div>
+    <div class="col-6 col-md-4">
+      <div class="summary-label">Rata-rata estimasi</div>
+      <div class="summary-value amount">{{ average_price | idr }}</div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="summary-label">Estimasi tertinggi</div>
+      <div class="summary-value amount">{{ highest_price | idr }}</div>
+    </div>
+  </div>
+</section>
+
 <div class="row g-3">
   <div class="col-lg-8">
-    <section class="content-card h-100">
+    <section class="content-card">
       <div class="d-flex justify-content-between align-items-center mb-3"><h2 class="h5 mb-0">Prediksi terbaru</h2><a href="{{ url_for('main.history') }}" class="small">Lihat semua</a></div>
       <div class="table-responsive"><table class="table align-middle">
         <thead><tr><th>Lokasi</th><th>Luas tanah</th><th>Estimasi</th><th>Tanggal</th></tr></thead>
-        <tbody>
-        {% for item in latest_predictions %}
-          <tr><td>{{ item.city_regency }}, {{ item.province }}</td><td>{{ item.land_area_m2 }} m²</td><td class="fw-semibold">Rp {{ "{:,.0f}".format(item.predicted_price_idr) }}</td><td>{{ item.created_at.strftime("%d-%m-%Y") }}</td></tr>
-        {% else %}
-          <tr><td colspan="4" class="text-center text-secondary py-4">Belum ada riwayat prediksi.</td></tr>
-        {% endfor %}
-        </tbody></table></div>
+        <tbody id="recentBody">
+          {% for _ in range(5) %}
+          <tr aria-hidden="true">
+            <td><div class="skeleton w-75"></div></td>
+            <td><div class="skeleton w-50"></div></td>
+            <td><div class="skeleton w-75"></div></td>
+            <td><div class="skeleton skeleton-narrow"></div></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table></div>
     </section>
   </div>
   <div class="col-lg-4">
-    <section class="content-card h-100">
+    <section class="content-card mb-3">
+      <h2 class="h5">Aktivitas prediksi</h2>
+      {% if activity.has_data %}
+      <div class="d-flex align-items-baseline gap-2 mb-2">
+        <span class="h3 mb-0 fw-bold">{{ activity.last7 }}</span>
+        <span class="text-secondary small">prediksi 7 hari terakhir</span>
+      </div>
+      <svg viewBox="0 0 134 36" width="100%" height="36" preserveAspectRatio="none" aria-hidden="true">
+        <polyline class="sparkline" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="{{ activity.spark }}"></polyline>
+      </svg>
+      {% if activity.delta_visible %}
+      {% if activity.delta > 0 %}
+      <span class="badge bg-primary-subtle text-primary-emphasis">Naik</span>
+      {% elif activity.delta < 0 %}
+      <span class="badge bg-secondary-subtle text-secondary">Turun</span>
+      {% else %}
+      <span class="badge bg-secondary-subtle text-secondary">Stabil</span>
+      {% endif %}
+      <p class="text-secondary small mt-2 mb-0">14 hari terakhir, dibandingkan 7 hari sebelumnya.</p>
+      {% else %}
+      <p class="text-secondary small mt-2 mb-0">Belum cukup riwayat untuk menampilkan tren.</p>
+      {% endif %}
+      {% else %}
+      <p class="text-secondary small mb-0">Belum ada aktivitas dalam 14 hari terakhir.</p>
+      {% endif %}
+    </section>
+    <section class="content-card">
       <h2 class="h5">Status model</h2>
       {% if demo_metrics %}
-        <span class="badge text-bg-warning">Synthetic demo only</span>
+        <span class="badge text-bg-warning">Mode demo sintetis</span>
         <p class="text-secondary small mt-2">Versi {{ demo_metrics.model_version }} · {{ demo_metrics.rows_total }} baris</p>
         <dl class="row small mb-0">
-          <dt class="col-5">MAE</dt><dd class="col-7">Rp {{ "{:,.0f}".format(demo_metrics.mae_idr) }}</dd>
-          <dt class="col-5">RMSE</dt><dd class="col-7">Rp {{ "{:,.0f}".format(demo_metrics.rmse_idr) }}</dd>
+          <dt class="col-5">MAE</dt><dd class="col-7">{{ demo_metrics.mae_idr | idr }}</dd>
+          <dt class="col-5">RMSE</dt><dd class="col-7">{{ demo_metrics.rmse_idr | idr }}</dd>
           <dt class="col-5">R²</dt><dd class="col-7">{{ "%.4f"|format(demo_metrics.r2) }}</dd>
         </dl>
         <p class="text-secondary small mt-2 mb-0">Metrik ini hanya menguji pipeline dengan data buatan, bukan kualitas prediksi pasar.</p>
       {% elif latest_metric %}
         <p class="text-secondary small">Versi {{ latest_metric.model_version }}</p>
         <dl class="row small mb-0">
-          <dt class="col-5">MAE</dt><dd class="col-7">Rp {{ "{:,.0f}".format(latest_metric.mae_idr or 0) }}</dd>
-          <dt class="col-5">RMSE</dt><dd class="col-7">Rp {{ "{:,.0f}".format(latest_metric.rmse_idr or 0) }}</dd>
+          <dt class="col-5">MAE</dt><dd class="col-7">{{ (latest_metric.mae_idr or 0) | idr }}</dd>
+          <dt class="col-5">RMSE</dt><dd class="col-7">{{ (latest_metric.rmse_idr or 0) | idr }}</dd>
           <dt class="col-5">R²</dt><dd class="col-7">{{ latest_metric.r2 }}</dd>
         </dl>
       {% else %}
-        <span class="badge text-bg-warning">Model belum dilatih</span>
-        <p class="text-secondary small mt-3 mb-0">Jalankan skrip training demo untuk mengaktifkan prediksi.</p>
+        <span class="badge text-bg-warning">Prediksi belum aktif</span>
+        <p class="text-secondary small mt-3 mb-0">Model belum dilatih pada instalasi ini, sehingga fitur prediksi belum tersedia.</p>
       {% endif %}
     </section>
   </div>
 </div>
+<script>
+(function () {
+  var body = document.getElementById("recentBody");
+  if (!body) return;
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, function (char) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char];
+    });
+  }
+  function renderEmpty() {
+    body.innerHTML = '<tr><td colspan="4" class="text-center text-secondary py-4">Belum ada riwayat prediksi.</td></tr>';
+  }
+  function renderError() {
+    body.innerHTML = '<tr><td colspan="4" class="text-center text-secondary py-4">Prediksi terbaru gagal dimuat. <button id="retryRecent" class="btn btn-sm btn-outline-primary ms-2" type="button">Coba lagi</button></td></tr>';
+    var retry = document.getElementById("retryRecent");
+    if (retry) retry.addEventListener("click", function () { window.location.reload(); });
+  }
+  fetch("{{ url_for('main.recent_predictions') }}", { headers: { "Accept": "application/json" } })
+    .then(function (response) {
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      return response.json();
+    })
+    .then(function (data) {
+      if (!data.items || !data.items.length) { renderEmpty(); return; }
+      body.innerHTML = data.items.map(function (item) {
+        return "<tr><td>" + escapeHtml(item.city_regency) + ", " + escapeHtml(item.province) + "</td>"
+          + "<td>" + escapeHtml(item.land_area_m2) + " m\u00b2</td>"
+          + '<td class="amount">' + escapeHtml(item.price_label) + "</td>"
+          + "<td>" + escapeHtml(item.date) + "</td></tr>";
+      }).join("");
+    })
+    .catch(renderError);
+})();
+</script>
 {% endblock %}

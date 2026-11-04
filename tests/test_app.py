@@ -31,7 +31,8 @@ def test_dashboard_renders(client):
 def test_predict_page_renders_demo_disclaimer(client):
     response = client.get("/predict")
     assert response.status_code == 200
-    assert b"SYNTHETIC DEMO MODE" in response.data
+    assert "data sintetis".encode("utf-8") in response.data
+    assert "tidak boleh digunakan untuk keputusan transaksi".encode("utf-8") in response.data
 
 
 def test_prediction_requires_trained_model(client):
