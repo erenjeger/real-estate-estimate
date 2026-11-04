@@ -1,0 +1,14 @@
+.git
+.github
+.venv
+venv
+__pycache__
+.pytest_cache
+.env
+*.pyc
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+artifacts/*
+!artifacts/.gitkeep

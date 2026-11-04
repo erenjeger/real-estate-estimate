@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Prediksi · Real Estate Estimate{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <p class="eyebrow mb-1">PRICE ESTIMATION</p>
+    <h1 class="h2">Prediksi harga rumah</h1>
+    <p class="text-secondary">Form prediksi akan diaktifkan setelah audit dataset menetapkan fitur dan kategori lokasi yang benar-benar didukung model.</p>
+    <div class="content-card mt-4">
+      <div class="d-flex gap-3">
+        <div class="status-icon">i</div>
+        <div>
+          <h2 class="h5">Model belum tersedia</h2>
+          <p class="text-secondary mb-0">Kami belum mengaktifkan estimasi agar aplikasi tidak memberikan angka yang tidak didukung oleh model terlatih dan data tervalidasi. Setelah proses audit dan training selesai, form ini akan terhubung ke model Multiple Linear Regression.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
